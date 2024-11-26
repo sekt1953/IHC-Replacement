@@ -1,5 +1,7 @@
 # Input og Output
 
+[LK_IHC_Control_Installationsdokumentation.pdf](./LK_IHC_Control_Installationsdokumentation.pdf)
+
 ## Input
 
 |0|Lokalitet|Placering|Komponent|Kabelnummer|Terminal|Adresse|Ledning|Forsyning|Ledning2|
