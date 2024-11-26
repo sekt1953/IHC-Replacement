@@ -6,7 +6,7 @@
 
 ## Input
 
-|0|Lokalitet|Placering|Komponent|Kabel|Terminal|Modul|Ledning|Farve|Forsyning|Ledning2|
+|0|Lokalitet|Placering|Komponent|Kabel|Terminal|IHC Modul|Ledning|Farve|Forsyning|Ledning2|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |1|Lille Bad|Ved dør|Tryk 4 tast|1|Tryk ØV|Indgang 1|01|Sort|||
 |2|Lille Bad|Ved dør|Tryk 4 tast|1|Tryk ØH|Indgang 1|02|Grøn|||
