@@ -6,8 +6,8 @@
 
 ## Input
 
-|0|Lokalitet|Placering|Komponent|Kabel|Terminal|IHC Modul|Ledning|Farve|Forsyning|Ledning2|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|0|Lokalitet|Placering|Komponent|Kabel|Terminal|IHC Modul|Ledning|Farve|Forsyning|Ledning2||
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |1|Lille Bad|Ved dør|Tryk 4 tast|1|Tryk ØV|Indgang 1|01|Sort|||
 |2|Lille Bad|Ved dør|Tryk 4 tast|1|Tryk ØH|Indgang 1|02|Grøn|||
 |3|Lille Bad|Ved dør|Tryk 4 tast|1|Tryk NV|Indgang 1|03|Violet|||
@@ -17,40 +17,40 @@
 |7|Værelse(2)|Ved dør|Tryk 4 tast|2|Tryk NV|Indgang ?|--|||
 |8|Værelse(2)|Ved dør|Tryk 4 tast|2|Tryk NH|Indgang 1|06|Brun|||
 |9|Værelse(8)|Ved dør|Tryk 4 tast|3|Tryk ØV|Indgang 1|07|Sort|||
-|10|Værelse(8)|Ved dør|Tryk 4 tast|3|Tryk ØH|Indgang ?|--|||
+|10|Værelse(8)|Ved dør|Tryk 4 tast|3|Tryk ØH|Indgang ?|--||||
 |11|Værelse(8)|Ved dør|Tryk 4 tast|3|Tryk NV|Indgang 1|08|Violet|||
-|12|Værelse(8)|Ved dør|Tryk 4 tast|3|Tryk NH|Indgang ?|--|||
+|12|Værelse(8)|Ved dør|Tryk 4 tast|3|Tryk NH|Indgang ?|--||||
 |13|Garage|Ved dør|Tryk 6 tast|4|Tryk ØV|Indgang 1|15|Sort|||
 |14|Garage|Ved dør|Tryk 6 tast|4|Tryk ØH|Indgang 1|16|Grøn|||
-|15|Garage|Ved dør|Tryk 6 tast|4|Tryk MV|Indgang ?|--|||
-|16|Garage|Ved dør|Tryk 6 tast|4|Tryk MH|Indgang ?|--|||
+|15|Garage|Ved dør|Tryk 6 tast|4|Tryk MV|Indgang ?|--||||
+|16|Garage|Ved dør|Tryk 6 tast|4|Tryk MH|Indgang ?|--||||
 |17|Garage|Ved dør|Tryk 6 tast|4|Tryk NV|Indgang 1|17|Rød|||
-|18|Garage|Ved dør|Tryk 6 tast|4|Tryk NH|Indgang ?|--|||
-|19|Køkken|Ved dør til bryggers|Tryk 6 tast|5|Tryk ØV|Indgang 2|||Sort|||
+|18|Garage|Ved dør|Tryk 6 tast|4|Tryk NH|Indgang ?|--||||
+|19|Køkken|Ved dør til bryggers|Tryk 6 tast|5|Tryk ØV|Indgang 2|01|Sort|||
 |20|Køkken|Ved dør til bryggers|Tryk 6 tast|5|Tryk ØH|Indgang 2|02|Grøn|||
 |21|Køkken|Ved dør til bryggers|Tryk 6 tast|5|Tryk MV|Indgang 2|03|Violet|||
-|22|Køkken|Ved dør til bryggers|Tryk 6 tast|5|Tryk MH|Indgang ?|--|||
+|22|Køkken|Ved dør til bryggers|Tryk 6 tast|5|Tryk MH|Indgang ?|--||||
 |23|Køkken|Ved dør til bryggers|Tryk 6 tast|5|Tryk NV|Indgang 2|04|Rød|||
 |24|Køkken|Ved dør til bryggers|Tryk 6 tast|5|Tryk NH|Indgang 2|05|Grå|||
 |25|Stue|På væg|Tryk 6 tast|6|Tryk ØV|Indgang 2|12|Sort|||
 |26|Stue|På væg|Tryk 6 tast|6|Tryk ØH  |Indgang 2|13|Grøn|||
 |27|Stue|På væg|Tryk 6 tast|6|Tryk MV|Indgang 2|14|Violet|||
-|28|Stue|På væg|Tryk 6 tast|6|Tryk MH|Indgang ?|--|||
+|28|Stue|På væg|Tryk 6 tast|6|Tryk MH|Indgang ?|--||||
 |29|Stue|På væg|Tryk 6 tast|6|Tryk NV|Indgang 2|15|Rød|||
 |30|Stue|På væg|Tryk 6 tast|6|Tryk NH|Indgang 2|16|Grå|||
 |31|Entré|Ved dør til køkken|Tryk 6 tast|7|Tryk ØV|Indgang 3|08|Sort|||
 |32|Entré|Ved dør til køkken|Tryk 6 tast|7|Tryk ØH|Indgang 3|11|Grøn|||
 |33|Entré|Ved dør til køkken|Tryk 6 tast|7|Tryk MV|Indgang 3|12|Violet|||
 |34|Entré|Ved dør til køkken|Tryk 6 tast|7|Tryk MH|Indgang 3|13|Brun|||
-|35|Entré|Ved dør til køkken|Tryk 6 tast|7|Tryk NV|Indgang 3|14|Rød||
-|36|Entré|Ved dør til køkken|Tryk 6 tast|7|Tryk NH|Indgang ?|--|||
-|37|Soveværelse|Ved dør til st. bad|Tryk 6 tast|8|Tryk ØV|Indgang 3|||Sort|||
+|35|Entré|Ved dør til køkken|Tryk 6 tast|7|Tryk NV|Indgang 3|14|Rød|||
+|36|Entré|Ved dør til køkken|Tryk 6 tast|7|Tryk NH|Indgang ?|--||||
+|37|Soveværelse|Ved dør til st. bad|Tryk 6 tast|8|Tryk ØV|Indgang 3|01|Sort|||
 |38|Soveværelse|Ved dør til st. bad|Tryk 6 tast|8|Tryk ØH|Indgang 3|02|Grøn|||
 |39|Soveværelse|Ved dør til st. bad|Tryk 6 tast|8|Tryk MV|Indgang 3|03|Violet|||
 |40|Soveværelse|Ved dør til st. bad|Tryk 6 tast|8|Tryk MH|Indgang 3|04|Brun|||
 |41|Soveværelse|Ved dør til st. bad|Tryk 6 tast|8|Tryk NV|Indgang 3|05|Rød|||
 |42|Soveværelse|Ved dør til st. bad|Tryk 6 tast|8|Tryk NH|Indgang 3|06|Grå|||
-|43|Soveværelse|Ved seng V|Tryk 4 tast|9|Tryk ØV|Indgang 4|||Sort|||
+|43|Soveværelse|Ved seng V|Tryk 4 tast|9|Tryk ØV|Indgang 4|01|Sort|||
 |44|Soveværelse|Ved seng V|Tryk 4 tast|9|Tryk ØH|Indgang 4|02|Grøn|||
 |45|Soveværelse|Ved seng V|Tryk 4 tast|9|Tryk NV|Indgang 4|03|Violet|||
 |46|Soveværelse|Ved seng V|Tryk 4 tast|9|Tryk NH|Indgang 4|04|Brun|||
@@ -64,22 +64,22 @@
 |54|Entré|Ved yderdør|Tryk 4 tast|10|Tryk NH|Indgang ?|--|||
 |55|Køkken|Ved dør til viktualrum|Tryk 6 tast|11|Tryk ØV|Indgang 2|06|Sort|||
 |56|Køkken|Ved dør til viktualrum|Tryk 6 tast|11|Tryk ØH|Indgang 2|07|Grøn|||
-|57|Køkken|Ved dør til viktualrum|Tryk 6 tast|11|Tryk MV|Indgang ?|--|||
-|58|Køkken|Ved dør til viktualrum|Tryk 6 tast|11|Tryk MH|Indgang ?|--|||
+|57|Køkken|Ved dør til viktualrum|Tryk 6 tast|11|Tryk MV|Indgang ?|--||||
+|58|Køkken|Ved dør til viktualrum|Tryk 6 tast|11|Tryk MH|Indgang ?|--||||
 |59|Køkken|Ved dør til viktualrum|Tryk 6 tast|11|Tryk NV|Indgang 2|08|Rød|||
 |60|Køkken|Ved dør til viktualrum|Tryk 6 tast|11|Tryk NH|Indgang 2|11|Grå|||
 |61|Garage|Ved yderdør|Tryk 6 tast|12|Tryk ØV|Indgang 1|11|Sort|||
 |62|Garage|Ved yderdør|Tryk 6 tast|12|Tryk ØH|Indgang 1|12|Grøn|||
 |63|Garage|Ved yderdør|Tryk 6 tast|12|Tryk MV|Indgang 1|13|Violet|||
-|64|Garage|Ved yderdør|Tryk 6 tast|12|Tryk MH|Indgang ?|--|||
+|64|Garage|Ved yderdør|Tryk 6 tast|12|Tryk MH|Indgang ?|--||||
 |65|Garage|Ved yderdør|Tryk 6 tast|12|Tryk NV|Indgang 1|14|Rød|||
-|66|Garage|Ved yderdør|Tryk 6 tast|12|Tryk NH|Indgang ?|--|||
+|66|Garage|Ved yderdør|Tryk 6 tast|12|Tryk NH|Indgang ?|--||||
 |||||||||||
 |67|Stue||Røgsensor|||Indgang 4|18|Orange|Udgang 7|02||
 |68|Soveværelse||Røgsensor|||Indgang 2|18|Hvid |Udgang 7|02||
 |69|Bryggers|I loft|Røgsensor|36||Indgang 3|07|Sort|Udgang 7|02|Violet|
-|70|Garage||Røgsensor|||Indgang 4|17||Udgang 7|02||
-|71|Udendørs|Indkørsel|Røgsensor|||Indgang 5|||Grøn|Udgang 7|03|HvidBlå|
+|70|Garage||Røgsensor|||Indgang 4|17||Udgang 7|02|
+|71|Udendørs|Indkørsel|Røgsensor|||Indgang 5||Grøn|Udgang 7|03|HvidBlå|
 |||||||||||
 |72|Stue|På væg|Pir|33|Alarm|Indgang 3|18|Sort|||
 |73|Soveværelse|Ved dør til toilet|Pir||Tilstede|Indgang 5|08|Hvid|||
