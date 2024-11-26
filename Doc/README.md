@@ -1,6 +1,8 @@
 # Input og Output
 
-[LK_IHC_Control_Installationsdokumentation.pdf](./LK_IHC_Control_Installationsdokumentation.pdf)
+* [LK_IHC_Control_Installationsdokumentation.pdf](./LK_IHC_Control_Installationsdokumentation.pdf)
+  * [InputOutput.ods](./InputOutput.ods)
+  * [InputOutput.xls](./InputOutput.xls)
 
 ## Input
 
