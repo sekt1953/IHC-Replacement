@@ -1,0 +1,88 @@
+
+Lokalitet,Placering,Komponent,Identifikationskode,Kabelnummer,Kabeltype,Lysgruppe,Terminal,Adresse,Ledning,
+Stue,På væg,Tryk 6 tast,--,6,IHC LINK-10 NOPOVIC (5x2x0-6mm),--,Tryk (øverst venstre),Indgang 2 . 12,Sort
+,,,,,,,Tryk (øverst højre)  ,Indgang 2 . 13,Grøn
+,,,,,,,Tryk (midt venstre),Indgang 2 . 14,Violet
+,,,,,,,Tryk (midt højre),Indgang ?,--
+,,,,,,,Tryk (nederst venstre),Indgang 2 . 15,Rød
+,,,,,,,Tryk (nederst højre),Indgang 2 . 16,Grå
+
+Entré,Ved dør til køkken,Tryk 6 tast,--,7,IHC LINK-10 NOPOVIC (5x2x0-6mm),--,Tryk (øverst venstre),Indgang 3 . 08,Sort
+,,,,,,,Tryk (øverst højre),Indgang 3 . 11,Grøn
+,,,,,,,Tryk (midt venstre),Indgang 3 . 12,Violet
+,,,,,,,Tryk (midt højre),Indgang 3 . 13,Brun
+,,,,,,,Tryk (nederst venstre),Indgang 3 . 14,Rød
+,,,,,,,Tryk (nederst højre),Indgang ?,--
+
+Køkken,Ved dør til bryggers,Tryk 6 tast,--,5,IHC LINK-10 NOPOVIC (5x2x0-6mm),--,Tryk (øverst venstre),Indgang 2 . 01,Sort
+,,,,,,,Tryk (øverst højre),Indgang 2 . 02,Grøn
+,,,,,,,Tryk (midt venstre),Indgang 2 . 03,Violet
+,,,,,,,Tryk (midt højre),Indgang ?,--
+,,,,,,,Tryk (nederst venstre),Indgang 2 . 04,Rød
+,,,,,,,Tryk (nederst højre),Indgang 2 . 05,Grå
+
+Køkken,Ved dør til viktualrum,Tryk 6 tast,--,11,IHC LINK-10 NOPOVIC (5x2x0-6mm),--,Tryk (øverst venstre),Indgang 2 . 06,Sort
+,,,,,,,Tryk (øverst højre),Indgang 2 . 07,Grøn
+,,,,,,,Tryk (midt venstre),Indgang ?,--
+,,,,,,,Tryk (midt højre),Indgang ?,--
+,,,,,,,Tryk (nederst venstre),Indgang 2 . 08,Rød
+,,,,,,,Tryk (nederst højre),Indgang 2 . 11,Grå
+
+Soveværelse,Ved dør til st. bad,Tryk 6 tast,--,8,IHC LINK-10 NOPOVIC (5x2x0-6mm),--,Tryk (øverst venstre),Indgang 3 . 01,Sort
+,,,,,,,Tryk (øverst højre),Indgang 3 . 02,Grøn
+,,,,,,,Tryk (midt venstre),Indgang 3 . 03,Violet
+,,,,,,,Tryk (midt højre),Indgang 3 . 04,Brun
+,,,,,,,Tryk (nederst venstre),Indgang 3 . 05,Rød
+,,,,,,,Tryk (nederst højre),Indgang 3 . 06,Grå
+
+
+Entré,Ved yderdør,Tryk 4 tast,--,10,IHC LINK-10 NOPOVIC (5x2x0-6mm),--,Tryk (øverst venstre),Indgang 4 . 11,Sort
+,,,,,,,Tryk (øverst højre),Indgang 4 . 12,Grøn
+,,,,,,,Tryk (nederst venstre),Indgang 4 . 13,Violet
+,,,,,,,Tryk (nederst højre),Indgang ?,--
+
+
+Soveværelse,Ved seng H,Tryk 4 tast,--,9,IHC LINK-10 NOPOVIC (5x2x0-6mm),--,Tryk (øverst venstre),Indgang 4 . 05,Rød
+,,,,,,,Tryk (øverst højre),Indgang 4 . 06,Hvid
+,,,,,,,Tryk (nederst venstre),Indgang 4 . 07,Orange
+,,,,,,,Tryk (nederst højre),Indgang 4 . 08,Gul
+
+Soveværelse,Ved seng V,Tryk 4 tast,--,9,IHC LINK-10 NOPOVIC (5x2x0-6mm),--,Tryk (øverst venstre),Indgang 4 . 01,Sort
+,,,,,,,Tryk (øverst højre),Indgang 4 . 02,Grøn
+,,,,,,,Tryk (nederst venstre),Indgang 4 . 03,Violet
+,,,,,,,Tryk (nederst højre),Indgang 4 . 04,Brun
+
+Værelse(8),Ved dør,Tryk 4 tast,--,3,IHC LINK-10 NOPOVIC (5x2x0-6mm),--,Tryk (øverst venstre),Indgang 1 . 07,Sort
+,,,,,,,Tryk (øverst højre),Indgang ?,--
+,,,,,,,Tryk (nederst venstre),Indgang 1 . 08,Violet
+,,,,,,,Tryk (nederst højre),Indgang ?,--
+
+Værelse(2),Ved dør,Tryk 4 tast,--,2,IHC LINK-10 NOPOVIC (5x2x0-6mm),--,Tryk (øverst venstre),Indgang ?,--
+,,,,,,,Tryk (øverst højre),Indgang 1 . 05,Grøn
+,,,,,,,Tryk (nederst venstre),Indgang ?,--
+,,,,,,,Tryk (nederst højre),Indgang 1 . 06,Brun
+
+Lille Bad,Ved dør,Tryk 4 tast,--,1,IHC LINK-10 NOPOVIC (5x2x0-6mm),--,Tryk (øverst venstre),Indgang 1 . 01,Sort
+,,,,,,,Tryk (øverst højre),Indgang 1 . 02,Grøn
+,,,,,,,Tryk (nederst venstre),Indgang 1 . 03,Violet
+,,,,,,,Tryk (nederst højre),Indgang 1 . 04,Brun
+
+Garage,Ved yderdør,Tryk 6 tast,--,12,IHC LINK-10 NOPOVIC (5x2x0-6mm),--,Tryk (øverst venstre),Indgang 1 . 11,Sort
+,,,,,,,Tryk (øverst højre),Indgang 1 . 12,Grøn
+,,,,,,,Tryk (midt venstre),Indgang 1 . 13,Violet
+,,,,,,,Tryk (midt højre),Indgang ?,--
+,,,,,,,Tryk (nederst venstre),Indgang 1 . 14,Rød
+,,,,,,,Tryk (nederst højre),Indgang ?,--
+
+Garage,Ved dør,Tryk 6 tast,--,4,IHC LINK-10 NOPOVIC (5x2x0-6mm),--,Tryk (øverst venstre),Indgang 1 . 15,Sort
+,,,,,,,Tryk (øverst højre),Indgang 1 . 16,Grøn
+,,,,,,,Tryk (midt venstre),Indgang ?,--
+,,,,,,,Tryk (midt højre),Indgang ?,--
+,,,,,,,Tryk (nederst venstre),Indgang 1 . 17,Rød
+,,,,,,,Tryk (nederst højre),Indgang ?,--
+
+
+
+
+
+Køkken,På væg,PIR alarm,--,32,IHC LINK-10 NOPOVIC (5x2x0,6 mm),--,,,Alarm detektionIndgang 3 . 17,Sort

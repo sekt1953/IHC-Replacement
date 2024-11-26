@@ -1,0 +1,19 @@
+Bryggers,--,Vand sensor,--,--,--,--,,,
+IndgangIndgang 5 . 02Grøn
+
+
+Udendørs,På væg udv,Skumringsrelæ,Sort,35,IHC LINK-10 NOPOVIC (5x2x0,6 mm),--,,,
+SkumringIndgang 1 . 18Sort
+
+Alarm,--,Kodetastatur,--,--,--,--,,,
+LK IHC StatusUdgang 7 . 05Hvid
+Udgang 1Indgang 4 . 14Blå
+Udgang 2Indgang 4 . 15Violet
+Udgang 3Indgang 4 . 16Grå
+
+Alarm,--,Sabotagekreds,--,--,--,--,,,
+Indgang (NC)Indgang 2 . 17--
+
+Varmeflytning,Signal fra Styring,Mini Modul 1 tryk,--,--,--,--,,,
+TrykIndgang 5 . 07Grøn
+

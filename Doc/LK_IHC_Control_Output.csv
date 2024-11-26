@@ -1,0 +1,70 @@
+Lokalitet,Placering,Komponent,Identifikationskode,Kabelnummer,Kabeltype,,Lysgruppe,Terminal,Adresse,Ledning
+
+Stue,Spot,Lampeudtag,--,208,2x4+2x1.5,--,,,Udgang 8 . 04,Sort
+Stue,I loft,Lampeudtag,Hvid,211,5x1.5mm2 NOIKJ,--,,,Udgang 4 . 05,Hvid
+Stue,I kip,Lampeudtag,Sort,205,5x1.5mm2 NOIKJ,--,,,Udgang 4 . 02,Sort
+Stue,TV,Lampeudtag,Hvid,205,5x1.5mm2 NOIKJ,--,,,Udgang 4 . 03,Hvid
+Stue,Gulv,Stikkontakt,Brun,103,5x1.5mm2 NOIKJ,--,,,Udgang 1 . 07,Brun
+
+Entré,I loft,Lampeudtag,Brun,206,5x1.5mm2 NOIKJ,--,,,Udgang 4 . 06,Brun
+Entré,Gulv,Stikkontakt,Hvid,102,5x1.5mm2 NOIKJ,--,,,Udgang 2 . 03,Hvid
+
+Køkken,Spot,Lampeudtag,--,209,2x1.5,--,,,Udgang 8 . 05,Violet
+Køkken,I loft,Lampeudtag,Sort,205,5x1.5mm2 NOIKJ,--,,,Udgang 4 . 04,Sort
+Køkken,Over spisebord (gl. lysdæmp D12),Lampeudtag,Brun,205,5x1.5mm2 NOIKJ,--,,,Udgang 8 . 08,Brun
+Køkken,I kip D13,Lampeudtag,Brun,205,5x1.5mm2 NOIKJ,--,,,Udgang 6 . 03,Violet
+Køkken,Gulv,Stikkontakt,Hvid,101 / 102,5x1.5mm2 NOIKJ,--,,,Udgang 1 . 03,Hvid
+
+Køkken,Ved dør til viktualrum,Lydgiver intern,--,38,IHC LINK-10 NOPOVIC (5x2x0-6 mm),--,,, 80 dB Udgang 6 . 05, Sort
+Køkken,Ved dør til viktualrum,Lydgiver intern,--,38,IHC LINK-10 NOPOVIC (5x2x0-6 mm),--,,,102 dB Udgang 6 . 06,Grøn
+
+Soveværelse,I loft,Lampeudtag,Hvid,206,5x1.5mm2 NOIKJ,--,,,Udgang 4 . 08,Hvid
+Soveværelse,Gulv,Stikkontakt,Sort,103,5x1.5mm2 NOIKJ,--,,,Udgang 1 . 08,Sort
+Soveværelse,TV,Stikkontakt,Hvid,207,5x1.5mm2 NOIKJ,--,,,Udgang 5 . 03,Hvid
+Soveværelse,Diode,Lampeudtag,Gul,8,IHC LINK-10 NOPOVIC (5x2x0-6mm),--,,,Udgang 7 . 04,Gul
+
+Værelse(8),I loft,Lampeudtag,Sort,201,5x1.5mm2 NOIKJ,--,,,Udgang 3 . 04,Sort
+Værelse(8),Gulv,Stikkontakt,Brun,101 / 104,5x1.5mm2 NOIKJ,--,,,Udgang 1 . 04,Brun
+
+Værelse(2),I loft,Lampeudtag,Hvid,201,5x1.5mm2 NOIKJ,--,,,Udgang 3 . 05,Hvid
+Værelse(2),Gulv,Stikkontakt,Brun,101,5x1.5mm2 NOIKJ,--,,,Udgang 1 . 01,Brun
+
+Stort Bad,I loft,Lampeudtag,Brun,207,5x1.5mm2 NOIKJ,--,,,Udgang 5 . 01,Brun
+Stort Bad,Spot,Lampeudtag,--,210,2x4+2x1.5,--,,,Udgang 8 . 01,Brun
+Stort Bad,Gulv,Stikkontakt,Sort,207,5x1.5mm2 NOIKJ,--,,,Udgang 5 . 02,Sort
+
+Bryggers,Spot,Lampeudtag,--,202,2x1.5,--,,,Udgang 8 . 02,Brun
+Bryggers,På væg,Lampeudtag,Hvid,204,5x1.5mm2 NOIKJ,--,,,Udgang 2 . 07,Hvid
+Bryggers,Gulv,Stikkontakt,Sort,101 / 204,5x1.5mm2 NOIKJ,--,,,Udgang 1 . 02,Sort
+
+Lille Bad,Spot,Lampeudtag,--,203,2x1.5,--,,,Udgang 8 . 03,Brun
+Lille Bad,På væg,Lampeudtag,Brun,107,5x1.5mm2 NOIKJ,--,,,Udgang 2 . 04,Brun
+Lille Bad,Gulv,Stikkontakt,Sort,107,5x1.5mm2 NOIKJ,--,,,Udgang 2 . 05,Sort
+
+Garage,Diode,Dørlås,--,--,IHC LINK-10 NOPOVIC (5x2x0-6 mm),--,,,Udgang 7 . 01,Orange
+Garage,I loft,Lampeudtag,Sort,200,5x1.5mm2 NOIKJ,--,,,Udgang 3 . 06,Sort
+Garage,I loft,Lampeudtag,Hvid,200,5x1.5mm2 NOIKJ,--,,,Udgang 3 . 07,Hvid
+Garage,I loft Ex,Lampeudtag,Brun,201,5x1.5mm2 NOIKJ,--,,,Udgang 3 . 03,Brun
+Garage,Gulv,Stikkontakt,Hvid,100,5x1.5mm2 NOIKJ,--,,,Udgang 1 . 06,Hvid
+Garage,Gulv Ex,Stikkontakt,Sort,100,5x1.5mm2 NOIKJ,--,,,Udgang 1 . 05,Sort
+
+Viktualrum,I loft,Lampeudtag,Brun,204,5x1.5mm2 NOIKJ,--,,,Udgang 2 . 06,Brun
+Viktualrum,Gulv,Stikkontakt,Brun,102,5x1.5mm2 NOIKJ,--,,,Udgang 2 . 02,Brun
+
+Walkin,I loft,Lampeudtag,Sort,206,5x1.5mm2 NOIKJ,--,,,Udgang 4 . 07,Sort
+Walkin,Gulv,Stikkontakt,Hvid,103,5x1.5mm2 NOIKJ,--,,,Udgang 2 . 01,Hvid
+Walkin,Medie Center,Stikkontakt,Sort,213,5x1.5mm2 NOIKJ,--,,,Udgang 2 . 08,Sort
+
+Udendørs,På væg udv,Lampeudtag,Brun,212,3x1.5mm2 NOIKJ,--,,,Udgang 5 . 04,Brun
+Udendørs,Spot,Lampeudtag,Hvid,107,5x1.5mm2 NOIKJ,--,,,Udgang 5 . 06,Hvid
+Udendørs,Stikk ter.,Stikkontakt,Brun,105,5x1.5mm2 NOIKJ,--,,,Udgang 3 . 01,Brun
+Udendørs,Stikk gar.,Stikkontakt,Brun,106,5x1.5mm2 NOIKJ,--,,,Udgang 3 . 02,Brun
+Udendørs,På væg udv,Lydgiver ekstern,Sort,39,IHC LINK-10 NOPOVIC (5x2x0-6 mm),--,,,Udgang 6 . 04,Sort
+Udendørs,I Jord Udvendig,Lampeudtag,Brun,--,5x1.5mm2 NOIKJ,--,,,Udgang 8 . 06,Brun
+
+Loft,I loft,Lampeudtag,Sort,107,5x1.5mm2 NOIKJ,--,,,Udgang 5 . 05,Sort
+Loft,Dobbeltstik,Stikkontakt,--,--,5x1.5mm2 NOIKJ,--,,,Udgang 3 . 08,Sort
+
+Sluk Alt,Spot køk+stue,Lampeudtag,--,--,--,--,,,Udgang 6 . 02,Grøn
+
+Magnetventil,--,Magnetventil NO,--,--,--,--,,,LukUdgang 8 . 07,Brun
