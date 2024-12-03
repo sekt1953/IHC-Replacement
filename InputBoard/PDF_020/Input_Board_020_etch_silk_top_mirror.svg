@@ -1020,20 +1020,16 @@
    </g>
   </g>
   <g partID="16240960" id="partLabel">
-   <g transform="translate(54.0856,153.069)">
-    <g transform="matrix(0,-1,1,0,0,0)">
-     <g stroke="none" fill="#000000" font-family="'OCRA'" font-size="5" font-style="normal" fill-opacity="1" font-weight="normal" id="silkscreenLabel">
-      <text x="0" y="3.75">IC2</text>
-     </g>
+   <g transform="translate(41.8643,147.593)">
+    <g stroke="none" fill="#000000" font-family="'OCRA'" font-size="5" font-style="normal" fill-opacity="1" font-weight="normal" id="silkscreenLabel">
+     <text x="0" y="3.75">IC2</text>
     </g>
    </g>
   </g>
   <g partID="16368130" id="partLabel">
-   <g transform="translate(190.86,152.996)">
-    <g transform="matrix(0,-1,1,0,0,0)">
-     <g stroke="none" fill="#000000" font-family="'OCRA'" font-size="5" font-style="normal" fill-opacity="1" font-weight="normal" id="silkscreenLabel">
-      <text x="0" y="3.75">IC1</text>
-     </g>
+   <g transform="translate(178.314,148.494)">
+    <g stroke="none" fill="#000000" font-family="'OCRA'" font-size="5" font-style="normal" fill-opacity="1" font-weight="normal" id="silkscreenLabel">
+     <text x="0" y="3.75">IC1</text>
     </g>
    </g>
   </g>
@@ -1079,6 +1075,13 @@
     </g>
    </g>
   </g>
+  <g partID="16678540" id="partLabel">
+   <g transform="translate(9.37901,75.1134)">
+    <g stroke="none" fill="#000000" font-family="'OCRA'" font-size="5" font-style="normal" fill-opacity="1" font-weight="normal" id="silkscreenLabel">
+     <text x="0" y="3.75">IC6</text>
+    </g>
+   </g>
+  </g>
   <g partID="16575610" id="partLabel">
    <g transform="translate(81.379,75.1134)">
     <g stroke="none" fill="#000000" font-family="'OCRA'" font-size="5" font-style="normal" fill-opacity="1" font-weight="normal" id="silkscreenLabel">
@@ -1090,13 +1093,6 @@
    <g transform="translate(153.379,75.1134)">
     <g stroke="none" fill="#000000" font-family="'OCRA'" font-size="5" font-style="normal" fill-opacity="1" font-weight="normal" id="silkscreenLabel">
      <text x="0" y="3.75">IC4</text>
-    </g>
-   </g>
-  </g>
-  <g partID="16678540" id="partLabel">
-   <g transform="translate(9.37901,75.1134)">
-    <g stroke="none" fill="#000000" font-family="'OCRA'" font-size="5" font-style="normal" fill-opacity="1" font-weight="normal" id="silkscreenLabel">
-     <text x="0" y="3.75">IC6</text>
     </g>
    </g>
   </g>
@@ -1118,6 +1114,34 @@
    <g transform="translate(56.2878,190.272)">
     <g stroke="none" fill="#000000" font-family="'OCRA'" font-size="5" font-style="normal" fill-opacity="1" font-weight="normal" id="silkscreenLabel">
      <text x="0" y="3.75">J6</text>
+    </g>
+   </g>
+  </g>
+  <g partID="16699930" id="partLabel">
+   <g transform="translate(64.6117,22.1428)">
+    <g stroke="none" fill="#000000" font-family="'OCRA'" font-size="5" font-style="normal" fill-opacity="1" font-weight="normal" id="silkscreenLabel">
+     <text x="0" y="3.75">J4a</text>
+    </g>
+   </g>
+  </g>
+  <g partID="16700470" id="partLabel">
+   <g transform="translate(136.937,22.4677)">
+    <g stroke="none" fill="#000000" font-family="'OCRA'" font-size="5" font-style="normal" fill-opacity="1" font-weight="normal" id="silkscreenLabel">
+     <text x="0" y="3.75">J3a</text>
+    </g>
+   </g>
+  </g>
+  <g partID="16701490" id="partLabel">
+   <g transform="translate(208.287,22.4677)">
+    <g stroke="none" fill="#000000" font-family="'OCRA'" font-size="5" font-style="normal" fill-opacity="1" font-weight="normal" id="silkscreenLabel">
+     <text x="0" y="3.75">J2a</text>
+    </g>
+   </g>
+  </g>
+  <g partID="16702510" id="partLabel">
+   <g transform="translate(281.586,23.4423)">
+    <g stroke="none" fill="#000000" font-family="'OCRA'" font-size="5" font-style="normal" fill-opacity="1" font-weight="normal" id="silkscreenLabel">
+     <text x="0" y="3.75">J1a</text>
     </g>
    </g>
   </g>
