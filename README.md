@@ -14,4 +14,4 @@ Jeg har i forevejen et Home Assistant project igang, så nu vil jeg fremstille P
 ## FreeCAD
 
 * [DINBox ](./FreeCAD/DINBox_002.FCStd)
-  * [Images](./FreeCAD/Images/Skærmbillede%20fra%202024-12-03%2021-47-26.png)
+  * ![Images](./FreeCAD/Images/Skærmbillede%20fra%202024-12-03%2021-47-26.png)
