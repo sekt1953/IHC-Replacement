@@ -4,3 +4,7 @@ mcp23017:
     address: "0x20"
   - id: ${id_mcp23017}1
     address: "0x21"
+  - id: ${id_mcp23017}2
+    address: "0x22"
+  - id: ${id_mcp23017}3
+    address: "0x23"

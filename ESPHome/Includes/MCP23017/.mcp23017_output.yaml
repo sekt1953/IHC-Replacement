@@ -269,3 +269,132 @@ switch:
       mode:
         output: true
       inverted: false
+# Individual output hub2
+  - platform: gpio
+    name: "_20"
+    pin:
+      mcp23xxx: ${id_mcp23017}2
+      number: 0
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_21"
+    pin:
+      mcp23xxx: ${id_mcp23017}2
+      number: 1
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_22"
+    pin:
+      mcp23xxx: ${id_mcp23017}2
+      number: 2
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_23"
+    pin:
+      mcp23xxx: ${id_mcp23017}2
+      number: 3
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_24"
+    pin:
+      mcp23xxx: ${id_mcp23017}2
+      number: 4
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_25"
+    pin:
+      mcp23xxx: ${id_mcp23017}2
+      number: 5
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_26"
+    pin:
+      mcp23xxx: ${id_mcp23017}2
+      number: 6
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_27"
+    pin:
+      mcp23xxx: ${id_mcp23017}2
+      number: 7
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_28"
+    pin:
+      mcp23xxx: ${id_mcp23017}2
+      number: 8
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_29"
+    pin:
+      mcp23xxx: ${id_mcp23017}2
+      number: 9
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_2A"
+    pin:
+      mcp23xxx: ${id_mcp23017}2
+      number: 10
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_2B"
+    pin:
+      mcp23xxx: ${id_mcp23017}2
+      number: 11
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_2C"
+    pin:
+      mcp23xxx: ${id_mcp23017}2
+      number: 12
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_2D"
+    pin:
+      mcp23xxx: ${id_mcp23017}2
+      number: 13
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_2E"
+    pin:
+      mcp23xxx: ${id_mcp23017}2
+      number: 14
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_2F"
+    pin:
+      mcp23xxx: ${id_mcp23017}2
+      number: 15
+      mode:
+        output: true
+      inverted: false
