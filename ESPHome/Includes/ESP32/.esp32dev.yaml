@@ -1,0 +1,56 @@
+esphome:
+  name: ${esphome_name}
+  friendly_name: ${esphome_friendly_name}
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: !secret api_key_omjk
+
+ota:
+  - platform: esphome
+    password: !secret ota_pass_omjk
+
+wifi:
+  networks:
+  - ssid: !secret wifi_ssid_omjk
+    password: !secret wifi_password_omjk
+  - ssid: !secret wifi_ssid_sekt
+    password: !secret wifi_password_sekt
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "${esphome_name} Fallback Hotspot"
+    password: !secret ap_password_omjk
+    
+captive_portal:
+
+text_sensor:
+  - platform: wifi_info
+    ip_address:
+      name: "IP Address ${esphome_name}"
+    ssid:
+      name: "Connected SSID ${esphome_name}"
+    bssid:
+      name: "Connected BSSID ${esphome_name}"
+    mac_address:
+      name: "Mac Wifi Address ${esphome_name}"
+
+button:
+  - platform: restart
+    name: "Restart ${esphome_name}"
+
+i2c:
+  - id: ${i2c_id}
+    sda: ${i2c_sda}
+    scl: ${i2c_scl}
+    scan: ${i2c_scan}  
+    frequency: ${i2c_frequency}

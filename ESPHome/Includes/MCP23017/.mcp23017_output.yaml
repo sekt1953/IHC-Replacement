@@ -1,0 +1,271 @@
+# MCP23017 Component
+# .mcp23017_output_ju-demo-01
+# The MCP23017 component allows you to use MCP23017 I/O expanders (datasheet,
+#  Adafruit) in ESPHome. It uses the I²C Bus for communication.
+#
+# Once configured, you can use any of the 16 pins as pins for your projects. Within
+# ESPHome they emulate a real internal GPIO pin and can therefore be used with
+# many of ESPHome’s components such as the GPIO binary sensor or GPIO switch.
+#
+# GPIO pins in the datasheet are labelled A0 to A7 and B0 to B7, these are mapped
+# consecutively in this component to numbers from 0 to 15.
+
+switch:
+# Individual output hub0
+  - platform: gpio
+    name: "_00"
+    pin:
+      mcp23xxx: ${id_mcp23017}0
+      number: 0
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_01"
+    pin:
+      mcp23xxx: ${id_mcp23017}0
+      number: 1
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_02"
+    pin:
+      mcp23xxx: ${id_mcp23017}0
+      number: 2
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_03"
+    pin:
+      mcp23xxx: ${id_mcp23017}0
+      number: 3
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_04"
+    pin:
+      mcp23xxx: ${id_mcp23017}0
+      number: 4
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_05"
+    pin:
+      mcp23xxx: ${id_mcp23017}0
+      number: 5
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_06"
+    pin:
+      mcp23xxx: ${id_mcp23017}0
+      number: 6
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_07"
+    pin:
+      mcp23xxx: ${id_mcp23017}0
+      number: 7
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_08"
+    pin:
+      mcp23xxx: ${id_mcp23017}0
+      number: 8
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_09"
+    pin:
+      mcp23xxx: ${id_mcp23017}0
+      number: 9
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_0A"
+    pin:
+      mcp23xxx: ${id_mcp23017}0
+      number: 10
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_0B"
+    pin:
+      mcp23xxx: ${id_mcp23017}0
+      number: 11
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_0C"
+    pin:
+      mcp23xxx: ${id_mcp23017}0
+      number: 12
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_0D"
+    pin:
+      mcp23xxx: ${id_mcp23017}0
+      number: 13
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_0E"
+    pin:
+      mcp23xxx: ${id_mcp23017}0
+      number: 14
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_0F"
+    pin:
+      mcp23xxx: ${id_mcp23017}0
+      number: 15
+      mode:
+        output: true
+      inverted: false
+# Individual output hub1
+  - platform: gpio
+    name: "_10"
+    pin:
+      mcp23xxx: ${id_mcp23017}1
+      number: 0
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_11"
+    pin:
+      mcp23xxx: ${id_mcp23017}1
+      number: 1
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_12"
+    pin:
+      mcp23xxx: ${id_mcp23017}1
+      number: 2
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_13"
+    pin:
+      mcp23xxx: ${id_mcp23017}1
+      number: 3
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_14"
+    pin:
+      mcp23xxx: ${id_mcp23017}1
+      number: 4
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_15"
+    pin:
+      mcp23xxx: ${id_mcp23017}1
+      number: 5
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_16"
+    pin:
+      mcp23xxx: ${id_mcp23017}1
+      number: 6
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_17"
+    pin:
+      mcp23xxx: ${id_mcp23017}1
+      number: 7
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_18"
+    pin:
+      mcp23xxx: ${id_mcp23017}1
+      number: 8
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_19"
+    pin:
+      mcp23xxx: ${id_mcp23017}1
+      number: 9
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_1A"
+    pin:
+      mcp23xxx: ${id_mcp23017}1
+      number: 10
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_1B"
+    pin:
+      mcp23xxx: ${id_mcp23017}1
+      number: 11
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_1C"
+    pin:
+      mcp23xxx: ${id_mcp23017}1
+      number: 12
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_1D"
+    pin:
+      mcp23xxx: ${id_mcp23017}1
+      number: 13
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_1E"
+    pin:
+      mcp23xxx: ${id_mcp23017}1
+      number: 14
+      mode:
+        output: true
+      inverted: false
+  - platform: gpio
+    name: "_1F"
+    pin:
+      mcp23xxx: ${id_mcp23017}1
+      number: 15
+      mode:
+        output: true
+      inverted: false

@@ -1,0 +1,6 @@
+# I2C_IO_mcp23017
+mcp23017:
+  - id: ${id_mcp23017}0
+    address: "0x20"
+  - id: ${id_mcp23017}1
+    address: "0x21"
