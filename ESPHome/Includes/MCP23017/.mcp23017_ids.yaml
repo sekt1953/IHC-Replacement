@@ -8,3 +8,11 @@ mcp23017:
     address: "0x22"
   - id: ${id_mcp23017}3
     address: "0x23"
+  - id: ${id_mcp23017}4
+    address: "0x24"
+  - id: ${id_mcp23017}5
+    address: "0x25"
+  - id: ${id_mcp23017}6
+    address: "0x26"
+  - id: ${id_mcp23017}7
+    address: "0x27"

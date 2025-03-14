@@ -192,3 +192,779 @@ binary_sensor:
     filters:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
+# Individual input hub4
+#binary_sensor:
+  - platform: gpio
+    name: "_40"
+    pin:
+      mcp23xxx: ${id_mcp23017}4
+      number: 0
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_41"
+    pin:
+      mcp23xxx: ${id_mcp23017}4
+      number: 1
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_42"
+    pin:
+      mcp23xxx: ${id_mcp23017}4
+      number: 2
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_43"
+    pin:
+      mcp23xxx: ${id_mcp23017}4
+      number: 3
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_44"
+    pin:
+      mcp23xxx: ${id_mcp23017}4
+      number: 4
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_45"
+    pin:
+      mcp23xxx: ${id_mcp23017}4
+      number: 5
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_46"
+    pin:
+      mcp23xxx: ${id_mcp23017}4
+      number: 6
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_47"
+    pin:
+      mcp23xxx: ${id_mcp23017}4
+      number: 7
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_48"
+    pin:
+      mcp23xxx: ${id_mcp23017}4
+      number: 8
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_49"
+    pin:
+      mcp23xxx: ${id_mcp23017}4
+      number: 9
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_4A"
+    pin:
+      mcp23xxx: ${id_mcp23017}4
+      number: 10
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_4B"
+    pin:
+      mcp23xxx: ${id_mcp23017}4
+      number: 11
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_4C"
+    pin:
+      mcp23xxx: ${id_mcp23017}4
+      number: 12
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_4D"
+    pin:
+      mcp23xxx: ${id_mcp23017}4
+      number: 13
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_4E"
+    pin:
+      mcp23xxx: ${id_mcp23017}4
+      number: 14
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_4F"
+    pin:
+      mcp23xxx: ${id_mcp23017}4
+      number: 15
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+# Individual input hub5
+#binary_sensor:
+  - platform: gpio
+    name: "_50"
+    pin:
+      mcp23xxx: ${id_mcp23017}5
+      number: 0
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_51"
+    pin:
+      mcp23xxx: ${id_mcp23017}5
+      number: 1
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_52"
+    pin:
+      mcp23xxx: ${id_mcp23017}5
+      number: 2
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_53"
+    pin:
+      mcp23xxx: ${id_mcp23017}5
+      number: 3
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_54"
+    pin:
+      mcp23xxx: ${id_mcp23017}5
+      number: 4
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_55"
+    pin:
+      mcp23xxx: ${id_mcp23017}5
+      number: 5
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_56"
+    pin:
+      mcp23xxx: ${id_mcp23017}5
+      number: 6
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_57"
+    pin:
+      mcp23xxx: ${id_mcp23017}5
+      number: 7
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_58"
+    pin:
+      mcp23xxx: ${id_mcp23017}5
+      number: 8
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_59"
+    pin:
+      mcp23xxx: ${id_mcp23017}5
+      number: 9
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_5A"
+    pin:
+      mcp23xxx: ${id_mcp23017}5
+      number: 10
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_5B"
+    pin:
+      mcp23xxx: ${id_mcp23017}5
+      number: 11
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_5C"
+    pin:
+      mcp23xxx: ${id_mcp23017}5
+      number: 12
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_5D"
+    pin:
+      mcp23xxx: ${id_mcp23017}5
+      number: 13
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_5E"
+    pin:
+      mcp23xxx: ${id_mcp23017}5
+      number: 14
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_5F"
+    pin:
+      mcp23xxx: ${id_mcp23017}5
+      number: 15
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+# Individual input hub6
+#binary_sensor:
+  - platform: gpio
+    name: "_60"
+    pin:
+      mcp23xxx: ${id_mcp23017}6
+      number: 0
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_61"
+    pin:
+      mcp23xxx: ${id_mcp23017}6
+      number: 1
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_62"
+    pin:
+      mcp23xxx: ${id_mcp23017}6
+      number: 2
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_63"
+    pin:
+      mcp23xxx: ${id_mcp23017}6
+      number: 3
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_64"
+    pin:
+      mcp23xxx: ${id_mcp23017}6
+      number: 4
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_65"
+    pin:
+      mcp23xxx: ${id_mcp23017}6
+      number: 5
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_66"
+    pin:
+      mcp23xxx: ${id_mcp23017}6
+      number: 6
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_67"
+    pin:
+      mcp23xxx: ${id_mcp23017}6
+      number: 7
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_68"
+    pin:
+      mcp23xxx: ${id_mcp23017}6
+      number: 8
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_69"
+    pin:
+      mcp23xxx: ${id_mcp23017}6
+      number: 9
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_6A"
+    pin:
+      mcp23xxx: ${id_mcp23017}6
+      number: 10
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_6B"
+    pin:
+      mcp23xxx: ${id_mcp23017}6
+      number: 11
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_6C"
+    pin:
+      mcp23xxx: ${id_mcp23017}6
+      number: 12
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_6D"
+    pin:
+      mcp23xxx: ${id_mcp23017}6
+      number: 13
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_6E"
+    pin:
+      mcp23xxx: ${id_mcp23017}6
+      number: 14
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_6F"
+    pin:
+      mcp23xxx: ${id_mcp23017}6
+      number: 15
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+# Individual input hub7
+#binary_sensor:
+  - platform: gpio
+    name: "_70"
+    pin:
+      mcp23xxx: ${id_mcp23017}7
+      number: 0
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_71"
+    pin:
+      mcp23xxx: ${id_mcp23017}7
+      number: 1
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_72"
+    pin:
+      mcp23xxx: ${id_mcp23017}7
+      number: 2
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_73"
+    pin:
+      mcp23xxx: ${id_mcp23017}7
+      number: 3
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_74"
+    pin:
+      mcp23xxx: ${id_mcp23017}7
+      number: 4
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_75"
+    pin:
+      mcp23xxx: ${id_mcp23017}7
+      number: 5
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_76"
+    pin:
+      mcp23xxx: ${id_mcp23017}7
+      number: 6
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_77"
+    pin:
+      mcp23xxx: ${id_mcp23017}7
+      number: 7
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_78"
+    pin:
+      mcp23xxx: ${id_mcp23017}7
+      number: 8
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_79"
+    pin:
+      mcp23xxx: ${id_mcp23017}7
+      number: 9
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_7A"
+    pin:
+      mcp23xxx: ${id_mcp23017}7
+      number: 10
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_7B"
+    pin:
+      mcp23xxx: ${id_mcp23017}7
+      number: 11
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_7C"
+    pin:
+      mcp23xxx: ${id_mcp23017}7
+      number: 12
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_7D"
+    pin:
+      mcp23xxx: ${id_mcp23017}7
+      number: 13
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_7E"
+    pin:
+      mcp23xxx: ${id_mcp23017}7
+      number: 14
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}
+  - platform: gpio
+    name: "_7F"
+    pin:
+      mcp23xxx: ${id_mcp23017}7
+      number: 15
+      mode:
+        input: true
+        pullup: true
+      inverted: true
+    filters:
+      - delayed_off: ${track_delayed_off}
+      - delayed_on: ${track_delayed_on}

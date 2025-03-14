@@ -1,0 +1,636 @@
+  - type: sections
+    max_columns: 4
+    title: Finn Ihc
+    path: finn-ihc
+    sections:
+      - type: grid
+        cards:
+          - type: heading
+            heading: Output 0-7
+            heading_style: title
+          - type: tile
+            entity: switch.finn_ihc_00
+            features_position: bottom
+            vertical: false
+            name: Output_00
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_01
+            features_position: bottom
+            vertical: false
+            name: Output_01
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_02
+            features_position: bottom
+            vertical: false
+            name: Output_02
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_03
+            features_position: bottom
+            vertical: false
+            name: Output_03
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_04
+            features_position: bottom
+            vertical: false
+            name: Output_04
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_05
+            features_position: bottom
+            vertical: false
+            name: Output_05
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_06
+            features_position: bottom
+            vertical: false
+            name: Output_06
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_07
+            features_position: bottom
+            vertical: false
+            name: Output_07
+            tap_action:
+              action: toggle
+          - type: heading
+            heading: Output 8-15
+            heading_style: title
+          - type: tile
+            entity: switch.finn_ihc_08
+            features_position: bottom
+            vertical: false
+            name: Output_08
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_09
+            features_position: bottom
+            vertical: false
+            name: Output_09
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_0a
+            features_position: bottom
+            vertical: false
+            name: Output_10
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_0b
+            features_position: bottom
+            vertical: false
+            name: Output_11
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_0c
+            features_position: bottom
+            vertical: false
+            name: Output_12
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_0d
+            features_position: bottom
+            vertical: false
+            name: Output_13
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_0e
+            features_position: bottom
+            vertical: false
+            name: Output_14
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_0f
+            features_position: bottom
+            vertical: false
+            name: Output_15
+            tap_action:
+              action: toggle
+          - type: heading
+            heading: Output 16-23
+            heading_style: title
+          - type: tile
+            entity: switch.finn_ihc_10
+            features_position: bottom
+            vertical: false
+            name: Output_16
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_11
+            features_position: bottom
+            vertical: false
+            name: Output_17
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_12
+            features_position: bottom
+            vertical: false
+            name: Output_18
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_13
+            features_position: bottom
+            vertical: false
+            name: Output_19
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_14
+            features_position: bottom
+            vertical: false
+            name: Output_20
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_15
+            features_position: bottom
+            vertical: false
+            name: Output_21
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_16
+            features_position: bottom
+            vertical: false
+            name: Output_22
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_17
+            features_position: bottom
+            vertical: false
+            name: Output_23
+            tap_action:
+              action: toggle
+          - type: heading
+            heading: Output 24-31
+            heading_style: title
+          - type: tile
+            entity: switch.finn_ihc_18
+            features_position: bottom
+            vertical: false
+            name: Output_24
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_19
+            features_position: bottom
+            vertical: false
+            name: Output_25
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_1a
+            features_position: bottom
+            vertical: false
+            name: Output_26
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_1b
+            features_position: bottom
+            vertical: false
+            name: Output_27
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_1c
+            features_position: bottom
+            vertical: false
+            name: Output_28
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_1d
+            features_position: bottom
+            vertical: false
+            name: Output_29
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_1e
+            features_position: bottom
+            vertical: false
+            name: Output_30
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_1f
+            features_position: bottom
+            vertical: false
+            name: Output_31
+            tap_action:
+              action: toggle
+          - type: heading
+            heading: Output 32-39
+            heading_style: title
+          - type: tile
+            entity: switch.finn_ihc_20
+            features_position: bottom
+            vertical: false
+            name: Output_32
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_21
+            features_position: bottom
+            vertical: false
+            name: Output_33
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_22
+            features_position: bottom
+            vertical: false
+            name: Output_34
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_23
+            features_position: bottom
+            vertical: false
+            name: Output_35
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_24
+            features_position: bottom
+            vertical: false
+            name: Output_36
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_25
+            features_position: bottom
+            vertical: false
+            name: Output_37
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_26
+            features_position: bottom
+            vertical: false
+            name: Output_38
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_27
+            features_position: bottom
+            vertical: false
+            name: Output_39
+            tap_action:
+              action: toggle
+          - type: heading
+            heading: Output 40-47
+            heading_style: title
+          - type: tile
+            entity: switch.finn_ihc_28
+            features_position: bottom
+            vertical: false
+            name: Output_40
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_29
+            features_position: bottom
+            vertical: false
+            name: Output_41
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_2a
+            features_position: bottom
+            vertical: false
+            name: Output_42
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_2b
+            features_position: bottom
+            vertical: false
+            name: Output_43
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_2c
+            features_position: bottom
+            vertical: false
+            name: Output_44
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_2d
+            features_position: bottom
+            vertical: false
+            name: Output_45
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_2e
+            features_position: bottom
+            vertical: false
+            name: Output_46
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.finn_ihc_2f
+            features_position: bottom
+            vertical: false
+            name: Output_47
+            tap_action:
+              action: toggle
+        column_span: 2
+      - type: grid
+        cards:
+          - type: heading
+            heading: Input 0-7
+            heading_style: title
+          - type: tile
+            entity: binary_sensor.finn_ihc_30
+            features_position: bottom
+            vertical: false
+            name: Input_00
+          - type: tile
+            entity: binary_sensor.finn_ihc_31
+            features_position: bottom
+            vertical: false
+            name: Input_01
+          - type: tile
+            entity: binary_sensor.finn_ihc_32
+            features_position: bottom
+            vertical: false
+            name: Input_02
+          - type: tile
+            entity: binary_sensor.finn_ihc_33
+            features_position: bottom
+            vertical: false
+            name: Input_03
+          - type: tile
+            entity: binary_sensor.finn_ihc_34
+            features_position: bottom
+            vertical: false
+            name: Input_04
+          - type: tile
+            entity: binary_sensor.finn_ihc_35
+            features_position: bottom
+            vertical: false
+            name: Input_05
+          - type: tile
+            entity: binary_sensor.finn_ihc_36
+            features_position: bottom
+            vertical: false
+            name: Input_06
+          - type: tile
+            entity: binary_sensor.finn_ihc_37
+            features_position: bottom
+            vertical: false
+            name: Input_07
+          - type: heading
+            heading: Input 8-15
+            heading_style: title
+          - type: tile
+            entity: binary_sensor.finn_ihc_38
+            features_position: bottom
+            vertical: false
+            name: Input_08
+          - type: tile
+            entity: binary_sensor.finn_ihc_39
+            features_position: bottom
+            vertical: false
+            name: Input_09
+          - type: tile
+            entity: binary_sensor.finn_ihc_3a
+            features_position: bottom
+            vertical: false
+            name: Input_10
+          - type: tile
+            entity: binary_sensor.finn_ihc_3b
+            features_position: bottom
+            vertical: false
+            name: Input_11
+          - type: tile
+            entity: binary_sensor.finn_ihc_3c
+            features_position: bottom
+            vertical: false
+            name: Input_12
+          - type: tile
+            entity: binary_sensor.finn_ihc_3d
+            features_position: bottom
+            vertical: false
+            name: Input_13
+          - type: tile
+            entity: binary_sensor.finn_ihc_3e
+            features_position: bottom
+            vertical: false
+            name: Input_14
+          - type: tile
+            entity: binary_sensor.finn_ihc_3f
+            features_position: bottom
+            vertical: false
+            name: Input_15
+          - type: heading
+            heading: Input 16-23
+            heading_style: title
+          - type: tile
+            entity: binary_sensor.finn_ihc_40
+          - type: tile
+            entity: binary_sensor.finn_ihc_41
+          - type: tile
+            entity: binary_sensor.finn_ihc_42
+          - type: tile
+            entity: binary_sensor.finn_ihc_43
+          - type: tile
+            entity: binary_sensor.finn_ihc_44
+          - type: tile
+            entity: binary_sensor.finn_ihc_45
+          - type: tile
+            entity: binary_sensor.finn_ihc_46
+          - type: tile
+            entity: binary_sensor.finn_ihc_47
+          - type: heading
+            heading: Input 24-31
+            heading_style: title
+          - type: tile
+            entity: binary_sensor.finn_ihc_48
+          - type: tile
+            entity: binary_sensor.finn_ihc_49
+          - type: tile
+            entity: binary_sensor.finn_ihc_4a
+          - type: tile
+            entity: binary_sensor.finn_ihc_4b
+          - type: tile
+            entity: binary_sensor.finn_ihc_4c
+          - type: tile
+            entity: binary_sensor.finn_ihc_4d
+          - type: tile
+            entity: binary_sensor.finn_ihc_4e
+          - type: tile
+            entity: binary_sensor.finn_ihc_4f
+          - type: heading
+            heading: Input 32-39
+            heading_style: title
+          - type: tile
+            entity: binary_sensor.finn_ihc_50
+          - type: tile
+            entity: binary_sensor.finn_ihc_51
+          - type: tile
+            entity: binary_sensor.finn_ihc_52
+          - type: tile
+            entity: binary_sensor.finn_ihc_53
+          - type: tile
+            entity: binary_sensor.finn_ihc_54
+          - type: tile
+            entity: binary_sensor.finn_ihc_55
+          - type: tile
+            entity: binary_sensor.finn_ihc_56
+          - type: tile
+            entity: binary_sensor.finn_ihc_57
+          - type: heading
+            heading: Input 40-47
+            heading_style: title
+          - type: tile
+            entity: binary_sensor.finn_ihc_58
+          - type: tile
+            entity: binary_sensor.finn_ihc_59
+          - type: tile
+            entity: binary_sensor.finn_ihc_5a
+          - type: tile
+            entity: binary_sensor.finn_ihc_5b
+          - type: tile
+            entity: binary_sensor.finn_ihc_5c
+          - type: tile
+            entity: binary_sensor.finn_ihc_5d
+          - type: tile
+            entity: binary_sensor.finn_ihc_5e
+          - type: tile
+            entity: binary_sensor.finn_ihc_5f
+          - type: heading
+            heading: Input 48-55
+            heading_style: title
+          - type: tile
+            entity: binary_sensor.finn_ihc_60
+          - type: tile
+            entity: binary_sensor.finn_ihc_61
+          - type: tile
+            entity: binary_sensor.finn_ihc_62
+          - type: tile
+            entity: binary_sensor.finn_ihc_63
+          - type: tile
+            entity: binary_sensor.finn_ihc_64
+          - type: tile
+            entity: binary_sensor.finn_ihc_65
+          - type: tile
+            entity: binary_sensor.finn_ihc_66
+          - type: tile
+            entity: binary_sensor.finn_ihc_67
+          - type: heading
+            heading: Input 56-63
+            heading_style: title
+          - type: tile
+            entity: binary_sensor.finn_ihc_68
+          - type: tile
+            entity: binary_sensor.finn_ihc_69
+          - type: tile
+            entity: binary_sensor.finn_ihc_6a
+          - type: tile
+            entity: binary_sensor.finn_ihc_6b
+          - type: tile
+            entity: binary_sensor.finn_ihc_6c
+          - type: tile
+            entity: binary_sensor.finn_ihc_6d
+          - type: tile
+            entity: binary_sensor.finn_ihc_6e
+          - type: tile
+            entity: binary_sensor.finn_ihc_6f
+          - type: heading
+            heading: Input 64-71
+            heading_style: title
+          - type: tile
+            entity: binary_sensor.finn_ihc_70
+          - type: tile
+            entity: binary_sensor.finn_ihc_71
+          - type: tile
+            entity: binary_sensor.finn_ihc_72
+          - type: tile
+            entity: binary_sensor.finn_ihc_73
+          - type: tile
+            entity: binary_sensor.finn_ihc_74
+          - type: tile
+            entity: binary_sensor.finn_ihc_75
+          - type: tile
+            entity: binary_sensor.finn_ihc_76
+          - type: tile
+            entity: binary_sensor.finn_ihc_77
+          - type: heading
+            heading: Input 72-79
+            heading_style: title
+          - type: tile
+            entity: binary_sensor.finn_ihc_78
+          - type: tile
+            entity: binary_sensor.finn_ihc_79
+          - type: tile
+            entity: binary_sensor.finn_ihc_7a
+          - type: tile
+            entity: binary_sensor.finn_ihc_7b
+          - type: tile
+            entity: binary_sensor.finn_ihc_7c
+          - type: tile
+            entity: binary_sensor.finn_ihc_7d
+          - type: tile
+            entity: binary_sensor.finn_ihc_7e
+          - type: tile
+            entity: binary_sensor.finn_ihc_7f
+          - type: heading
+            heading: MCU Tools
+            heading_style: title
+          - type: tile
+            entity: button.finn_ihc_restart_finn_ihc
+            grid_options:
+              columns: 24
+              rows: 1
+            name: Reset
+            show_entity_picture: true
+            features_position: bottom
+            vertical: false
+            hide_state: true
+          - type: tile
+            entity: sensor.finn_ihc_connected_bssid_finn_ihc
+            features_position: bottom
+            vertical: false
+            name: BSSID
+          - type: tile
+            entity: sensor.finn_ihc_connected_ssid_finn_ihc
+            features_position: bottom
+            vertical: false
+            name: SSID
+          - type: tile
+            entity: sensor.finn_ihc_ip_address_finn_ihc
+            features_position: bottom
+            vertical: false
+            name: IP Address
+          - type: tile
+            entity: sensor.finn_ihc_mac_wifi_address_finn_ihc
+            features_position: bottom
+            vertical: false
+            name: Mac Wifi Address
+        column_span: 2
