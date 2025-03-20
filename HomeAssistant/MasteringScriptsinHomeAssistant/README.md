@@ -132,3 +132,28 @@ mode: single
   as_timestamp(states.switch.ihc1_output_00.last_changed)
 }}
 ```
+
+## Call a Script from an Automation, and access Trigger/Entity inside the Script
+
+### Kilde: [Call a Script from an Automation, and access Trigger/Entity inside the Script](https://community.home-assistant.io/t/call-a-script-from-an-automation-and-access-trigger-entity-inside-the-script/603114/2)
+
+### You need to pass the trigger variables to the script: https://www.home-assistant.io/integrations/script/#passing-variables-to-scripts
+
+* Automation:
+
+```code
+action:
+  - service: script.notify_level1_user
+    data:
+      trig_id: "{{ trigger.entity_id }}"
+      trig_val: "{{ trigger.to_state.state }}"
+```
+
+* And in the script
+
+```code
+sequence:
+  - service: notify.level1_users # or whatever your notification service is called
+    data:
+      message: " The sensor {{ trig_id }} has the value {{ trig_val }}"
+```
