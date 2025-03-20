@@ -1,0 +1,65 @@
+https://community.home-assistant.io/t/long-and-short-button-pressing-automation/466916/10
+
+alias: Puls 1 kort (Lampen Zacht, Hue Aan)
+description: ""
+trigger:
+  - platform: state
+    entity_id:
+      - binary_sensor.pulslinks1
+    from: "on"
+    to: "off"
+condition:
+  - condition: template
+    value_template: >-
+      {{ trigger.to_state.last_updated - trigger.from_state.last_updated  <  as_timedelta("00:00:01") }}
+action:
+  - service: scene.turn_on
+    target:
+      entity_id: scene.verlichting_zacht_hue_aan
+    metadata: {}
+mode: single
+
+
+
+alias: Puls 1 Lang (Alles uit)
+description: ""
+trigger:
+  - platform: state
+    entity_id:
+      - binary_sensor.pulslinks1
+    to: "on"
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 1
+    from: "off"
+condition: []
+action:
+  - service: scene.turn_on
+    target:
+      entity_id: scene.verlichting_uit
+    metadata: {}
+mode: single
+
+
+
+https://community.home-assistant.io/t/store-list-dictionary/291400/10
+Defining a dictionary for value mapping:
+I used following template sensor:
+
+    - name: "My Map"'
+      unique_id: my_map
+      state: ''
+      attributes: !include my_map.yaml
+and the file my_map.yaml contains a dictionary-object:
+
+  { 
+    '1041': 'OvExt',
+    '1042': 'UnExt',
+    '1069': 'VArCtlVol',
+  }
+to get result of the map:
+
+    {{ state_attr("sensor.my_map","1042") }}
+result: UnExt
+
