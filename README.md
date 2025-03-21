@@ -7,11 +7,19 @@ Jeg har i forevejen et Home Assistant project igang, så nu vil jeg fremstille P
 
 ## Fritzing
 
-* [PCB Input/Output](./InputBoard/Input_Board_020.fzz)
-  * ![PCB](./InputBoard/Input_Board_020_pcb.png)
-  * ![Scheematic](./InputBoard/Input_Board_020_schem.png)
+* I/O Ver. 0.22 FritzingFab
+  * ![PCB 0.22](./Fritzing/IO-PCB/FritzingFab_v_0.22/Input_Board_021_pcb.png)
+  * ![schem 0.22](./Fritzing/IO-PCB/FritzingFab_v_0.22/Input_Board_021_schem.png)
+  * [fzz 0.22](./Fritzing/IO-PCB/FritzingFab_v_0.22/Input_Board_022.fzz)
+* I/O Ver. 0.30
+  * ![PCB 0.30](./Fritzing/IO-PCB/v_0.30/Input_Board_030_pcb.png )
+  * ![schem 0.30](./Fritzing/IO-PCB/v_0.30/Input_Board_030_schem.png)
+  * [Fritzing file version 0.30](./Fritzing/IO-PCB/v_0.30/Input_Board_030.fzz)
 
 ## FreeCAD
 
 * [DINBox ](./FreeCAD/DINBox_002.FCStd)
-  * ![Images](./FreeCAD/Images/Skærmbillede%20fra%202024-12-03%2021-47-26.png)
+  * ![Images dinbox](./FreeCAD/Images/Skærmbillede%20fra%202024-12-03%2021-47-26.png)
+* [TrykHolder](./FreeCAD/TrykHolder/Trykholder_v4.FCStd)
+  * ![images trykholder](./FreeCAD/TrykHolder/Images/Skærmbillede%20fra%202025-03-21%2016-08-51.png)
+  * [FreeCAD File for TrykHolder](./FreeCAD/TrykHolder/Trykholder_v4.FCStd)
