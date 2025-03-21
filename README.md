@@ -22,4 +22,5 @@ Jeg har i forevejen et Home Assistant project igang, så nu vil jeg fremstille P
   * ![Images dinbox](./FreeCAD/Images/Skærmbillede%20fra%202024-12-03%2021-47-26.png)
 * [TrykHolder](./FreeCAD/TrykHolder/Trykholder_v4.FCStd)
   * ![images trykholder](./FreeCAD/TrykHolder/Images/Skærmbillede%20fra%202025-03-21%2016-08-51.png)
+  * ![images insite trykholder](./FreeCAD/TrykHolder/Images/Skærmbillede%20fra%202025-03-21%2016-20-50.png)
   * [FreeCAD File for TrykHolder](./FreeCAD/TrykHolder/Trykholder_v4.FCStd)
