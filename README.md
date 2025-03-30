@@ -34,7 +34,7 @@ Jeg har i forevejen et Home Assistant project igang, så nu vil jeg fremstille P
 
 * [ihc1.yaml](./ESPHome/ihc1.yaml)
 * Include files
-  * ESP32 
+  * Olimex ESP32-POE-ISO-16MB
     * [.olimex-esp32-poe.yaml](./ESPHome/Includes/ESP32/.olimex-esp32-poe.yaml)
   * MCP23017
     * [.mcp23017_ids.yaml](./ESPHome/Includes/MCP23017/.mcp23017_ids.yaml)
