@@ -29,7 +29,7 @@ Jeg har i forevejen et Home Assistant project igang, så nu vil jeg fremstille P
 
 * ![Skærmbilled](./HomeAssistant/Images/
 Skærmbillede%20fra%202025-03-30%2011-12-03.png)
-  * [Raw configuration Finn's IHC](./ESPHome/ihc1.yaml)
+  * [Raw configuration Finn's IHC](./HomeAssistant/RawConfigurationFinnsIHC.yaml)
 
 ## ESPHome
 
