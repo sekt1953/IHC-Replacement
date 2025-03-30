@@ -13,7 +13,7 @@
 switch:
 # Individual output hub0
   - platform: gpio
-    name: "_00"
+    name: "Output_00"
     pin:
       mcp23xxx: ${id_mcp23017}0
       number: 0
@@ -21,7 +21,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_01"
+    name: "Output_01"
     pin:
       mcp23xxx: ${id_mcp23017}0
       number: 1
@@ -29,7 +29,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_02"
+    name: "Output_02"
     pin:
       mcp23xxx: ${id_mcp23017}0
       number: 2
@@ -37,7 +37,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_03"
+    name: "Output_03"
     pin:
       mcp23xxx: ${id_mcp23017}0
       number: 3
@@ -45,7 +45,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_04"
+    name: "Output_04"
     pin:
       mcp23xxx: ${id_mcp23017}0
       number: 4
@@ -53,7 +53,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_05"
+    name: "Output_05"
     pin:
       mcp23xxx: ${id_mcp23017}0
       number: 5
@@ -61,7 +61,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_06"
+    name: "Output_06"
     pin:
       mcp23xxx: ${id_mcp23017}0
       number: 6
@@ -69,7 +69,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_07"
+    name: "Output_07"
     pin:
       mcp23xxx: ${id_mcp23017}0
       number: 7
@@ -77,7 +77,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_08"
+    name: "Output_08"
     pin:
       mcp23xxx: ${id_mcp23017}0
       number: 8
@@ -85,7 +85,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_09"
+    name: "Output_09"
     pin:
       mcp23xxx: ${id_mcp23017}0
       number: 9
@@ -93,7 +93,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_0A"
+    name: "Output_10"
     pin:
       mcp23xxx: ${id_mcp23017}0
       number: 10
@@ -101,7 +101,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_0B"
+    name: "Output_11"
     pin:
       mcp23xxx: ${id_mcp23017}0
       number: 11
@@ -109,7 +109,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_0C"
+    name: "Output_12"
     pin:
       mcp23xxx: ${id_mcp23017}0
       number: 12
@@ -117,7 +117,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_0D"
+    name: "Output_13"
     pin:
       mcp23xxx: ${id_mcp23017}0
       number: 13
@@ -125,7 +125,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_0E"
+    name: "Output_14"
     pin:
       mcp23xxx: ${id_mcp23017}0
       number: 14
@@ -133,7 +133,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_0F"
+    name: "Output_15"
     pin:
       mcp23xxx: ${id_mcp23017}0
       number: 15
@@ -142,7 +142,7 @@ switch:
       inverted: false
 # Individual output hub1
   - platform: gpio
-    name: "_10"
+    name: "Output_16"
     pin:
       mcp23xxx: ${id_mcp23017}1
       number: 0
@@ -150,7 +150,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_11"
+    name: "Output_17"
     pin:
       mcp23xxx: ${id_mcp23017}1
       number: 1
@@ -158,7 +158,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_12"
+    name: "Output_18"
     pin:
       mcp23xxx: ${id_mcp23017}1
       number: 2
@@ -166,7 +166,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_13"
+    name: "Output_19"
     pin:
       mcp23xxx: ${id_mcp23017}1
       number: 3
@@ -174,7 +174,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_14"
+    name: "Output_20"
     pin:
       mcp23xxx: ${id_mcp23017}1
       number: 4
@@ -182,7 +182,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_15"
+    name: "Output_21"
     pin:
       mcp23xxx: ${id_mcp23017}1
       number: 5
@@ -190,7 +190,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_16"
+    name: "Output_22"
     pin:
       mcp23xxx: ${id_mcp23017}1
       number: 6
@@ -198,7 +198,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_17"
+    name: "Output_23"
     pin:
       mcp23xxx: ${id_mcp23017}1
       number: 7
@@ -206,7 +206,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_18"
+    name: "Output_24"
     pin:
       mcp23xxx: ${id_mcp23017}1
       number: 8
@@ -214,7 +214,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_19"
+    name: "Output_25"
     pin:
       mcp23xxx: ${id_mcp23017}1
       number: 9
@@ -222,7 +222,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_1A"
+    name: "Output_26"
     pin:
       mcp23xxx: ${id_mcp23017}1
       number: 10
@@ -230,7 +230,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_1B"
+    name: "Output_27"
     pin:
       mcp23xxx: ${id_mcp23017}1
       number: 11
@@ -238,7 +238,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_1C"
+    name: "Output_28"
     pin:
       mcp23xxx: ${id_mcp23017}1
       number: 12
@@ -246,7 +246,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_1D"
+    name: "Output_29"
     pin:
       mcp23xxx: ${id_mcp23017}1
       number: 13
@@ -254,7 +254,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_1E"
+    name: "Output_30"
     pin:
       mcp23xxx: ${id_mcp23017}1
       number: 14
@@ -262,7 +262,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_1F"
+    name: "Output_31"
     pin:
       mcp23xxx: ${id_mcp23017}1
       number: 15
@@ -271,7 +271,7 @@ switch:
       inverted: false
 # Individual output hub2
   - platform: gpio
-    name: "_20"
+    name: "Output_32"
     pin:
       mcp23xxx: ${id_mcp23017}2
       number: 0
@@ -279,7 +279,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_21"
+    name: "Output_33"
     pin:
       mcp23xxx: ${id_mcp23017}2
       number: 1
@@ -287,7 +287,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_22"
+    name: "Output_34"
     pin:
       mcp23xxx: ${id_mcp23017}2
       number: 2
@@ -295,7 +295,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_23"
+    name: "Output_35"
     pin:
       mcp23xxx: ${id_mcp23017}2
       number: 3
@@ -303,7 +303,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_24"
+    name: "Output_36"
     pin:
       mcp23xxx: ${id_mcp23017}2
       number: 4
@@ -311,7 +311,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_25"
+    name: "Output_37"
     pin:
       mcp23xxx: ${id_mcp23017}2
       number: 5
@@ -319,7 +319,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_26"
+    name: "Output_38"
     pin:
       mcp23xxx: ${id_mcp23017}2
       number: 6
@@ -327,7 +327,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_27"
+    name: "Output_39"
     pin:
       mcp23xxx: ${id_mcp23017}2
       number: 7
@@ -335,7 +335,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_28"
+    name: "Output_40"
     pin:
       mcp23xxx: ${id_mcp23017}2
       number: 8
@@ -343,7 +343,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_29"
+    name: "Output_41"
     pin:
       mcp23xxx: ${id_mcp23017}2
       number: 9
@@ -351,7 +351,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_2A"
+    name: "Output_42"
     pin:
       mcp23xxx: ${id_mcp23017}2
       number: 10
@@ -359,7 +359,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_2B"
+    name: "Output_43"
     pin:
       mcp23xxx: ${id_mcp23017}2
       number: 11
@@ -367,7 +367,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_2C"
+    name: "Output_44"
     pin:
       mcp23xxx: ${id_mcp23017}2
       number: 12
@@ -375,7 +375,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_2D"
+    name: "Output_45"
     pin:
       mcp23xxx: ${id_mcp23017}2
       number: 13
@@ -383,7 +383,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_2E"
+    name: "Output_46"
     pin:
       mcp23xxx: ${id_mcp23017}2
       number: 14
@@ -391,7 +391,7 @@ switch:
         output: true
       inverted: false
   - platform: gpio
-    name: "_2F"
+    name: "Output_47"
     pin:
       mcp23xxx: ${id_mcp23017}2
       number: 15

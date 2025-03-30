@@ -1,7 +1,7 @@
 # Individual input hub3
 binary_sensor:
   - platform: gpio
-    name: "_30"
+    name: "Input_00"
     pin:
       mcp23xxx: ${id_mcp23017}3
       number: 0
@@ -13,7 +13,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_31"
+    name: "Input_01"
     pin:
       mcp23xxx: ${id_mcp23017}3
       number: 1
@@ -25,7 +25,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_32"
+    name: "Input_02"
     pin:
       mcp23xxx: ${id_mcp23017}3
       number: 2
@@ -37,7 +37,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_33"
+    name: "Input_03"
     pin:
       mcp23xxx: ${id_mcp23017}3
       number: 3
@@ -49,7 +49,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_34"
+    name: "Input_04"
     pin:
       mcp23xxx: ${id_mcp23017}3
       number: 4
@@ -61,7 +61,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_35"
+    name: "Input_05"
     pin:
       mcp23xxx: ${id_mcp23017}3
       number: 5
@@ -73,7 +73,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_36"
+    name: "Input_06"
     pin:
       mcp23xxx: ${id_mcp23017}3
       number: 6
@@ -85,7 +85,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_37"
+    name: "Input_07"
     pin:
       mcp23xxx: ${id_mcp23017}3
       number: 7
@@ -97,7 +97,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_38"
+    name: "Input_08"
     pin:
       mcp23xxx: ${id_mcp23017}3
       number: 8
@@ -109,7 +109,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_39"
+    name: "Input_09"
     pin:
       mcp23xxx: ${id_mcp23017}3
       number: 9
@@ -121,7 +121,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_3A"
+    name: "Input_10"
     pin:
       mcp23xxx: ${id_mcp23017}3
       number: 10
@@ -133,7 +133,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_3B"
+    name: "Input_11"
     pin:
       mcp23xxx: ${id_mcp23017}3
       number: 11
@@ -145,7 +145,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_3C"
+    name: "Input_12"
     pin:
       mcp23xxx: ${id_mcp23017}3
       number: 12
@@ -157,7 +157,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_3D"
+    name: "Input_13"
     pin:
       mcp23xxx: ${id_mcp23017}3
       number: 13
@@ -169,7 +169,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_3E"
+    name: "Input_14"
     pin:
       mcp23xxx: ${id_mcp23017}3
       number: 14
@@ -181,7 +181,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_3F"
+    name: "Input_15"
     pin:
       mcp23xxx: ${id_mcp23017}3
       number: 15
@@ -195,7 +195,7 @@ binary_sensor:
 # Individual input hub4
 #binary_sensor:
   - platform: gpio
-    name: "_40"
+    name: "Input_16"
     pin:
       mcp23xxx: ${id_mcp23017}4
       number: 0
@@ -207,7 +207,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_41"
+    name: "Input_17"
     pin:
       mcp23xxx: ${id_mcp23017}4
       number: 1
@@ -219,7 +219,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_42"
+    name: "Input_18"
     pin:
       mcp23xxx: ${id_mcp23017}4
       number: 2
@@ -231,7 +231,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_43"
+    name: "Input_19"
     pin:
       mcp23xxx: ${id_mcp23017}4
       number: 3
@@ -243,7 +243,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_44"
+    name: "Input_20"
     pin:
       mcp23xxx: ${id_mcp23017}4
       number: 4
@@ -255,7 +255,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_45"
+    name: "Input_21"
     pin:
       mcp23xxx: ${id_mcp23017}4
       number: 5
@@ -267,7 +267,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_46"
+    name: "Input_22"
     pin:
       mcp23xxx: ${id_mcp23017}4
       number: 6
@@ -279,7 +279,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_47"
+    name: "Input_23"
     pin:
       mcp23xxx: ${id_mcp23017}4
       number: 7
@@ -291,7 +291,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_48"
+    name: "Input_24"
     pin:
       mcp23xxx: ${id_mcp23017}4
       number: 8
@@ -303,7 +303,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_49"
+    name: "Input_25"
     pin:
       mcp23xxx: ${id_mcp23017}4
       number: 9
@@ -315,7 +315,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_4A"
+    name: "Input_26"
     pin:
       mcp23xxx: ${id_mcp23017}4
       number: 10
@@ -327,7 +327,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_4B"
+    name: "Input_27"
     pin:
       mcp23xxx: ${id_mcp23017}4
       number: 11
@@ -339,7 +339,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_4C"
+    name: "Input_28"
     pin:
       mcp23xxx: ${id_mcp23017}4
       number: 12
@@ -351,7 +351,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_4D"
+    name: "Input_29"
     pin:
       mcp23xxx: ${id_mcp23017}4
       number: 13
@@ -363,7 +363,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_4E"
+    name: "Input_30"
     pin:
       mcp23xxx: ${id_mcp23017}4
       number: 14
@@ -375,7 +375,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_4F"
+    name: "Input_31"
     pin:
       mcp23xxx: ${id_mcp23017}4
       number: 15
@@ -389,7 +389,7 @@ binary_sensor:
 # Individual input hub5
 #binary_sensor:
   - platform: gpio
-    name: "_50"
+    name: "Input_32"
     pin:
       mcp23xxx: ${id_mcp23017}5
       number: 0
@@ -401,7 +401,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_51"
+    name: "Input_33"
     pin:
       mcp23xxx: ${id_mcp23017}5
       number: 1
@@ -413,7 +413,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_52"
+    name: "Input_34"
     pin:
       mcp23xxx: ${id_mcp23017}5
       number: 2
@@ -425,7 +425,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_53"
+    name: "Input_35"
     pin:
       mcp23xxx: ${id_mcp23017}5
       number: 3
@@ -437,7 +437,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_54"
+    name: "Input_36"
     pin:
       mcp23xxx: ${id_mcp23017}5
       number: 4
@@ -449,7 +449,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_55"
+    name: "Input_37"
     pin:
       mcp23xxx: ${id_mcp23017}5
       number: 5
@@ -461,7 +461,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_56"
+    name: "Input_38"
     pin:
       mcp23xxx: ${id_mcp23017}5
       number: 6
@@ -473,7 +473,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_57"
+    name: "Input_39"
     pin:
       mcp23xxx: ${id_mcp23017}5
       number: 7
@@ -485,7 +485,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_58"
+    name: "Input_40"
     pin:
       mcp23xxx: ${id_mcp23017}5
       number: 8
@@ -497,7 +497,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_59"
+    name: "Input_41"
     pin:
       mcp23xxx: ${id_mcp23017}5
       number: 9
@@ -509,7 +509,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_5A"
+    name: "Input_42"
     pin:
       mcp23xxx: ${id_mcp23017}5
       number: 10
@@ -521,7 +521,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_5B"
+    name: "Input_43"
     pin:
       mcp23xxx: ${id_mcp23017}5
       number: 11
@@ -533,7 +533,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_5C"
+    name: "Input_44"
     pin:
       mcp23xxx: ${id_mcp23017}5
       number: 12
@@ -545,7 +545,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_5D"
+    name: "Input_45"
     pin:
       mcp23xxx: ${id_mcp23017}5
       number: 13
@@ -557,7 +557,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_5E"
+    name: "Input_46"
     pin:
       mcp23xxx: ${id_mcp23017}5
       number: 14
@@ -569,7 +569,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_5F"
+    name: "Input_47"
     pin:
       mcp23xxx: ${id_mcp23017}5
       number: 15
@@ -583,7 +583,7 @@ binary_sensor:
 # Individual input hub6
 #binary_sensor:
   - platform: gpio
-    name: "_60"
+    name: "Input_48"
     pin:
       mcp23xxx: ${id_mcp23017}6
       number: 0
@@ -595,7 +595,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_61"
+    name: "Input_49"
     pin:
       mcp23xxx: ${id_mcp23017}6
       number: 1
@@ -607,7 +607,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_62"
+    name: "Input_50"
     pin:
       mcp23xxx: ${id_mcp23017}6
       number: 2
@@ -619,7 +619,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_63"
+    name: "Input_51"
     pin:
       mcp23xxx: ${id_mcp23017}6
       number: 3
@@ -631,7 +631,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_64"
+    name: "Input_52"
     pin:
       mcp23xxx: ${id_mcp23017}6
       number: 4
@@ -643,7 +643,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_65"
+    name: "Input_53"
     pin:
       mcp23xxx: ${id_mcp23017}6
       number: 5
@@ -655,7 +655,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_66"
+    name: "Input_54"
     pin:
       mcp23xxx: ${id_mcp23017}6
       number: 6
@@ -667,7 +667,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_67"
+    name: "Input_55"
     pin:
       mcp23xxx: ${id_mcp23017}6
       number: 7
@@ -679,7 +679,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_68"
+    name: "Input_56"
     pin:
       mcp23xxx: ${id_mcp23017}6
       number: 8
@@ -691,7 +691,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_69"
+    name: "Input_57"
     pin:
       mcp23xxx: ${id_mcp23017}6
       number: 9
@@ -703,7 +703,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_6A"
+    name: "Input_58"
     pin:
       mcp23xxx: ${id_mcp23017}6
       number: 10
@@ -715,7 +715,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_6B"
+    name: "Input_59"
     pin:
       mcp23xxx: ${id_mcp23017}6
       number: 11
@@ -727,7 +727,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_6C"
+    name: "Input_60"
     pin:
       mcp23xxx: ${id_mcp23017}6
       number: 12
@@ -739,7 +739,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_6D"
+    name: "Input_61"
     pin:
       mcp23xxx: ${id_mcp23017}6
       number: 13
@@ -751,7 +751,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_6E"
+    name: "Input_62"
     pin:
       mcp23xxx: ${id_mcp23017}6
       number: 14
@@ -763,7 +763,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_6F"
+    name: "Input_63"
     pin:
       mcp23xxx: ${id_mcp23017}6
       number: 15
@@ -777,7 +777,7 @@ binary_sensor:
 # Individual input hub7
 #binary_sensor:
   - platform: gpio
-    name: "_70"
+    name: "Input_64"
     pin:
       mcp23xxx: ${id_mcp23017}7
       number: 0
@@ -789,7 +789,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_71"
+    name: "Input_65"
     pin:
       mcp23xxx: ${id_mcp23017}7
       number: 1
@@ -801,7 +801,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_72"
+    name: "Input_66"
     pin:
       mcp23xxx: ${id_mcp23017}7
       number: 2
@@ -813,7 +813,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_73"
+    name: "Input_67"
     pin:
       mcp23xxx: ${id_mcp23017}7
       number: 3
@@ -825,7 +825,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_74"
+    name: "Input_68"
     pin:
       mcp23xxx: ${id_mcp23017}7
       number: 4
@@ -837,7 +837,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_75"
+    name: "Input_69"
     pin:
       mcp23xxx: ${id_mcp23017}7
       number: 5
@@ -849,7 +849,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_76"
+    name: "Input_70"
     pin:
       mcp23xxx: ${id_mcp23017}7
       number: 6
@@ -861,7 +861,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_77"
+    name: "Input_71"
     pin:
       mcp23xxx: ${id_mcp23017}7
       number: 7
@@ -873,7 +873,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_78"
+    name: "Input_72"
     pin:
       mcp23xxx: ${id_mcp23017}7
       number: 8
@@ -885,7 +885,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_79"
+    name: "Input_73"
     pin:
       mcp23xxx: ${id_mcp23017}7
       number: 9
@@ -897,7 +897,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_7A"
+    name: "Input_74"
     pin:
       mcp23xxx: ${id_mcp23017}7
       number: 10
@@ -909,7 +909,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_7B"
+    name: "Input_75"
     pin:
       mcp23xxx: ${id_mcp23017}7
       number: 11
@@ -921,7 +921,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_7C"
+    name: "Input_76"
     pin:
       mcp23xxx: ${id_mcp23017}7
       number: 12
@@ -933,7 +933,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_7D"
+    name: "Input_77"
     pin:
       mcp23xxx: ${id_mcp23017}7
       number: 13
@@ -945,7 +945,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_7E"
+    name: "Input_78"
     pin:
       mcp23xxx: ${id_mcp23017}7
       number: 14
@@ -957,7 +957,7 @@ binary_sensor:
       - delayed_off: ${track_delayed_off}
       - delayed_on: ${track_delayed_on}
   - platform: gpio
-    name: "_7F"
+    name: "Input_79"
     pin:
       mcp23xxx: ${id_mcp23017}7
       number: 15

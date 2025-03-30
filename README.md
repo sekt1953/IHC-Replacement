@@ -24,3 +24,20 @@ Jeg har i forevejen et Home Assistant project igang, så nu vil jeg fremstille P
   * ![images trykholder](./FreeCAD/TrykHolder/Images/Skærmbillede%20fra%202025-03-21%2016-08-51.png)
   * ![images insite trykholder](./FreeCAD/TrykHolder/Images/Skærmbillede%20fra%202025-03-21%2016-20-50.png)
   * [FreeCAD File for TrykHolder](./FreeCAD/TrykHolder/Trykholder_v4.FCStd)
+
+## Home Assistant
+
+* ![Skærmbilled](./HomeAssistant/Images/
+Skærmbillede%20fra%202025-03-30%2011-12-03.png)
+  * [Raw configuration Finn's IHC](./ESPHome/ihc1.yaml)
+
+## ESPHome
+
+* [ihc1.yaml](./ESPHome/ihc1.yaml)
+* Include files
+  * ESP32 
+    * [.olimex-esp32-poe.yaml](./ESPHome/Includes/ESP32/.olimex-esp32-poe.yaml)
+  * MCP23017
+    * [.mcp23017_ids.yaml](./ESPHome/Includes/MCP23017/.mcp23017_ids.yaml)
+    * [.mcp23017_input.yaml](./ESPHome/Includes/MCP23017/.mcp23017_input.yaml)
+    * [.mcp23017_output.yaml](./ESPHome/Includes/MCP23017/.mcp23017_output.yaml)

@@ -1,0 +1,532 @@
+  - type: sections
+    max_columns: 4
+    title: Finn IHC1
+    path: finn-ihc1
+    sections:
+      - type: grid
+        cards:
+          - type: heading
+            heading: Input 0-15
+            heading_style: title
+          - type: tile
+            entity: binary_sensor.ihc1_input_00
+          - type: tile
+            entity: binary_sensor.ihc1_input_01
+          - type: tile
+            entity: binary_sensor.ihc1_input_02
+          - type: tile
+            entity: binary_sensor.ihc1_input_03
+          - type: tile
+            entity: binary_sensor.ihc1_input_04
+          - type: tile
+            entity: binary_sensor.ihc1_input_05
+          - type: tile
+            entity: binary_sensor.ihc1_input_06
+          - type: tile
+            entity: binary_sensor.ihc1_input_07
+          - type: tile
+            entity: binary_sensor.ihc1_input_08
+          - type: tile
+            entity: binary_sensor.ihc1_input_09
+          - type: tile
+            entity: binary_sensor.ihc1_input_10
+          - type: tile
+            entity: binary_sensor.ihc1_input_11
+          - type: tile
+            entity: binary_sensor.ihc1_input_12
+          - type: tile
+            entity: binary_sensor.ihc1_input_13
+          - type: tile
+            entity: binary_sensor.ihc1_input_14
+          - type: tile
+            entity: binary_sensor.ihc1_input_15
+          - type: heading
+            heading: Input 16-31
+            heading_style: title
+          - type: tile
+            entity: binary_sensor.ihc1_input_16
+          - type: tile
+            entity: binary_sensor.ihc1_input_17
+          - type: tile
+            entity: binary_sensor.ihc1_input_18
+          - type: tile
+            entity: binary_sensor.ihc1_input_19
+          - type: tile
+            entity: binary_sensor.ihc1_input_20
+          - type: tile
+            entity: binary_sensor.ihc1_input_21
+          - type: tile
+            entity: binary_sensor.ihc1_input_22
+          - type: tile
+            entity: binary_sensor.ihc1_input_23
+          - type: tile
+            entity: binary_sensor.ihc1_input_24
+          - type: tile
+            entity: binary_sensor.ihc1_input_25
+          - type: tile
+            entity: binary_sensor.ihc1_input_26
+          - type: tile
+            entity: binary_sensor.ihc1_input_27
+          - type: tile
+            entity: binary_sensor.ihc1_input_28
+          - type: tile
+            entity: binary_sensor.ihc1_input_29
+          - type: tile
+            entity: binary_sensor.ihc1_input_30
+          - type: tile
+            entity: binary_sensor.ihc1_input_31
+          - type: heading
+            heading: Input 32-47
+            heading_style: title
+          - type: tile
+            entity: binary_sensor.ihc1_input_32
+          - type: tile
+            entity: binary_sensor.ihc1_input_33
+          - type: tile
+            entity: binary_sensor.ihc1_input_34
+          - type: tile
+            entity: binary_sensor.ihc1_input_35
+          - type: tile
+            entity: binary_sensor.ihc1_input_36
+          - type: tile
+            entity: binary_sensor.ihc1_input_37
+          - type: tile
+            entity: binary_sensor.ihc1_input_38
+          - type: tile
+            entity: binary_sensor.ihc1_input_39
+          - type: tile
+            entity: binary_sensor.ihc1_input_40
+          - type: tile
+            entity: binary_sensor.ihc1_input_41
+          - type: tile
+            entity: binary_sensor.ihc1_input_42
+          - type: tile
+            entity: binary_sensor.ihc1_input_43
+          - type: tile
+            entity: binary_sensor.ihc1_input_44
+          - type: tile
+            entity: binary_sensor.ihc1_input_45
+          - type: tile
+            entity: binary_sensor.ihc1_input_46
+          - type: tile
+            entity: binary_sensor.ihc1_input_47
+          - type: heading
+            heading: Input 48-63
+            heading_style: title
+          - type: tile
+            entity: binary_sensor.ihc1_input_48
+          - type: tile
+            entity: binary_sensor.ihc1_input_49
+          - type: tile
+            entity: binary_sensor.ihc1_input_50
+          - type: tile
+            entity: binary_sensor.ihc1_input_51
+          - type: tile
+            entity: binary_sensor.ihc1_input_52
+          - type: tile
+            entity: binary_sensor.ihc1_input_53
+          - type: tile
+            entity: binary_sensor.ihc1_input_54
+          - type: tile
+            entity: binary_sensor.ihc1_input_55
+          - type: tile
+            entity: binary_sensor.ihc1_input_56
+          - type: tile
+            entity: binary_sensor.ihc1_input_57
+          - type: tile
+            entity: binary_sensor.ihc1_input_58
+          - type: tile
+            entity: binary_sensor.ihc1_input_59
+          - type: tile
+            entity: binary_sensor.ihc1_input_60
+          - type: tile
+            entity: binary_sensor.ihc1_input_61
+          - type: tile
+            entity: binary_sensor.ihc1_input_62
+          - type: tile
+            entity: binary_sensor.ihc1_input_63
+          - type: heading
+            heading: Input 64-79
+            heading_style: title
+          - type: tile
+            entity: binary_sensor.ihc1_input_64
+          - type: tile
+            entity: binary_sensor.ihc1_input_65
+          - type: tile
+            entity: binary_sensor.ihc1_input_66
+          - type: tile
+            entity: binary_sensor.ihc1_input_67
+          - type: tile
+            entity: binary_sensor.ihc1_input_68
+          - type: tile
+            entity: binary_sensor.ihc1_input_69
+          - type: tile
+            entity: binary_sensor.ihc1_input_70
+          - type: tile
+            entity: binary_sensor.ihc1_input_71
+          - type: tile
+            entity: binary_sensor.ihc1_input_72
+          - type: tile
+            entity: binary_sensor.ihc1_input_73
+          - type: tile
+            entity: binary_sensor.ihc1_input_74
+          - type: tile
+            entity: binary_sensor.ihc1_input_75
+          - type: tile
+            entity: binary_sensor.ihc1_input_76
+          - type: tile
+            entity: binary_sensor.ihc1_input_77
+          - type: tile
+            entity: binary_sensor.ihc1_input_78
+          - type: tile
+            entity: binary_sensor.ihc1_input_79
+        column_span: 2
+      - type: grid
+        cards:
+          - type: heading
+            heading: Output 0-15
+            heading_style: title
+          - type: tile
+            entity: switch.ihc1_output_00
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_01
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_02
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_03
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_04
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_05
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_06
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_07
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_08
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_09
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_10
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_11
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_12
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_13
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_14
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_15
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: heading
+            heading: Output 16-31
+            heading_style: title
+          - type: tile
+            entity: switch.ihc1_output_16
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_17
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_18
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_19
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_20
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_21
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_22
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_23
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_24
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_25
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_26
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_27
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_28
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_29
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_30
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_31
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: heading
+            heading: Output 32-47
+            heading_style: title
+          - type: tile
+            entity: switch.ihc1_output_32
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_33
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_34
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_35
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_36
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_37
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_38
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_39
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_40
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_41
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_42
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_43
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_44
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_45
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_46
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: tile
+            entity: switch.ihc1_output_47
+            features_position: bottom
+            vertical: false
+            tap_action:
+              action: toggle
+          - type: heading
+            heading: MCU Tools
+          - type: tile
+            entity: button.ihc1_restart_ihc1
+            features_position: bottom
+            vertical: false
+            grid_options:
+              columns: 12
+              rows: 1
+            name: Restart MCU
+          - type: heading
+            heading: MCU Info
+          - type: tile
+            entity: sensor.ihc1_dns_address_ihc1
+            features_position: bottom
+            vertical: false
+            grid_options:
+              columns: 12
+              rows: 1
+            name: 'DNS Address '
+          - type: tile
+            entity: sensor.ihc1_ip_address_ihc1
+            features_position: bottom
+            vertical: false
+            grid_options:
+              columns: 12
+              rows: 1
+            name: IP Address
+          - type: tile
+            entity: sensor.ihc1_mac_address_ihc1
+            features_position: bottom
+            vertical: false
+            grid_options:
+              columns: 12
+              rows: 1
+            name: MAC Address
+          - type: tile
+            entity: update.ihc1_firmware
+            features_position: bottom
+            vertical: false
+            grid_options:
+              columns: 12
+              rows: 1
+            name: Firmware
+        column_span: 2
+    header:
+      card:
+        type: markdown
+        text_only: true
+        content: '# Finn''s IHC'
