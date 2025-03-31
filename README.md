@@ -11,10 +11,29 @@ Jeg har i forevejen et Home Assistant project igang, så nu vil jeg fremstille P
   * ![PCB 0.22](./Fritzing/IO-PCB/FritzingFab_v_0.22/Input_Board_021_pcb.png)
   * ![schem 0.22](./Fritzing/IO-PCB/FritzingFab_v_0.22/Input_Board_021_schem.png)
   * [fzz 0.22](./Fritzing/IO-PCB/FritzingFab_v_0.22/Input_Board_022.fzz)
-* I/O Ver. 0.30
-  * ![PCB 0.30](./Fritzing/IO-PCB/v_0.30/Input_Board_030_pcb.png )
-  * ![schem 0.30](./Fritzing/IO-PCB/v_0.30/Input_Board_030_schem.png)
-  * [Fritzing file version 0.30](./Fritzing/IO-PCB/v_0.30/Input_Board_030.fzz)
+* I/O Ver. 0.40 
+  * ![PCB 0.40](./Fritzing/IO-PCB/v_0.4.0/Input_Board_040_pcb.png )
+  * ![schem 0.40](./Fritzing/IO-PCB/v_0.4.0/Input_Board_040_schem.png)
+  * [Fritzing file version 0.30](./Fritzing/IO-PCB/v_0.4.0/Input_Board_040.fzz)
+
+### Bill of Materials
+
+* I/O-PCB IHC-Replacement v.040 20250331 16:39
+  * Fælleds for Input og Output config
+    * 1 stk PCB, I/O-PCB IHC-Replacement v.040
+    * 2 stk MCP20017-E/SP 16-bit
+    * 2 stk Ceramic Capacitor 100nF
+    * 2 stk 10kΩ Resistor SMD 1206
+    * 2 stk 5 pol connector for I2C bus, vinkel MOD 2,54mm
+    * 4 stk 10 pol connector for Input / Output, KF141R-10P MOD 2,54mm
+    * 2 stk jumper for I2C addr. settings
+    * 1 stk Lodepasta 138 Deg. 30g
+  * Matrialer for Input PCB
+    * 64 stk 1N4148 SMD 1206
+    * 32 stk 10kΩ Resistor SMD 1206
+  * Matrialer for Output PCB
+    * 4 stk ULN2803A
+    * 2 stk 3pol connector for nødbelysning MOD 2,54mm
 
 ## FreeCAD
 
