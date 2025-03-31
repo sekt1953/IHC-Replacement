@@ -27,7 +27,7 @@ Jeg har i forevejen et Home Assistant project igang, så nu vil jeg fremstille P
     * 2 stk 5 pol connector for I2C bus, vinkel MOD 2,54mm
     * 4 stk 10 pol connector for Input / Output, KF141R-10P MOD 2,54mm
     * 2 stk jumper for I2C addr. settings
-    * 1 stk Lodepasta 138 Deg. 30g
+    * 1 Tube SMD Solder Paste Flux Low Temperature 138°C 30g
   * Matrialer for Input PCB
     * 64 stk 1N4148 SMD 1206
     * 32 stk 10kΩ Resistor SMD 1206
