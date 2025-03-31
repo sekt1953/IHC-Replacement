@@ -14,7 +14,7 @@ Jeg har i forevejen et Home Assistant project igang, så nu vil jeg fremstille P
 * I/O Ver. 0.40 
   * ![PCB 0.40](./Fritzing/IO-PCB/v_0.4.0/Input_Board_040_pcb.png )
   * ![schem 0.40](./Fritzing/IO-PCB/v_0.4.0/Input_Board_040_schem.png)
-  * [Fritzing file version 0.30](./Fritzing/IO-PCB/v_0.4.0/Input_Board_040.fzz)
+  * [Fritzing file version 0.40](./Fritzing/IO-PCB/v_0.4.0/Input_Board_040.fzz)
 
 ### Bill of Materials
 
