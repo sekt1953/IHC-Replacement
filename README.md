@@ -11,10 +11,10 @@ Jeg har i forevejen et Home Assistant project igang, så nu vil jeg fremstille P
   * ![PCB 0.22](./Fritzing/IO-PCB/FritzingFab_v_0.22/Input_Board_021_pcb.png)
   * ![schem 0.22](./Fritzing/IO-PCB/FritzingFab_v_0.22/Input_Board_021_schem.png)
   * [fzz 0.22](./Fritzing/IO-PCB/FritzingFab_v_0.22/Input_Board_022.fzz)
-* I/O Ver. 0.40 
-  * ![PCB 0.40](./Fritzing/IO-PCB/v_0.4.0/Input_Board_040_pcb.png )
-  * ![schem 0.40](./Fritzing/IO-PCB/v_0.4.0/Input_Board_040_schem.png)
-  * [Fritzing file version 0.40](./Fritzing/IO-PCB/v_0.4.0/Input_Board_040.fzz)
+* I/O Ver. 0.41 
+  * ![PCB 0.41](./Fritzing/IO-PCB/v_0.4.x/041/Input_Board_041_pcb.png )
+  * ![schem 0.41](./Fritzing/IO-PCB/v_0.4.x/041/Input_Board_041_schem.png)
+  * [Fritzing file version 0.41](./Fritzing/IO-PCB/v_0.4.x/041/Input_Board_041.fzz)
 
 ### Bill of Materials
 
