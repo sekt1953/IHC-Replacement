@@ -37,8 +37,14 @@ Jeg har i forevejen et Home Assistant project igang, så nu vil jeg fremstille P
 
 ## FreeCAD
 
-* [DINBox ](./FreeCAD/DINBox_002.FCStd)
+* [DINBox FreeCAD-file](./FreeCAD/DINBox_002.FCStd)
   * ![Images dinbox](./FreeCAD/Images/Skærmbillede%20fra%202024-12-03%2021-47-26.png)
+* [DinBox_100 FreeCAD-file](./FreeCAD/DinBox_100.FCStd)
+  * ![DinBox_100](./FreeCAD/Images/DinBox_100-Bottom.png)
+* DimentionXY plan
+  * ![DinBox_100-Bottom-DimentionXY](./FreeCAD/Images/DinBox_100-Bottom-DimentionXY.png)
+* DimentionYZ plan
+  * ![DinBox_100-Bottom-DimentionYZ](./FreeCAD/Images/DinBox_100-Bottom-DimentionYZ.png)
 
 ## Home Assistant
 
