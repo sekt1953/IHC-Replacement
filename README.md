@@ -55,5 +55,5 @@ Jeg har i forevejen et Home Assistant project igang, så nu vil jeg fremstille P
   * [.olimex-esp32-poe.yaml](./ESPHome/Includes/ESP32/.olimex-esp32-poe.yaml)
 * MCP23017
   * [.mcp23017_ids.yaml](./ESPHome/Includes/MCP23017/.mcp23017_ids.yaml)
-  * [.mcp23017_input.yaml](./ESPHome/Includes/MCP23017/.mcp23017_input.yamlmcp23017_input.yaml)
+  * [.mcp23017_input.yaml](./ESPHome/Includes/MCP23017/.mcp23017_input.yaml)
   * [.mcp23017_output.yaml](./ESPHome/Includes/MCP23017/.mcp23017_output.yaml)
