@@ -49,7 +49,10 @@ Jeg har i forevejen et Home Assistant project igang, så nu vil jeg fremstille P
 
 ### YAML-files
 
-* Basic file
+* Opsætningen her er for:
+  * 48 output for relæer type [Finder](./DataSheet/Finder/Finder.md)
+  * 80 input med transient beskyttelse.
+* **Basic file**
   * [ihc1.yaml](./ESPHome/ihc1.yaml)
 * ESP32 
   * [.olimex-esp32-poe.yaml](./ESPHome/Includes/ESP32/.olimex-esp32-poe.yaml)
