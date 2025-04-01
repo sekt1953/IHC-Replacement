@@ -44,3 +44,16 @@ Jeg har i forevejen et Home Assistant project igang, så nu vil jeg fremstille P
 
 * ![Skærmbilled](./HomeAssistant/Images/Skærmbillede%20fra%202025-03-30%2011-12-03.png)
   * [Raw configuration Finn's IHC](./HomeAssistant/RawConfigurationFinnsIHC.yaml)
+
+## ESPHome
+
+### YAML-files
+
+* Basic file
+  * [ihc1.yaml](./ESPHome/ihc1.yaml)
+* ESP32 
+  * [.olimex-esp32-poe.yaml](./ESPHome/Includes/ESP32/.olimex-esp32-poe.yaml)
+* MCP23017
+  * [.mcp23017_ids.yaml](./ESPHome/Includes/MCP23017/.mcp23017_ids.yaml)
+  * [.mcp23017_input.yaml](./ESPHome/Includes/MCP23017/.mcp23017_input.yamlmcp23017_input.yaml)
+  * [.mcp23017_output.yaml](./ESPHome/Includes/MCP23017/.mcp23017_output.yaml)

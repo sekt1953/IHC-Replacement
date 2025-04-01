@@ -41,7 +41,6 @@ substitutions:
   i2c_frequency: "10kHz"
 
 # ESP32 base config
-#<<: !include ./Includes/ESP32/.esp32dev.yaml  
 <<: !include ./Includes/ESP32/.olimex-esp32-poe.yaml
 
 # I/O Card
