@@ -157,3 +157,61 @@ sequence:
     data:
       message: " The sensor {{ trig_id }} has the value {{ trig_val }}"
 ```
+### Developer tools
+
+* Kilde:
+  * [Extract a nested array value in JSON](https://community.home-assistant.io/t/solved-extract-a-nested-array-value-in-json/173906/2)
+
+#### Template editor
+
+```yaml
+"meta" : [ { 
+    "publisher" : "Environment Agency" ,
+    "licence" : "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" ,
+    "documentation" : "http://environment.data.gov.uk/flood-monitoring/doc/reference" ,
+    "version" : "0.9" ,
+    "comment" : "Status: Beta service" ,
+    "hasFormat" : [ { "csv" : "http://environment.data.gov.uk/flood-monitoring/id/stations/2077/readings.csv?latest", "rdf" : "http://environment.data.gov.uk/flood-monitoring/id/stations/2077/readings.rdf?latest" } ]
+  } ],
+  "items" : [ { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/data/readings/2077-level-stage-i-15_min-mASD/2020-02-23T11-00-00Z" ,
+    "dateTime" : "2020-02-23T11:00:00Z" ,
+    "measure" : "http://environment.data.gov.uk/flood-monitoring/id/measures/2077-level-stage-i-15_min-mASD" ,
+    "value" : 3.518
+  }
+   ]
+} %}
+meta:
+{{ value_json['meta'][0].publisher }}
+{{ value_json['meta'][0].licence }}
+{{ value_json['meta'][0].documentation }}
+{{ value_json['meta'][0].version }}
+{{ value_json['meta'][0].comment }}
+{{ value_json['meta'][0].hasFormat[0].csv }}
+{{ value_json['meta'][0].hasFormat[0].rdf }}
+
+Items:
+{{ value_json['items'][0].id }}
+{{ value_json['items'][0].dateTime }}
+{{ value_json['items'][0].measure }}
+{{ value_json['items'][0].value }}
+```
+
+#### Result
+
+```yaml
+meta:
+Environment Agency
+http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+http://environment.data.gov.uk/flood-monitoring/doc/reference
+0.9
+Status: Beta service
+http://environment.data.gov.uk/flood-monitoring/id/stations/2077/readings.csv?latest
+http://environment.data.gov.uk/flood-monitoring/id/stations/2077/readings.rdf?latest
+
+Items:
+http://environment.data.gov.uk/flood-monitoring/data/readings/2077-level-stage-i-15_min-mASD/2020-02-23T11-00-00Z
+2020-02-23T11:00:00Z
+http://environment.data.gov.uk/flood-monitoring/id/measures/2077-level-stage-i-15_min-mASD
+3.518
+```
