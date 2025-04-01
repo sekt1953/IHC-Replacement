@@ -18,7 +18,7 @@ Jeg har i forevejen et Home Assistant project igang, så nu vil jeg fremstille P
 
 ### Bill of Materials
 
-* I/O-PCB IHC-Replacement v.040 20250331 16:39
+* I/O-PCB IHC-Replacement v.041 20250401 17:51
   * Fælleds for Input og Output config
     * 1 stk PCB, I/O-PCB IHC-Replacement v.040
     * 2 stk MCP20017-E/SP 16-bit
@@ -52,11 +52,14 @@ Jeg har i forevejen et Home Assistant project igang, så nu vil jeg fremstille P
 * Opsætningen her er for:
   * 48 output for relæer type [Finder](./DataSheet/Finder/Finder.md)
   * 80 input med transient beskyttelse.
-* **Basic file**
-  * [ihc1.yaml](./ESPHome/ihc1.yaml)
-* ESP32 
-  * [.olimex-esp32-poe.yaml](./ESPHome/Includes/ESP32/.olimex-esp32-poe.yaml)
-* MCP23017
-  * [.mcp23017_ids.yaml](./ESPHome/Includes/MCP23017/.mcp23017_ids.yaml)
-  * [.mcp23017_input.yaml](./ESPHome/Includes/MCP23017/.mcp23017_input.yaml)
-  * [.mcp23017_output.yaml](./ESPHome/Includes/MCP23017/.mcp23017_output.yaml)
+* MCU: **OLIMEX ESP32-POE-ISO-16MB**
+  * [Manual](./DataSheet/Olimex/ESP32-POE-user-manual.pdf)
+  * [Pinout](./DataSheet/Olimex/ESP32-POE-ISO-GPIO.png)
+  * **Basic file**
+    * [ihc1.yaml](./ESPHome/ihc1.yaml)
+  * ESP32 
+    * [.olimex-esp32-poe.yaml](./ESPHome/Includes/ESP32/.olimex-esp32-poe.yaml)
+  * MCP23017
+    * [.mcp23017_ids.yaml](./ESPHome/Includes/MCP23017/.mcp23017_ids.yaml)
+    * [.mcp23017_input.yaml](./ESPHome/Includes/MCP23017/.mcp23017_input.yaml)
+    * [.mcp23017_output.yaml](./ESPHome/Includes/MCP23017/.mcp23017_output.yaml)
