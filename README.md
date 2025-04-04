@@ -42,6 +42,8 @@ Jeg har i forevejen et Home Assistant project igang, så nu vil jeg fremstille P
   * ![DinBox_200_Top](./FreeCAD/DinBox/DinBox_200/Images/DinBox_200_Top.png)
 * DinBox_200_Body
   * ![DinBox_200_Body](./FreeCAD/DinBox/DinBox_200/Images/DinBox_200_Body.png)
+* DinBox_200_BodyYZ
+  * ![DinBox_200_BodyYZ](./FreeCAD/DinBox/DinBox_200/Images/DinBox_200_BodyYZ.png)
 * DinBox_200_BaseXY
   * ![DinBox_200_BaseXY](./FreeCAD/DinBox/DinBox_200/Images/DinBox_200_BaseXY.png)
 * DinBox_200_BaseYZ
