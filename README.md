@@ -37,14 +37,18 @@ Jeg har i forevejen et Home Assistant project igang, så nu vil jeg fremstille P
 
 ## FreeCAD
 
-* [DINBox FreeCAD-file](./FreeCAD/DINBox_002.FCStd)
-  * ![Images dinbox](./FreeCAD/Images/Skærmbillede%20fra%202024-12-03%2021-47-26.png)
-* [DinBox_100 FreeCAD-file](./FreeCAD/DinBox_100.FCStd)
-  * ![DinBox_100](./FreeCAD/Images/DinBox_100-Bottom.png)
-* DimentionXY plan
-  * ![DinBox_100-Bottom-DimentionXY](./FreeCAD/Images/DinBox_100-Bottom-DimentionXY.png)
-* DimentionYZ plan
-  * ![DinBox_100-Bottom-DimentionYZ](./FreeCAD/Images/DinBox_100-Bottom-DimentionYZ.png)
+* [DINBox_200 FreeCAD-file](./FreeCAD/DinBox/DinBox_200/DinBox_200.FCStd)
+* [DinBox_200_Top
+  * ![DinBox_200_Top](./FreeCAD/DinBox/DinBox_200/Images/DinBox_200_Top.png)
+* DinBox_200_Body
+  * ![DinBox_200_Body](./FreeCAD/DinBox/DinBox_200/Images/DinBox_200_Body.png)
+* DinBox_200_BaseXY
+  * ![DinBox_200_BaseXY](./FreeCAD/DinBox/DinBox_200/Images/DinBox_200_BaseXY.png)
+* DinBox_200_BaseYZ
+  * ![DinBox_200_BaseYZ](./FreeCAD/DinBox/DinBox_200/Images/DinBox_200_BaseYZ.png)
+* DINBox_200 3mf-file
+  * [DINBox_200 Top 3mf-file](./FreeCAD/DinBox/DinBox_200/DinBox_200-Top.3mf)
+  * [DINBox_200 Body 3mf-file](./FreeCAD/DinBox/DinBox_200/DinBox_200-Body002.3mf)
 
 ## Home Assistant
 
