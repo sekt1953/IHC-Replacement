@@ -22,7 +22,11 @@ logger:
 # Enable Home Assistant API
 api:
   encryption:
-    key: !secret api_key_omjk
+    key: !secret api_key_finn
+
+ota:
+  - platform: esphome
+    password: !secret ota_pass_finn
 
 # Example configuration entry
 text_sensor:
