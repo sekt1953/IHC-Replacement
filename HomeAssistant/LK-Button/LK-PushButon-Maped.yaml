@@ -11,14 +11,14 @@ actions:
     data:
       title: LK-PushBUtton-Maped
       message: "{{ states('input_text.lk_pushbutton_lastpressed') }}"
-  - action: switch.toggle
-    metadata: {}
-    data: {}
-    target:
-      entity_id: switch.ihc1_output_31
   - action: notify.persistent_notification
     metadata: {}
     data:
       title: LK-PushBUtton-Sensor
       message: "{{ states('sensor.lk_map') }}"
+  - action: switch.toggle
+    metadata: {}
+    data: {}
+    target:
+      entity_id: switch.ihc1_output_31
 mode: queued
