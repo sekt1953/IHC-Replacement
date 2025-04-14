@@ -16,4 +16,9 @@ actions:
     data: {}
     target:
       entity_id: switch.ihc1_output_31
+  - action: notify.persistent_notification
+    metadata: {}
+    data:
+      title: LK-PushBUtton-Sensor
+      message: "{{ states('sensor.lk_map') }}"
 mode: queued
