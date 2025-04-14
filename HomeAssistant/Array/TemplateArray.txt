@@ -1,0 +1,102 @@
+Template editor:
+
+{% set my_test_json = { "items": ["car","horse"] } %}
+* Items:{% for item in my_test_json["items"] %}
+ * {{item}}
+{%- endfor %}
+
+* Items[0]:
+ * {{my_test_json["items"][0]}}
+
+* Items[1]:
+ * {{my_test_json["items"][1]}}
+ 
+ 
+Result:
+
+* Items:
+ * car
+ * horse
+
+* Items[0]:
+ * car
+
+* Items[1]:
+ * horse
+
+
+Kilde: https://community.home-assistant.io/t/map-values-for-an-input-select/94354/4
+       https://community.home-assistant.io/u/petro/summary
+       
+Ok, so everything he has is what you would use if I read his post properly.
+
+ - id: set_motion_sensitivity
+    trigger:
+      [some_trigger]
+    action:
+      service: rest_command.hue_command
+      data_template:
+        command: config
+        data: 
+          sensitivity: >
+            {{states('input_select.set_hue_sensitity')}}
+        id: >
+          {% set mapper =
+            { 'Laundry':'22',
+              'Dining table':'52',
+              'Auditorium':'44',
+              'Frontdoor':'60',
+              'Dorm':'56',
+              'Corridor':'5',
+              'Corridor terrace':'33',
+              'Master bedroom':'48',
+              'Corridor Office':'28',
+              'Control room':'7',
+              'Attic':'12' } %}
+          {% set state = states('input_select.select_hue_motion_sensor') %}
+          {% set id = mapper[state] if state in mapper %}
+          {{id}}
+        type: sensors
+
+or you could create a template sensor that updates and just has the number.
+
+sensor:
+  - platform: template
+    sensors:
+      hue_map:
+        value_template: >
+          {% set mapper =
+            { 'Laundry':'22',
+              'Dining table':'52',
+              'Auditorium':'44',
+              'Frontdoor':'60',
+              'Dorm':'56',
+              'Corridor':'5',
+              'Corridor terrace':'33',
+              'Master bedroom':'48',
+              'Corridor Office':'28',
+              'Control room':'7',
+              'Attic':'12' } %}
+          {% set state = states('input_select.select_hue_motion_sensor') %}
+          {% set id = mapper[state] if state in mapper %}
+          {{ id }}
+          
+automation:
+
+  - id: set_motion_sensitivity
+    trigger:
+      [some_trigger]
+    action:
+      service: rest_command.hue_command
+      data_template:
+        command: config
+        data:
+          sensitivity: >
+            {{ states('input_select.set_hue_sensitity') }}
+        id: >
+          {{ states('sensor.hue_map') }}
+        type: sensors
+      
+
+
+        
