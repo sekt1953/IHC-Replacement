@@ -1,5 +1,5 @@
 alias: LK-PushButon-Maped
-description: ""
+description: "Mapping LK keypress to Group Entity-ID for Output swich"
 triggers:
   - trigger: state
     entity_id:

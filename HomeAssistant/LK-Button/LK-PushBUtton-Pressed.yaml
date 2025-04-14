@@ -1,5 +1,5 @@
 alias: LK-PushBUtton-Pressed
-description: ""
+description: "Reacts to to LK keypress and Change LK-PushButton-LastPressed state"
 triggers:
   - trigger: state
     entity_id:
