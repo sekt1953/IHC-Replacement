@@ -1,0 +1,19 @@
+alias: LK-PushButon-Maped
+description: ""
+triggers:
+  - trigger: state
+    entity_id:
+      - input_text.lk_pushbutton_lastpressed
+conditions: []
+actions:
+  - action: notify.persistent_notification
+    metadata: {}
+    data:
+      title: LK-PushBUtton-Maped
+      message: "{{ states('input_text.lk_pushbutton_lastpressed') }}"
+  - action: switch.toggle
+    metadata: {}
+    data: {}
+    target:
+      entity_id: switch.ihc1_output_31
+mode: queued

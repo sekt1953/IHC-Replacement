@@ -1,0 +1,15 @@
+Helpers:
+
+Name: LK-PushButton-LastPressed
+Icon: mdi:power-settings
+Minimum length: 0
+Maximum length: 10
+
+Display mode: Text
+Regex pattern:
+Entity ID: input_text.lk_pushbutton_lastpressed
+Area:
+Label:
+Voice assistants:
+Enabled: true
+Visible
