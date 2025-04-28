@@ -1,417 +1,541 @@
-alias: LK-PushBUtton-Pressed
-description: "Reacts to to LK keypress and Change LK-PushButton-LastPressed state"
-triggers:
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_00
-    to: "on"
-    id: Input_00
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_01
-    to: "on"
-    id: Input_01
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_02
-    to: "on"
-    id: Input_02
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_03
-    to: "on"
-    id: Input_03
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_04
-    to: "on"
-    id: Input_04
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_05
-    to: "on"
-    id: Input_05
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_06
-    to: "on"
-    id: Input_06
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_07
-    to: "on"
-    id: Input_07
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_08
-    to: "on"
-    id: Input_08
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_09
-    to: "on"
-    id: Input_09
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_10
-    to: "on"
-    id: Input_10
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_11
-    to: "on"
-    id: Input_11
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_12
-    to: "on"
-    id: Input_12
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_13
-    to: "on"
-    id: Input_13
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_14
-    to: "on"
-    id: Input_14
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_15
-    to: "on"
-    id: Input_15
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_16
-    to: "on"
-    id: Input_16
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_17
-    to: "on"
-    id: Input_17
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_18
-    to: "on"
-    id: Input_18
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_19
-    to: "on"
-    id: Input_19
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_20
-    to: "on"
-    id: Input_20
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_21
-    to: "on"
-    id: Input_21
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_22
-    to: "on"
-    id: Input_22
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_23
-    to: "on"
-    id: Input_23
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_24
-    to: "on"
-    id: Input_24
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_25
-    to: "on"
-    id: Input_25
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_26
-    to: "on"
-    id: Input_26
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_27
-    to: "on"
-    id: Input_27
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_28
-    to: "on"
-    id: Input_28
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_29
-    to: "on"
-    id: Input_29
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_30
-    to: "on"
-    id: Input_30
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_31
-    to: "on"
-    id: Input_31
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_32
-    to: "on"
-    id: Input_32
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_33
-    to: "on"
-    id: Input_33
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_34
-    to: "on"
-    id: Input_34
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_35
-    to: "on"
-    id: Input_35
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_36
-    to: "on"
-    id: Input_36
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_37
-    to: "on"
-    id: Input_37
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_38
-    to: "on"
-    id: Input_38
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_39
-    to: "on"
-    id: Input_39
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_40
-    to: "on"
-    id: Input_40
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_41
-    to: "on"
-    id: Input_41
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_42
-    to: "on"
-    id: Input_42
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_43
-    to: "on"
-    id: Input_43
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_44
-    to: "on"
-    id: Input_44
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_45
-    to: "on"
-    id: Input_45
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_46
-    to: "on"
-    id: Input_46
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_47
-    to: "on"
-    id: Input_47
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_48
-    to: "on"
-    id: Input_48
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_49
-    to: "on"
-    id: Input_49
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_50
-    to: "on"
-    id: Input_50
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_51
-    to: "on"
-    id: Input_51
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_52
-    to: "on"
-    id: Input_52
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_53
-    to: "on"
-    id: Input_53
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_54
-    to: "on"
-    id: Input_54
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_55
-    to: "on"
-    id: Input_55
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_56
-    to: "on"
-    id: Input_56
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_57
-    to: "on"
-    id: Input_57
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_58
-    to: "on"
-    id: Input_58
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_59
-    to: "on"
-    id: Input_59
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_60
-    to: "on"
-    id: Input_60
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_61
-    to: "on"
-    id: Input_61
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_62
-    to: "on"
-    id: Input_62
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_63
-    to: "on"
-    id: Input_63
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_64
-    to: "on"
-    id: Input_64
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_65
-    to: "on"
-    id: Input_65
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_66
-    to: "on"
-    id: Input_66
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_67
-    to: "on"
-    id: Input_67
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_68
-    to: "on"
-    id: Input_68
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_69
-    to: "on"
-    id: Input_69
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_70
-    to: "on"
-    id: Input_70
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_71
-    to: "on"
-    id: Input_71
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_72
-    to: "on"
-    id: Input_72
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_73
-    to: "on"
-    id: Input_73
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_74
-    to: "on"
-    id: Input_74
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_75
-    to: "on"
-    id: Input_75
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_76
-    to: "on"
-    id: Input_76
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_77
-    to: "on"
-    id: Input_77
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_78
-    to: "on"
-    id: Input_78
-  - trigger: state
-    entity_id:
-      - binary_sensor.ihc1_input_79
-    to: "on"
-    id: Input_79
-conditions: []
-actions:
-  - action: input_text.set_value
-    metadata: {}
-    data:
-      value: "{{ trigger.id }}"
-    target:
-      entity_id: input_text.lk_pushbutton_lastpressed
-  - action: notify.persistent_notification
-    metadata: {}
-    data:
-      title: LK-PushButton-Pressed Trigger-ID
-      message: "{{ trigger.id }}"
-mode: queued
+- id: "1745140632883"
+  alias: LK-PushBUtton-Pressed
+  description: Reacts to to LK keypress and Change LK-PushButton-LastPressed state
+  triggers:
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_00
+      to: "off"
+      id: Input_00
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_01
+      to: "off"
+      id: Input_01
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_02
+      to: "off"
+      id: Input_02
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_03
+      to: "off"
+      id: Input_03
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_04
+      to: "off"
+      id: Input_04
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_05
+      to: "off"
+      id: Input_05
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_06
+      to: "off"
+      id: Input_06
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_07
+      to: "off"
+      id: Input_07
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_08
+      to: "off"
+      id: Input_08
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_09
+      to: "off"
+      id: Input_09
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_10
+      to: "off"
+      id: Input_10
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_11
+      to: "off"
+      id: Input_11
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_12
+      to: "off"
+      id: Input_12
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_13
+      to: "off"
+      id: Input_13
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_14
+      to: "off"
+      id: Input_14
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_15
+      to: "off"
+      id: Input_15
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_16
+      to: "off"
+      id: Input_16
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_17
+      to: "off"
+      id: Input_17
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_18
+      to: "off"
+      id: Input_18
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_19
+      to: "off"
+      id: Input_19
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_20
+      to: "off"
+      id: Input_20
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_21
+      to: "off"
+      id: Input_21
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_22
+      to: "off"
+      id: Input_22
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_23
+      to: "off"
+      id: Input_23
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_24
+      to: "off"
+      id: Input_24
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_25
+      to: "off"
+      id: Input_25
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_26
+      to: "off"
+      id: Input_26
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_27
+      to: "off"
+      id: Input_27
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_28
+      to: "off"
+      id: Input_28
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_29
+      to: "off"
+      id: Input_29
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_30
+      to: "off"
+      id: Input_30
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_31
+      to: "off"
+      id: Input_31
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_32
+      to: "off"
+      id: Input_32
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_33
+      to: "off"
+      id: Input_33
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_34
+      to: "off"
+      id: Input_34
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_35
+      to: "off"
+      id: Input_35
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_36
+      to: "off"
+      id: Input_36
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_37
+      to: "off"
+      id: Input_37
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_38
+      to: "off"
+      id: Input_38
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_39
+      to: "off"
+      id: Input_39
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_40
+      to: "off"
+      id: Input_40
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_41
+      to: "off"
+      id: Input_41
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_42
+      to: "off"
+      id: Input_42
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_43
+      to: "off"
+      id: Input_43
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_44
+      to: "off"
+      id: Input_44
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_45
+      to: "off"
+      id: Input_45
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_46
+      to: "off"
+      id: Input_46
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_47
+      to: "off"
+      id: Input_47
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_48
+      to: "off"
+      id: Input_48
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_49
+      to: "off"
+      id: Input_49
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_50
+      to: "off"
+      id: Input_50
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_51
+      to: "off"
+      id: Input_51
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_52
+      to: "off"
+      id: Input_52
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_53
+      to: "off"
+      id: Input_53
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_54
+      to: "off"
+      id: Input_54
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_55
+      to: "off"
+      id: Input_55
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_56
+      to: "off"
+      id: Input_56
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_57
+      to: "off"
+      id: Input_57
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_58
+      to: "off"
+      id: Input_58
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_59
+      to: "off"
+      id: Input_59
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_60
+      to: "off"
+      id: Input_60
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_61
+      to: "off"
+      id: Input_61
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_62
+      to: "off"
+      id: Input_62
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_63
+      to: "off"
+      id: Input_63
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_64
+      to: "off"
+      id: Input_64
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_65
+      to: "off"
+      id: Input_65
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_66
+      to: "off"
+      id: Input_66
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_67
+      to: "off"
+      id: Input_67
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_68
+      to: "off"
+      id: Input_68
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_69
+      to: "off"
+      id: Input_69
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_70
+      to: "off"
+      id: Input_70
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_71
+      to: "off"
+      id: Input_71
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_72
+      to: "off"
+      id: Input_72
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_73
+      to: "off"
+      id: Input_73
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_74
+      to: "off"
+      id: Input_74
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_75
+      to: "off"
+      id: Input_75
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_76
+      to: "off"
+      id: Input_76
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_77
+      to: "off"
+      id: Input_77
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_78
+      to: "off"
+      id: Input_78
+      from: "on"
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_79
+      to: "off"
+      id: Input_79
+      from: "on"
+  conditions: []
+  actions:
+    - sequence:
+        - action: input_text.set_value
+          data_template:
+            value: "{{ trigger.id }}"
+          target:
+            entity_id: input_text.lk_pushbutton_lastpressed
+        - action: input_text.set_value
+          data_template:
+            value:
+              "{% set mapper =\n  {\n  'Input_00':['Sensor_00K','Sensor_00L'],\n
+              \ 'Input_01':['Sensor_01K','Sensor_01L'],\n  'Input_02':['Sensor_02K','Sensor_02L'],\n
+              \ 'Input_03':['Sensor_03K','Sensor_03L'],\n  'Input_04':['Sensor_04K','Sensor_04L'],\n
+              \ 'Input_05':['Sensor_05K','Sensor_05L'],\n  'Input_06':['Sensor_06K','Sensor_06L'],\n
+              \ 'Input_07':['Sensor_07K','Sensor_07L'],\n  'Input_08':['Sensor_08K','Sensor_08L'],\n
+              \ 'Input_09':['Sensor_09K','Sensor_09L'],\n  'Input_10':['Sensor_10K','Sensor_10L'],\n
+              \ 'Input_11':['Sensor_11K','Sensor_11L'],\n  'Input_12':['Sensor_12K','Sensor_12L'],\n
+              \ 'Input_13':['Sensor_13K','Sensor_13L'],\n  'Input_14':['Sensor_14K','Sensor_14L'],\n
+              \ 'Input_15':['Sensor_15K','Sensor_15L'],\n  'Input_16':['Sensor_16K','Sensor_16L'],\n
+              \ 'Input_17':['Sensor_17K','Sensor_17L'],\n  'Input_18':['Sensor_18K','Sensor_18L'],\n
+              \ 'Input_19':['Sensor_19K','Sensor_19L'],\n  'Input_20':['Sensor_20K','Sensor_20L'],\n
+              \ 'Input_21':['Sensor_21K','Sensor_21L'],\n  'Input_22':['Sensor_22K','Sensor_22L'],\n
+              \ 'Input_23':['Sensor_23K','Sensor_23L'],\n  'Input_24':['Sensor_24K','Sensor_24L'],\n
+              \ 'Input_25':['Sensor_25K','Sensor_25L'],\n  'Input_26':['Sensor_26K','Sensor_26L'],\n
+              \ 'Input_27':['Sensor_27K','Sensor_27L'],\n  'Input_28':['Sensor_28K','Sensor_28L'],\n
+              \ 'Input_29':['Sensor_29K','Sensor_29L'],\n  'Input_30':['Sensor_30K','Sensor_30L'],\n
+              \ 'Input_31':['Sensor_31K','Sensor_31L'],\n  'Input_32':['Sensor_32K','Sensor_32L'],\n
+              \ 'Input_33':['Sensor_33K','Sensor_33L'],\n  'Input_34':['Sensor_34K','Sensor_34L'],\n
+              \ 'Input_35':['Sensor_35K','Sensor_35L'],\n  'Input_36':['Sensor_36K','Sensor_36L'],\n
+              \ 'Input_37':['Sensor_37K','Sensor_37L'],\n  'Input_38':['Sensor_38K','Sensor_38L'],\n
+              \ 'Input_39':['Sensor_39K','Sensor_39L'],\n  'Input_40':['Sensor_40K','Sensor_40L'],\n
+              \ 'Input_41':['Sensor_41K','Sensor_41L'],\n  'Input_42':['Sensor_42K','Sensor_42L'],\n
+              \ 'Input_43':['Sensor_43K','Sensor_43L'],\n  'Input_44':['Sensor_44K','Sensor_44L'],\n
+              \ 'Input_45':['Sensor_45K','Sensor_45L'],\n  'Input_46':['Sensor_46K','Sensor_46L'],\n
+              \ 'Input_47':['Sensor_47K','Sensor_47L'],\n  'Input_48':['Sensor_48K','Sensor_48L'],\n
+              \ 'Input_49':['Sensor_49K','Sensor_49L'],\n  'Input_50':['Sensor_50K','Sensor_50L'],\n
+              \ 'Input_51':['Sensor_51K','Sensor_51L'],\n  'Input_52':['Sensor_52K','Sensor_52L'],\n
+              \ 'Input_53':['Sensor_53K','Sensor_53L'],\n  'Input_54':['Sensor_54K','Sensor_54L'],\n
+              \ 'Input_55':['Sensor_55K','Sensor_55L'],\n  'Input_56':['Sensor_56K','Sensor_56L'],\n
+              \ 'Input_57':['Sensor_57K','Sensor_57L'],\n  'Input_58':['Sensor_58K','Sensor_58L'],\n
+              \ 'Input_59':['Sensor_59K','Sensor_59L'],\n  'Input_60':['Sensor_60K','Sensor_60L'],\n
+              \ 'Input_61':['Sensor_61K','Sensor_61L'],\n  'Input_62':['Sensor_62K','Sensor_62L'],\n
+              \ 'Input_63':['Sensor_63K','Sensor_63L'],\n  'Input_64':['Sensor_64K','Sensor_64L'],\n
+              \ 'Input_65':['Sensor_65K','Sensor_65L'],\n  'Input_66':['Sensor_66K','Sensor_66L'],\n
+              \ 'Input_67':['Sensor_67K','Sensor_67L'],\n  'Input_68':['Sensor_68K','Sensor_68L'],\n
+              \ 'Input_69':['Sensor_69K','Sensor_69L'],\n  'Input_70':['Sensor_70K','Sensor_70L'],\n
+              \ 'Input_71':['Sensor_71K','Sensor_71L'],\n  'Input_32':['Sensor_72K','Sensor_72L'],\n
+              \ 'Input_73':['Sensor_73K','Sensor_73L'],\n  'Input_74':['Sensor_74K','Sensor_74L'],\n
+              \ 'Input_75':['Sensor_75K','Sensor_75L'],\n  'Input_76':['Sensor_76K','Sensor_76L'],\n
+              \ 'Input_77':['Sensor_77K','Sensor_77L'],\n  'Input_78':['Sensor_78K','Sensor_78L'],\n
+              \ 'Input_79':['Sensor_79K','Sensor_79L']\n  } %}\n{% set my_sensor = mapper[trigger.id]
+              if trigger.id in mapper %}  {{ my_sensor[0] }}\n"
+          target:
+            entity_id: input_text.lk_pushbutton_mapped
+          enabled: true
+  mode: queued

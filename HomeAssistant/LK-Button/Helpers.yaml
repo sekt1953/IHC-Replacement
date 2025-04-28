@@ -3,7 +3,7 @@ Helpers:
 Name: LK-PushButton-LastPressed
 Icon: mdi:power-settings
 Minimum length: 0
-Maximum length: 10
+Maximum length: 100
 
 Display mode: Text
 Regex pattern:

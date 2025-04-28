@@ -1,50 +1,18 @@
-sensor:
-  - platform: template
-    sensors:
-      lk_map:
-        value_template: >
-          {% set mapper =
-            { 'Input_00':'Sensor_00',
-              'Input_01':'Sensor_01',
-              'Input_02':'Sensor_02',
-              'Input_03':'Sensor_03',
-              'Input_04':'Sensor_04',
+- platform: template
+  sensors:
+    lk_map:
+      value_template: >
+        {% set mapper =
+          { 'LK_Lille_Bad_1_ØV':'Sensor_00',
+            'LK_Lille_Bad_1_ØH':'Sensor_01',
+            'LK_Lille_Bad_1_NV':'Sensor_02',
+            'LK_Lille_Bad_1_NH':'Sensor_03',
+            'Input_04':'Sensor_04',
               'Input_05':'Sensor_05',
               'Input_06':'Sensor_06',
               'Input_07':'Sensor_07',
               'Input_08':'Sensor_08',
               'Input_09':'Sensor_09',
-              'Input_10':'Sensor_10',
-              'Input_11':'Sensor_11',
-              'Input_12':'Sensor_12',
-              'Input_13':'Sensor_13',
-              'Input_14':'Sensor_14',
-              'Input_15':'Sensor_15',
-              'Input_16':'Sensor_16',
-              'Input_17':'Sensor_17',
-              'Input_18':'Sensor_18',
-              'Input_19':'Sensor_19',
-              'Input_20':'Sensor_20',
-              'Input_21':'Sensor_21',
-              'Input_22':'Sensor_22',
-              'Input_23':'Sensor_23',
-              'Input_24':'Sensor_24',
-              'Input_25':'Sensor_25',
-              'Input_26':'Sensor_26',
-              'Input_27':'Sensor_27',
-              'Input_28':'Sensor_28',
-              'Input_29':'Sensor_29',
-              'Input_30':'Sensor_30',
-              'Input_31':'Sensor_31',
-              'Input_32':'Sensor_32',
-              'Input_33':'Sensor_33',
-              'Input_34':'Sensor_34',
-              'Input_35':'Sensor_35',
-              'Input_36':'Sensor_36',
-              'Input_37':'Sensor_37',
-              'Input_38':'Sensor_38',
-              'Input_39':'Sensor_39',
-              'Input_40':'Sensor_40',
               'Input_10':'Sensor_10',
               'Input_11':'Sensor_11',
               'Input_12':'Sensor_12',
@@ -115,6 +83,6 @@ sensor:
               'Input_77':'Sensor_77',
               'Input_78':'Sensor_78',
               'Input_79':'Sensor_79' } %}
-          {% set state = states('input_text.lk_pushbutton_lastpressed') %}
-          {% set id = mapper[state] if state in mapper %}
-          {{ id }}
+        {% set state = states('input_text.lk_pushbutton_lastpressed') %}
+        {% set id = mapper[state] if state in mapper %}
+        {{ id }}
