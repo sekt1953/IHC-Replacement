@@ -4,7 +4,7 @@
 
 ### Input
 
-#### LK taster
+#### LK taster kabling
 
 |Kabel|Lokalitet|Placering____*******|Komponent|Terminal|Farve|I/O Interface|I2C-Addr||
 |:---:|:---|:---|:---|:---:|:---|:---|:---|:---|
@@ -27,10 +27,10 @@
 |3|Gæsteværelse|Ved dør|Tryk 4 tast|Tryk NH|Brun|Input_11|0x23.11||
 ||||||||||
 |9|Soveværelse|Ved seng V|Tryk 4 tast|GND|Blå|GND|||
-|9|Soveværelse|Ved seng V|Tryk 4 tast|Tryk ØV|Sort|0x23.12|||
-|9|Soveværelse|Ved seng V|Tryk 4 tast|Tryk ØH|Grøn|0x23.13|||
-|9|Soveværelse|Ved seng V|Tryk 4 tast|Tryk NV|Violet|0x23.14|||
-|9|Soveværelse|Ved seng V|Tryk 4 tast|Tryk NH|Brun|0x23.15|||
+|9|Soveværelse|Ved seng V|Tryk 4 tast|Tryk ØV|Sort|Input_12|0x23.12||
+|9|Soveværelse|Ved seng V|Tryk 4 tast|Tryk ØH|Grøn|Input_13|0x23.13||
+|9|Soveværelse|Ved seng V|Tryk 4 tast|Tryk NV|Violet|Input_14|0x23.14||
+|9|Soveværelse|Ved seng V|Tryk 4 tast|Tryk NH|Brun|Input_15|0x23.15||
 ||||||||||
 ||||||||||
 |4|Garage|Ved bryggers dør|Tryk 6 tast|GND|Blå|GND|||
