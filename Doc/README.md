@@ -37,7 +37,7 @@
 |18|Køkken|Ved bryggers|Tryk 6 tast|5|Tryk ØV|Sort|Input_22|||||
 |19|Køkken|Ved bryggers|Tryk 6 tast|5|Tryk ØH|Grøn|Input_23|||||
 |20|Køkken|Ved bryggers|Tryk 6 tast|5|Tryk MV|Violet|Input_24|||||
-|21|Køkken|Ved bryggers|Tryk 6 tast|5|Tryk MH|||Input_25||||
+|21|Køkken|Ved bryggers|Tryk 6 tast|5|Tryk MH||Input_25|||||
 |22|Køkken|Ved bryggers|Tryk 6 tast|5|Tryk NV|Rød|Input_26|||||
 |23|Køkken|Ved bryggers|Tryk 6 tast|5|Tryk NH|Grå|Input_27|||||
 |||||||||||||
@@ -45,7 +45,7 @@
 |24|Stue|På væg|Tryk 6 tast|6|Tryk ØV|Sort|Input_28|||||
 |25|Stue|På væg|Tryk 6 tast|6|Tryk ØH|Grøn|Input_29|||||
 |26|Stue|På væg|Tryk 6 tast|6|Tryk MV|Violet|Input_30|||||
-|27|Stue|På væg|Tryk 6 tast|6|Tryk MH|Input_31||||||
+|27|Stue|På væg|Tryk 6 tast|6|Tryk MH||Input_31|||||
 |28|Stue|På væg|Tryk 6 tast|6|Tryk NV|Rød|Input_32|||||
 |29|Stue|På væg|Tryk 6 tast|6|Tryk NH|Grå|Input_33|||||
 |||||||||||||
