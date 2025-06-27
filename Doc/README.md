@@ -2,9 +2,7 @@
 
 ## Home Assistant & ESPHome instllation
 
-### Input
-
-#### LK taster kabling
+### Input - LK taster, Pir & Røgdetector's kabling
 
 |Kabel|Lokalitet|Placering____*******|Komponent|Terminal|Farve|I/O Interface|I2C-Addr||||
 |:---:|:---|:---|:---|:---:|:---|:---|:---|:---|:---|:---|
