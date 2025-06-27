@@ -78,3 +78,34 @@ Jeg har i forevejen et Home Assistant project igang, så nu vil jeg fremstille P
 * Home Assistant
   * Automation
     * [LK-PushButton-Pressed](./HomeAssistant/LK-Button/LK-PushBUtton-Pressed.yaml)
+      * [Long and short button pressing automation](https://community.home-assistant.io/t/long-and-short-button-pressing-automation/466916/6)
+      * Array
+
+Template editor:
+
+```code
+{% set my_test_json = { "items": ["car","horse"] } %}
+* Items:{% for item in my_test_json["items"] %}
+ * {{item}}
+{%- endfor %}
+
+* Items[0]:
+* {{my_test_json["items"][0]}}
+
+* Items[1]:
+* {{my_test_json["items"][1]}}
+```
+
+Result:
+
+```code
+* Items:
+  * car
+  * horse
+
+* Items[0]:
+  * car
+
+* Items[1]:
+  * horse
+```
