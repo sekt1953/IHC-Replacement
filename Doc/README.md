@@ -6,8 +6,8 @@
 
 #### LK taster kabling
 
-|Kabel|Lokalitet|Placering____*******|Komponent|Terminal|Farve|I/O Interface|I2C-Addr||
-|:---:|:---|:---|:---|:---:|:---|:---|:---|:---|
+|Kabel|Lokalitet|Placering____*******|Komponent|Terminal|Farve|I/O Interface|I2C-Addr||||
+|:---:|:---|:---|:---|:---:|:---|:---|:---|:---|:---|:---|
 |1|Lille Bad|Ved dør|Tryk 4 tast|GND|Blå|GND|||
 |1|Lille Bad|Ved dør|Tryk 4 tast|Tryk ØV|Sort|Input_00|0x23.0||
 |1|Lille Bad|Ved dør|Tryk 4 tast|Tryk ØH|Grøn|Input_01|0x23.1||
@@ -95,6 +95,11 @@
 |11|Køkken|Ved dør til viktualrum|Tryk 6 tast|Tryk NV|Rød|Input_58|0x26.10||
 |11|Køkken|Ved dør til viktualrum|Tryk 6 tast|Tryk NH|Grå|Input_59|0x26.11||
 ||||||||||
+|33|Stue|På væg|Pir|Alarm|Sort|Input_60|0x26.12||
+||Soveværelse|Ved dør til toilet|Pir|Alarm|Hvid|Input_61|0x26.13||
+|31|Bryggers|På væg|Pir|Alarm|Sort|Input_62|0x26.14||
+|30|Garage|På væg|Pir|Alarm|Sort|Input_63|0x26.15||
+||||||||||
 ||||||||||
 |12|Garage|Ved yderdør|Tryk 6 tast|GND|Blå|GND|||
 |12|Garage|Ved yderdør|Tryk 6 tast|Tryk ØV|Sort|Input_64|0x27.0||
@@ -104,26 +109,13 @@
 |12|Garage|Ved yderdør|Tryk 6 tast|Tryk NV|Rød|Input_68|0x27.4||
 |12|Garage|Ved yderdør|Tryk 6 tast|Tryk NH||Input_69|0x27.5||
 ||||||||||
-
-#### Røgsensor
-
-||Lokalitet|Placering____*****|Komponent|Kabel|Terminal|Farve|I/O Interface|||||
-|:---:|:---|:---|:---|:---:|:---|:---|:---|:---:|:---:|:---:|:---:|
-|66|Stue||Røgsensor|||Indgang 4|18|Orange|Udgang 7|02||
-|67|Soveværelse||Røgsensor|||Indgang 2|18|Hvid |Udgang 7|02||
-|68|Bryggers|I loft|Røgsensor|36||Indgang 3|07|Sort|Udgang 7|02|Violet|
-|69|Garage||Røgsensor|||Indgang 4|17||Udgang 7|02|
-|70|Udendørs|Indkørsel|Røgsensor|||Indgang 5||Grøn|Udgang 7|03|HvidBlå|
-|||||||||||||
-
-#### Pir
-
-||Lokalitet|Placering____*****|Komponent|Kabel|Terminal|Farve|I/O Interface|||||
-|:---:|:---|:---|:---|:---:|:---|:---|:---|:---:|:---:|:---:|:---:|
-|71|Stue|På væg|Pir|33|Alarm|Indgang 3|18|Sort|||
-|72|Soveværelse|Ved dør til toilet|Pir||Tilstede|Indgang 5|08|Hvid|||
-|73|Bryggers|På væg|Pir|31|Alarm|Indgang 3|16|Sort|||
-|74|Garage|På væg|Pir|30|Alarm|Indgang 3|15|Sort|||
+||Stue||Røgsensor||Orange|Input_70|0x27.6|
+||Soveværelse||Røgsensor||Hvid|Input_71|0x27.7||
+|36|Bryggers|I loft|Røgsensor||Sort|Input_72|0x27.8|Udgang 7|02|Violet|
+||Garage||Røgsensor|||Input_73|0x27.9||Udgang 7|02||
+||Udendørs|Indkørsel|Røgsensor||Grøn|Input_74|0x27.10|Udgang 7|03|HvidBlå|
+||||||||||
+||||||||||
 
 ### Output
 
