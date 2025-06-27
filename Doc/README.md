@@ -4,6 +4,8 @@
 
 ### Input
 
+#### LK taster
+
 ||Lokalitet|Placering____*****|Komponent|Kabel|Terminal|Farve|I/O Interface|||||
 |:---:|:---|:---|:---|:---:|:---|:---|:---|:---:|:---:|:---:|:---:|
 |GND|Lille Bad|Ved dør|Tryk 4 tast|1|GND|Blå|GND|||||
@@ -49,7 +51,7 @@
 |28|Stue|På væg|Tryk 6 tast|6|Tryk NV|Rød|Input_32|||||
 |29|Stue|På væg|Tryk 6 tast|6|Tryk NH|Grå|Input_33|||||
 |||||||||||||
-|GND|Stue|På væg|Tryk 6 tast|7|GND|Blå|GND|||||
+|GND|Entré|Ved dør til køkken|Tryk 6 tast|7|GND|Blå|GND|||||
 |30|Entré|Ved dør til køkken|Tryk 6 tast|7|Tryk ØV|Sort|Input_34|||||
 |31|Entré|Ved dør til køkken|Tryk 6 tast|7|Tryk ØH|Grøn|Input_35|||||
 |32|Entré|Ved dør til køkken|Tryk 6 tast|7|Tryk MV|Violet|Input_36|||||
@@ -57,7 +59,7 @@
 |34|Entré|Ved dør til køkken|Tryk 6 tast|7|Tryk NV|Rød|Input_38|||||
 |35|Entré|Ved dør til køkken|Tryk 6 tast|7|Tryk NH||Input_39|||||
 |||||||||||||
-|GND|Stue|På væg|Tryk 6 tast|8|GND|Blå|GND|||||
+|GND|Soveværelse|Ved dør til st. bad|Tryk 6 tast|8|GND|Blå|GND|||||
 |36|Soveværelse|Ved dør til st. bad|Tryk 6 tast|8|Tryk ØV|Sort|Input_40|||||
 |37|Soveværelse|Ved dør til st. bad|Tryk 6 tast|8|Tryk ØH|Grøn|Input_41|||||
 |38|Soveværelse|Ved dør til st. bad|Tryk 6 tast|8|Tryk MV|Violet|Input_42|||||
@@ -65,48 +67,62 @@
 |40|Soveværelse|Ved dør til st. bad|Tryk 6 tast|8|Tryk NV|Rød|Input_44|||||
 |41|Soveværelse|Ved dør til st. bad|Tryk 6 tast|8|Tryk NH|Grå|Input_45|||||
 |||||||||||||
-|GND|Stue|På væg|Tryk 6 tast|9|GND|Blå|GND|||||
-|42|Soveværelse|Ved seng V|Tryk 4 tast|9|Tryk ØV|Indgang 4|01|Sort||||
-|43|Soveværelse|Ved seng V|Tryk 4 tast|9|Tryk ØH|Indgang 4|02|Grøn||||
-|44|Soveværelse|Ved seng V|Tryk 4 tast|9|Tryk NV|Indgang 4|03|Violet||||
-|45|Soveværelse|Ved seng V|Tryk 4 tast|9|Tryk NH|Indgang 4|04|Brun|||
+|GND|Soveværelse|Ved seng V|Tryk 4 tast|9|GND|Blå|GND|||||
+|42|Soveværelse|Ved seng V|Tryk 4 tast|9|Tryk ØV|Sort||||||
+|43|Soveværelse|Ved seng V|Tryk 4 tast|9|Tryk ØH|Grøn||||||
+|44|Soveværelse|Ved seng V|Tryk 4 tast|9|Tryk NV|Violet||||||
+|45|Soveværelse|Ved seng V|Tryk 4 tast|9|Tryk NH|Brun||||||
 |||||||||||||
-|46|Soveværelse|Ved seng H|Tryk 4 tast|9|Tryk ØV|Indgang 4|05|Rød|||
-|47|Soveværelse|Ved seng H|Tryk 4 tast|9|Tryk ØH|Indgang 4|06|Hvid|||
-|48|Soveværelse|Ved seng H|Tryk 4 tast|9|Tryk NV|Indgang 4|07|Orange|||
-|49|Soveværelse|Ved seng H|Tryk 4 tast|9|Tryk NH|Indgang 4|08|Gul|||
+|GND|Soveværelse|Ved seng H|Tryk 4 tast|9|GND|Blå|GND|||||
+|46|Soveværelse|Ved seng H|Tryk 4 tast|9|Tryk ØV|Rød||||||
+|47|Soveværelse|Ved seng H|Tryk 4 tast|9|Tryk ØH|Hvid||||||
+|48|Soveværelse|Ved seng H|Tryk 4 tast|9|Tryk NV|Orange||||||
+|49|Soveværelse|Ved seng H|Tryk 4 tast|9|Tryk NH|08|Gul|||||
 |||||||||||||
-|50|Entré|Ved yderdør|Tryk 4 tast|10|Tryk ØV|Indgang 4|11|Sort|||
-|51|Entré|Ved yderdør|Tryk 4 tast|10|Tryk ØH|Indgang 4|12|Grøn|||
-|52|Entré|Ved yderdør|Tryk 4 tast|10|Tryk NV|Indgang 4|13|Violet|||
-|53|Entré|Ved yderdør|Tryk 4 tast|10|Tryk NH|Indgang ?|--|||
+|GND|Entré|Ved yderdør|Tryk 4 tast|10|GND|Blå|GND|||||
+|50|Entré|Ved yderdør|Tryk 4 tast|10|Tryk ØV|Sort||||||
+|51|Entré|Ved yderdør|Tryk 4 tast|10|Tryk ØH|Grøn||||||
+|52|Entré|Ved yderdør|Tryk 4 tast|10|Tryk NV|Violet||||||
+|53|Entré|Ved yderdør|Tryk 4 tast|10|Tryk NH|||||||
 |||||||||||||
-|54|Køkken|Ved dør til viktualrum|Tryk 6 tast|11|Tryk ØV|Indgang 2|06|Sort|||
-|55|Køkken|Ved dør til viktualrum|Tryk 6 tast|11|Tryk ØH|Indgang 2|07|Grøn|||
-|56|Køkken|Ved dør til viktualrum|Tryk 6 tast|11|Tryk MV|Indgang ?|--||||
-|57|Køkken|Ved dør til viktualrum|Tryk 6 tast|11|Tryk MH|Indgang ?|--||||
-|58|Køkken|Ved dør til viktualrum|Tryk 6 tast|11|Tryk NV|Indgang 2|08|Rød|||
-|59|Køkken|Ved dør til viktualrum|Tryk 6 tast|11|Tryk NH|Indgang 2|11|Grå|||
+|GND|Køkken|Ved dør til viktualrum|Tryk 6 tast|11|GND|Blå|GND|||||
+|54|Køkken|Ved dør til viktualrum|Tryk 6 tast|11|Tryk ØV|Sort||||||
+|55|Køkken|Ved dør til viktualrum|Tryk 6 tast|11|Tryk ØH|Grøn||||||
+|56|Køkken|Ved dør til viktualrum|Tryk 6 tast|11|Tryk MV|||||||
+|57|Køkken|Ved dør til viktualrum|Tryk 6 tast|11|Tryk MH|||||||
+|58|Køkken|Ved dør til viktualrum|Tryk 6 tast|11|Tryk NV|Rød||||||
+|59|Køkken|Ved dør til viktualrum|Tryk 6 tast|11|Tryk NH|Grå||||||
 |||||||||||||
-|60|Garage|Ved yderdør|Tryk 6 tast|12|Tryk ØV|Indgang 1|11|Sort|||
-|61|Garage|Ved yderdør|Tryk 6 tast|12|Tryk ØH|Indgang 1|12|Grøn|||
-|62|Garage|Ved yderdør|Tryk 6 tast|12|Tryk MV|Indgang 1|13|Violet|||
-|63|Garage|Ved yderdør|Tryk 6 tast|12|Tryk MH|Indgang ?|--||||
-|64|Garage|Ved yderdør|Tryk 6 tast|12|Tryk NV|Indgang 1|14|Rød|||
-|65|Garage|Ved yderdør|Tryk 6 tast|12|Tryk NH|Indgang ?|--||||
+|GND|Garage|Ved yderdør|Tryk 6 tast|12|GND|Blå|GND|||||
+|60|Garage|Ved yderdør|Tryk 6 tast|12|Tryk ØV|Indgang 1|11|Sort||||
+|61|Garage|Ved yderdør|Tryk 6 tast|12|Tryk ØH|Indgang 1|12|Grøn||||
+|62|Garage|Ved yderdør|Tryk 6 tast|12|Tryk MV|Indgang 1|13|Violet||||
+|63|Garage|Ved yderdør|Tryk 6 tast|12|Tryk MH|Indgang ?|--|||||
+|64|Garage|Ved yderdør|Tryk 6 tast|12|Tryk NV|Indgang 1|14|Rød||||
+|65|Garage|Ved yderdør|Tryk 6 tast|12|Tryk NH|Indgang ?|--|||||
 |||||||||||||
+
+#### Røgsensor
+
+||Lokalitet|Placering____*****|Komponent|Kabel|Terminal|Farve|I/O Interface|||||
+|:---:|:---|:---|:---|:---:|:---|:---|:---|:---:|:---:|:---:|:---:|
 |66|Stue||Røgsensor|||Indgang 4|18|Orange|Udgang 7|02||
 |67|Soveværelse||Røgsensor|||Indgang 2|18|Hvid |Udgang 7|02||
 |68|Bryggers|I loft|Røgsensor|36||Indgang 3|07|Sort|Udgang 7|02|Violet|
 |69|Garage||Røgsensor|||Indgang 4|17||Udgang 7|02|
 |70|Udendørs|Indkørsel|Røgsensor|||Indgang 5||Grøn|Udgang 7|03|HvidBlå|
-|||||||||||
+|||||||||||||
+
+#### Pir
+
+||Lokalitet|Placering____*****|Komponent|Kabel|Terminal|Farve|I/O Interface|||||
+|:---:|:---|:---|:---|:---:|:---|:---|:---|:---:|:---:|:---:|:---:|
 |71|Stue|På væg|Pir|33|Alarm|Indgang 3|18|Sort|||
 |72|Soveværelse|Ved dør til toilet|Pir||Tilstede|Indgang 5|08|Hvid|||
 |73|Bryggers|På væg|Pir|31|Alarm|Indgang 3|16|Sort|||
 |74|Garage|På væg|Pir|30|Alarm|Indgang 3|15|Sort|||
 
-#### Output
+### Output
 
 ||Lokalitet|Placering|Komponent|Farve|Kabel|Kabeltype|IHC Modul|Adresse|Ledning|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
