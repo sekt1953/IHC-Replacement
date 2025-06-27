@@ -27,21 +27,21 @@
 |11|Gæsteværelse|Ved dør|Tryk 4 tast|3|Tryk NH|Brun|Input_11|||
 |||||||||||
 |||||||||||
-|GND|Garage|Ved bryggers|Tryk 6 tast|4|GND|Blå|GND|||
-|12|Garage|Ved bryggers|Tryk 6 tast|4|Tryk ØV|Sort|Input_16|||
-|13|Garage|Ved bryggers|Tryk 6 tast|4|Tryk ØH|Grøn|Input_17|||
-|14|Garage|Ved bryggers|Tryk 6 tast|4|Tryk MV||Input_18|||
-|15|Garage|Ved bryggers|Tryk 6 tast|4|Tryk MH||Input_19|||
-|16|Garage|Ved bryggers|Tryk 6 tast|4|Tryk NV|Rød|Input_20|||
-|17|Garage|Ved bryggers|Tryk 6 tast|4|Tryk NH||Input_21|||
+|GND|Garage|Ved bryggers dør|Tryk 6 tast|4|GND|Blå|GND|||
+|12|Garage|Ved bryggers dør|Tryk 6 tast|4|Tryk ØV|Sort|Input_16|||
+|13|Garage|Ved bryggers dør|Tryk 6 tast|4|Tryk ØH|Grøn|Input_17|||
+|14|Garage|Ved bryggers dør|Tryk 6 tast|4|Tryk MV||Input_18|||
+|15|Garage|Ved bryggers dør|Tryk 6 tast|4|Tryk MH||Input_19|||
+|16|Garage|Ved bryggers dør|Tryk 6 tast|4|Tryk NV|Rød|Input_20|||
+|17|Garage|Ved bryggers dør|Tryk 6 tast|4|Tryk NH||Input_21|||
 |||||||||||
-|GND|Køkken|Ved bryggers|Tryk 6 tast|5|GND|Blå|GND|||
-|18|Køkken|Ved bryggers|Tryk 6 tast|5|Tryk ØV|Sort|Input_22|||
-|19|Køkken|Ved bryggers|Tryk 6 tast|5|Tryk ØH|Grøn|Input_23|||
-|20|Køkken|Ved bryggers|Tryk 6 tast|5|Tryk MV|Violet|Input_24|||
-|21|Køkken|Ved bryggers|Tryk 6 tast|5|Tryk MH||Input_25|||
-|22|Køkken|Ved bryggers|Tryk 6 tast|5|Tryk NV|Rød|Input_26|||
-|23|Køkken|Ved bryggers|Tryk 6 tast|5|Tryk NH|Grå|Input_27|||
+|GND|Køkken|Ved bryggers dør|Tryk 6 tast|5|GND|Blå|GND|||
+|18|Køkken|Ved bryggers dør|Tryk 6 tast|5|Tryk ØV|Sort|Input_22|||
+|19|Køkken|Ved bryggers dør|Tryk 6 tast|5|Tryk ØH|Grøn|Input_23|||
+|20|Køkken|Ved bryggers dør|Tryk 6 tast|5|Tryk MV|Violet|Input_24|||
+|21|Køkken|Ved bryggers dør|Tryk 6 tast|5|Tryk MH||Input_25|||
+|22|Køkken|Ved bryggers dør|Tryk 6 tast|5|Tryk NV|Rød|Input_26|||
+|23|Køkken|Ved bryggers dør|Tryk 6 tast|5|Tryk NH|Grå|Input_27|||
 |||||||||||
 |GND|Stue|På væg|Tryk 6 tast|6|GND|Blå|GND|||
 |24|Stue|På væg|Tryk 6 tast|6|Tryk ØV|Sort|Input_28|||
