@@ -5,6 +5,9 @@
 * [Home Assistant & ESPHome instllation](./LK_taster_Pir_Røgdetectors_kabling.md)
   * [Input - LK taster, Pir & Røgdetector's kabling](./LK_taster_Pir_Røgdetectors_kabling.md#input)
   * [Output - LK taster, Pir & Røgdetector's kabling](./LK_taster_Pir_Røgdetectors_kabling.md#output)
+
+## IHC (gammel installation)
+
 * [IHC (gammel installation)](./IHC_gammel%20installation.md)
 
 ## Tailscale
