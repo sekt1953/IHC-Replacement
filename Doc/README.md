@@ -87,8 +87,9 @@
 |11|Køkken|Ved dør til viktualrum|Tryk 6 tast|Tryk NV|Rød|Input_58|0x26.10||
 |11|Køkken|Ved dør til viktualrum|Tryk 6 tast|Tryk NH|Grå|Input_59|0x26.11||
 ||||||||||
+||PIR||Pir|GND||GND|||
 |33|Stue|På væg|Pir|Alarm|Sort|Input_60|0x26.12||
-||Soveværelse|Ved dør til toilet|Pir|Alarm|Hvid|Input_61|0x26.13||
+|32|Soveværelse|Ved dør til toilet|Pir|Alarm|Hvid|Input_61|0x26.13||
 |31|Bryggers|På væg|Pir|Alarm|Sort|Input_62|0x26.14||
 |30|Garage|På væg|Pir|Alarm|Sort|Input_63|0x26.15||
 ||||||||||
@@ -100,13 +101,6 @@
 |12|Garage|Ved yderdør|Tryk 6 tast|Tryk MH||Input_67|0x27.3||
 |12|Garage|Ved yderdør|Tryk 6 tast|Tryk NV|Rød|Input_68|0x27.4||
 |12|Garage|Ved yderdør|Tryk 6 tast|Tryk NH||Input_69|0x27.5||
-||||||||||
-||||||||||
-||Stue||Røgsensor||Orange|Input_70|0x27.6|
-||Soveværelse||Røgsensor||Hvid|Input_71|0x27.7||
-|36|Bryggers|I loft|Røgsensor||Sort|Input_72|0x27.8|Udgang 7|02|Violet|
-||Garage||Røgsensor|||Input_73|0x27.9||Udgang 7|02||
-||Udendørs|Indkørsel|Røgsensor||Grøn|Input_74|0x27.10|Udgang 7|03|HvidBlå|
 ||||||||||
 ||||||||||
 |9|Soveværelse|Ved seng H|Tryk 4 tast|GND|Grå|GND|||
