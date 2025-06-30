@@ -115,6 +115,8 @@
 ||||||||||
 ||||||||||
 
+
+
 ### Output
 
 ||Lokalitet|Placering|Komponent|Farve|Kabel|Kabeltype|IHC Modul|Adresse|Ledning|
