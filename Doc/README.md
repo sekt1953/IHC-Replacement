@@ -25,4 +25,6 @@
 ## Tailscale
 
 * Videoer
-  * [Remotely access and share your self-hosted services](https://youtu.be/Vt4PDUXB_fg "Tailscale")
+  * [Tailscale](https://www.youtube.com/@Tailscale)
+    * [Remotely access Home Assistant via Tailscale for free!](https://youtu.be/vDxmtRByXDY)
+    * [Remotely access and share your self-hosted services](https://youtu.be/Vt4PDUXB_fg "Tailscale")
