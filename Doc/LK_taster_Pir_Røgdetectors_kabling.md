@@ -117,13 +117,13 @@
 
 ### Relæ 220VAC
 
-||Lokalitet|Placering|Komponent|Farve|Kabel|Kabeltype|IHC Modul|Adresse|Ledning|
+||Lokalitet|Placering|||||IHC Modul|I/O Interface|I2C-Addr|
 |---:|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|0|Køkken|Spisebord||||||||
-|1||||||||||
-|2|Udelys|Hæk||||||||
-|3|Køkken|Spot|||||||||
-|4|Stue|Spot|||||||||
+|0|Køkken|Spisebord|||||IHC1|Output_00|0x20.0|
+|1|||||||IHC1|Output_01|0x20.1|
+|2|Udelys|Hæk|||||IHC1|Output_02|0x20.2|
+|3|Køkken|Spot|||||IHC1|Output_03|0x20.3|
+|4|Stue|Spot|||||IHC1|Output_04|0x20.4|
 |5|LilleBad|Spot|||||||||
 |6|Bryggers|Spot|||||||||
 |7|Stort Bad|Spot||||||||
