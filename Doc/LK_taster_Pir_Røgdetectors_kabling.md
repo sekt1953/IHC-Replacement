@@ -117,48 +117,56 @@
 
 ### Relæ 220VAC
 
-||Lokalitet|Placering|||||IHC Modul|I/O Interface|I2C-Addr|
+||Lokalitet|Placering|Relæ||||IHC Modul|I/O Interface|I2C-Addr|
 |---:|:---|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |0|Køkken|Spisebord|||||IHC1|Output_00|0x20.0|
 |1|||||||IHC1|Output_01|0x20.1|
 |2|Udelys|Hæk|||||IHC1|Output_02|0x20.2|
 |3|Køkken|Spot|||||IHC1|Output_03|0x20.3|
 |4|Stue|Spot|||||IHC1|Output_04|0x20.4|
-|5|LilleBad|Spot|||||||||
-|6|Bryggers|Spot|||||||||
-|7|Stort Bad|Spot||||||||
-|8||||||||||
-|9||||||||||
-|10|Udelys|||||||||
-|11||||||||||
-|12|Stort Bad|Spejl||||||||
-|13||||||||||
-|14||||||||||
-|15||||||||||
-|16|Soveværelse|Loft||||||||
-|17|WalkIn|Loft||||||||
-|18|Entre|||||||||
-|19|Stue|Sofabord||||||||
-|20|Køkken|Bord||||||||
-|21||||||||||
-|22||||||||||
-|23||||||||||
-|24||||||||||
-|25|Garage|Nord||||||||
-|26|Kontor|Loft||||||||
-|27|Værelse|Loft||||||||
-|28|Garage|Syd||||||||
-|29||||||||||
-|30||Stikkontakt||||||||
-|31||||||||||
-|32|Bryggers|Bord||||||||
-|33|Spisekammer|loft||||||||
-|34|Lille Bad|Spejl||||||||
-|35||||||||||
-|36||||||||||
-|37||||||||||
-|38||||||||||
-|39||||||||||
+|5|LilleBad|Spot|||||IHC1|Output_05|0x20.5|
+|6|Bryggers|Spot|||||IHC1|Output_06|0x20.6|
+|7|Stort Bad|Spot|||||IHC1|Output_07|0x20.7|
+|8|||||||IHC1|Output_08|0x20.8|
+|9|||||||IHC1|Output_09|0x20.9|
+|10|Udelys||||||IHC1|Output_10|0x20.10|
+|11|||||||IHC1|Output_11|0x20.11|
+|12|Stort Bad|Spejl|||||IHC1|Output_12|0x20.12|
+|13|||||||IHC1|Output_13|0x20.13|
+|14|||||||IHC1|Output_14|0x20.14|
+|15|||||||IHC1|Output_15|0x20.15|
+|16|Soveværelse|Loft|||||IHC1|Output_16|0x21.0|
+|17|WalkIn|Loft|||||IHC1|Output_17|0x21.1|
+|18|Entre||||||IHC1|Output_18|0x21.2|
+|19|Stue|Sofabord|||||IHC1|Output_19|0x21.3|
+|20|Køkken|Bord|||||IHC1|Output_20|0x21.4|
+|21|||||||IHC1|Output_21|0x21.5|
+|22|||||||IHC1|Output_22|0x21.6|
+|23|||||||IHC1|Output_23|0x21.7|
+|24|||||||IHC1|Output_24|0x21.8|
+|25|Garage|Nord|||||IHC1|Output_25|0x21.9|
+|26|Kontor|Loft|||||IHC1|Output_26|0x21.10|
+|27|Værelse|Loft|||||IHC1|Output_27|0x21.11|
+|28|Garage|Syd|||||IHC1|Output_28|0x21.12|
+|29|||||||IHC1|Output_29|0x21.13|
+|30||Stikkontakt|||||IHC1|Output_30|0x21.14|
+|31|||||||IHC1|Output_31|0x21.15|
+|32|Bryggers|Bord|||||IHC1|Output_32|0x22.0|
+|33|Spisekammer|loft|||||IHC1|Output_33|0x22.1|
+|34|Lille Bad|Spejl|||||IHC1|Output_34|0x22.2|
+|35|||||||IHC1|Output_35|0x22.3|
+|36|||||||IHC1|Output_36|0x22.4|
+|37|||||||IHC1|Output_37|0x22.5|
+|38|||||||IHC1|Output_38|0x22.6|
+|39|||||||IHC1|Output_39|0x22.7|
+|40|||||||IHC1|Output_40|0x22.8|
+|41|||||||IHC1|Output_41|0x22.9|
+|42|||||||IHC1|Output_42|0x22.10|
+|43|||||||IHC1|Output_43|0x22.11|
+|44|||||||IHC1|Output_44|0x22.12|
+|45|||||||IHC1|Output_45|0x22.13|
+|46|||||||IHC1|Output_46|0x22.14|
+|47|||||||IHC1|Output_47|0x22.15|
 
 ### Gammel installation
 
