@@ -118,7 +118,7 @@
 ### Relæ 220VAC
 
 ||Lokalitet|Placering|||||IHC Modul|I/O Interface|I2C-Addr|
-|---:|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|---:|:---|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |0|Køkken|Spisebord|||||IHC1|Output_00|0x20.0|
 |1|||||||IHC1|Output_01|0x20.1|
 |2|Udelys|Hæk|||||IHC1|Output_02|0x20.2|
