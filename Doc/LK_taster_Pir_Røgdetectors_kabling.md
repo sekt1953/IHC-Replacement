@@ -2,46 +2,46 @@
 
 ## Input
 
-|Kabel|Lokalitet|Placering____*******|Komponent|Terminal|Farve|I/O Interface|I2C-Addr||||
+|Kabel|Lokalitet|Placering____*******|Komponent|Terminal|Farve|I/O Interface|I2C-Addr|Kort_Tryk|Langt_Tryk||
 |:---:|:---|:---|:---|:---:|:---|:---|:---|:---|:---|:---|
 |1|Lille Bad|Ved dør|Tryk 4 tast|GND|Blå|GND|||
-|1|Lille Bad|Ved dør|Tryk 4 tast|Tryk ØV|Sort|Input_00|0x23.0||
-|1|Lille Bad|Ved dør|Tryk 4 tast|Tryk ØH|Grøn|Input_01|0x23.1||
-|1|Lille Bad|Ved dør|Tryk 4 tast|Tryk NV|Violet|Input_02|0x23.2||
-|1|Lille Bad|Ved dør|Tryk 4 tast|Tryk NH|Brun|Input_03|0x23.3||
+|1|Lille Bad|Ved dør|Tryk 4 tast|Tryk ØV|Sort|Input_00|0x23.0|Output_34|Output_34||
+|1|Lille Bad|Ved dør|Tryk 4 tast|Tryk ØH|Grøn|Input_01|0x23.1|Output_05|||
+|1|Lille Bad|Ved dør|Tryk 4 tast|Tryk NV|Violet|Input_02|0x23.2|Output_32|||
+|1|Lille Bad|Ved dør|Tryk 4 tast|Tryk NH|Brun|Input_03|0x23.3|Output_06|||
 ||||||||||
 |2|Kontor|Ved dør|Tryk 4 tast|GND|Blå|GND|||
-|2|Kontor|Ved dør|Tryk 4 tast|Tryk ØV|Sort|Input_04|0x23.4||
+|2|Kontor|Ved dør|Tryk 4 tast|Tryk ØV|Sort|Input_04|0x23.4|Output_26|Output_26||
 |2|Kontor|Ved dør|Tryk 4 tast|Tryk ØH|Grøn|Input_05|0x23.5||
 |2|Kontor|Ved dør|Tryk 4 tast|Tryk NV|Violet|Input_06|0x23.6||
 |2|Kontor|Ved dør|Tryk 4 tast|Tryk NH|Brun|Input_07|0x23.7||
 ||||||||||
 |3|Gæsteværelse|Ved dør|Tryk 4 tast|GND|Blå|GND|||
-|3|Gæsteværelse|Ved dør|Tryk 4 tast|Tryk ØV|Sort|Input_08|0x23.8||
+|3|Gæsteværelse|Ved dør|Tryk 4 tast|Tryk ØV|Sort|Input_08|0x23.8|Output_27|Output_27||
 |3|Gæsteværelse|Ved dør|Tryk 4 tast|Tryk ØH|Grøn|Input_09|0x23.9||
 |3|Gæsteværelse|Ved dør|Tryk 4 tast|Tryk NV|Violet|Input_10|0x23.10||
 |3|Gæsteværelse|Ved dør|Tryk 4 tast|Tryk NH|Brun|Input_11|0x23.11||
 ||||||||||
 |9|Soveværelse|Ved seng V|Tryk 4 tast|GND|Blå|GND|||
-|9|Soveværelse|Ved seng V|Tryk 4 tast|Tryk ØV|Sort|Input_12|0x23.12||
-|9|Soveværelse|Ved seng V|Tryk 4 tast|Tryk ØH|Grøn|Input_13|0x23.13||
-|9|Soveværelse|Ved seng V|Tryk 4 tast|Tryk NV|Violet|Input_14|0x23.14||
-|9|Soveværelse|Ved seng V|Tryk 4 tast|Tryk NH|Brun|Input_15|0x23.15||
+|9|Soveværelse|Ved seng V|Tryk 4 tast|Tryk ØV|Sort|Input_12|0x23.12||||
+|9|Soveværelse|Ved seng V|Tryk 4 tast|Tryk ØH|Grøn|Input_13|0x23.13|Output_12|||
+|9|Soveværelse|Ved seng V|Tryk 4 tast|Tryk NV|Violet|Input_14|0x23.14|Output_17|||
+|9|Soveværelse|Ved seng V|Tryk 4 tast|Tryk NH|Brun|Input_15|0x23.15||||
 ||||||||||
 ||||||||||
-|4|Garage|Ved bryggers dør|Tryk 6 tast|GND|Blå|GND|||
-|4|Garage|Ved bryggers dør|Tryk 6 tast|Tryk ØV|Sort|Input_16|0x24.0||
-|4|Garage|Ved bryggers dør|Tryk 6 tast|Tryk ØH|Grøn|Input_17|0x24.1||
-|4|Garage|Ved bryggers dør|Tryk 6 tast|Tryk MV||Input_18|0x24.2||
-|4|Garage|Ved bryggers dør|Tryk 6 tast|Tryk MH||Input_19|0x24.3||
+|4|Garage|Ved bryggers dør|Tryk 6 tast|GND|Blå|GND|||||
+|4|Garage|Ved bryggers dør|Tryk 6 tast|Tryk ØV|Sort|Input_16|0x24.0||||
+|4|Garage|Ved bryggers dør|Tryk 6 tast|Tryk ØH|Grøn|Input_17|0x24.1||||
+|4|Garage|Ved bryggers dør|Tryk 6 tast|Tryk MV|Violet|Input_18|0x24.2||||
+|4|Garage|Ved bryggers dør|Tryk 6 tast|Tryk MH|Brun|Input_19|0x24.3||
 |4|Garage|Ved bryggers dør|Tryk 6 tast|Tryk NV|Rød|Input_20|0x24.4||
-|4|Garage|Ved bryggers dør|Tryk 6 tast|Tryk NH||Input_21|0x24.5||
+|4|Garage|Ved bryggers dør|Tryk 6 tast|Tryk NH|Grå|Input_21|0x24.5||
 ||||||||||
 |5|Køkken|Ved bryggers dør|Tryk 6 tast|GND|Blå|GND|||
 |5|Køkken|Ved bryggers dør|Tryk 6 tast|Tryk ØV|Sort|Input_22|0x24.6||
 |5|Køkken|Ved bryggers dør|Tryk 6 tast|Tryk ØH|Grøn|Input_23|0x24.7||
 |5|Køkken|Ved bryggers dør|Tryk 6 tast|Tryk MV|Violet|Input_24|0x24.8||
-|5|Køkken|Ved bryggers dør|Tryk 6 tast|Tryk MH||Input_25|0x24.9||
+|5|Køkken|Ved bryggers dør|Tryk 6 tast|Tryk MH|Brun|Input_25|0x24.9||
 |5|Køkken|Ved bryggers dør|Tryk 6 tast|Tryk NV|Rød|Input_26|0x24.10||
 |5|Køkken|Ved bryggers dør|Tryk 6 tast|Tryk NH|Grå|Input_27|0x24.11||
 ||||||||||
@@ -50,7 +50,7 @@
 |6|Stue|På væg|Tryk 6 tast|Tryk ØV|Sort|Input_32|0x25.0||
 |6|Stue|På væg|Tryk 6 tast|Tryk ØH|Grøn|Input_33|0x25.1||
 |6|Stue|På væg|Tryk 6 tast|Tryk MV|Violet|Input_34|0x25.2||
-|6|Stue|På væg|Tryk 6 tast|Tryk MH||Input_35|0x25.3||
+|6|Stue|På væg|Tryk 6 tast|Tryk MH|Brun|Input_35|0x25.3||
 |6|Stue|På væg|Tryk 6 tast|Tryk NV|Rød|Input_36|0x25.4||
 |6|Stue|På væg|Tryk 6 tast|Tryk NH|Grå|Input_37|0x25.5||
 ||||||||||
@@ -80,8 +80,8 @@
 |11|Køkken|Ved dør til viktualrum|Tryk 6 tast|GND|Blå|GND|||
 |11|Køkken|Ved dør til viktualrum|Tryk 6 tast|Tryk ØV|Sort|Input_54|0x26.6||
 |11|Køkken|Ved dør til viktualrum|Tryk 6 tast|Tryk ØH|Grøn|Input_55|0x26.7||
-|11|Køkken|Ved dør til viktualrum|Tryk 6 tast|Tryk MV||Input_56|0x26.8||
-|11|Køkken|Ved dør til viktualrum|Tryk 6 tast|Tryk MH||Input_57|0x26.9||
+|11|Køkken|Ved dør til viktualrum|Tryk 6 tast|Tryk MV|Violet|Input_56|0x26.8||
+|11|Køkken|Ved dør til viktualrum|Tryk 6 tast|Tryk MH|Brun|Input_57|0x26.9||
 |11|Køkken|Ved dør til viktualrum|Tryk 6 tast|Tryk NV|Rød|Input_58|0x26.10||
 |11|Køkken|Ved dør til viktualrum|Tryk 6 tast|Tryk NH|Grå|Input_59|0x26.11||
 ||||||||||
@@ -95,9 +95,9 @@
 |12|Garage|Ved yderdør|Tryk 6 tast|Tryk ØV|Sort|Input_64|0x27.0||
 |12|Garage|Ved yderdør|Tryk 6 tast|Tryk ØH|Grøn|Input_65|0x27.1||
 |12|Garage|Ved yderdør|Tryk 6 tast|Tryk MV|Violet|Input_66|0x27.2||
-|12|Garage|Ved yderdør|Tryk 6 tast|Tryk MH||Input_67|0x27.3||
+|12|Garage|Ved yderdør|Tryk 6 tast|Tryk MH|Brun|Input_67|0x27.3||
 |12|Garage|Ved yderdør|Tryk 6 tast|Tryk NV|Rød|Input_68|0x27.4||
-|12|Garage|Ved yderdør|Tryk 6 tast|Tryk NH||Input_69|0x27.5||
+|12|Garage|Ved yderdør|Tryk 6 tast|Tryk NH|Grå|Input_69|0x27.5||
 ||||||||||
 ||Stue||Røgsensor||Orange|Input_70|0x27.6|
 ||Soveværelse||Røgsensor||Hvid|Input_71|0x27.7||
@@ -106,7 +106,7 @@
 ||Udendørs|Indkørsel|Røgsensor||Grøn|Input_74|0x27.10|Udgang 7|03|HvidBlå|
 ||||||||||||
 ||||||||||||
-|9|Soveværelse|Ved seng H|Tryk 4 tast|GND|Blå|GND|||||
+|9|Soveværelse|Ved seng H|Tryk 4 tast|GND|Grå|GND|||||
 |9|Soveværelse|Ved seng H|Tryk 4 tast|Tryk ØV|Rød|Input_76|0x27.12||||
 |9|Soveværelse|Ved seng H|Tryk 4 tast|Tryk ØH|Hvid|Input_77|0x27.13||||
 |9|Soveværelse|Ved seng H|Tryk 4 tast|Tryk NV|Orange|Input_78|0x27.14||||
@@ -114,6 +114,53 @@
 ||||||||||||
 
 ## Output
+
+### Relæ 220VAC
+
+||Lokalitet|Placering|Komponent|Farve|Kabel|Kabeltype|IHC Modul|Adresse|Ledning|
+|---:|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|0|Køkken|Spisebord||||||||
+|1||||||||||
+|2|Udelys|Hæk||||||||
+|3|Køkken|Spot|||||||||
+|4|Stue|Spot|||||||||
+|5|LilleBad|Spot|||||||||
+|6|Bryggers|Spot|||||||||
+|7|Stort Bad|Spot||||||||
+|8||||||||||
+|9||||||||||
+|10|Udelys|||||||||
+|11||||||||||
+|12|Stort Bad|Spejl||||||||
+|13||||||||||
+|14||||||||||
+|15||||||||||
+|16|Soveværelse|Loft||||||||
+|17|WalkIn|Loft||||||||
+|18|Entre|||||||||
+|19|Stue|Sofabord||||||||
+|20|Køkken|Bord||||||||
+|21||||||||||
+|22||||||||||
+|23||||||||||
+|24||||||||||
+|25|Garage|Nord||||||||
+|26|Kontor|Loft||||||||
+|27|Værelse|Loft||||||||
+|28|Garage|Syd||||||||
+|29||||||||||
+|30||Stikkontakt||||||||
+|31||||||||||
+|32|Bryggers|Bord||||||||
+|33|Spisekammer|loft||||||||
+|34|Lille Bad|Spejl||||||||
+|35||||||||||
+|36||||||||||
+|37||||||||||
+|38||||||||||
+|39||||||||||
+
+
 
 ||Lokalitet|Placering|Komponent|Farve|Kabel|Kabeltype|IHC Modul|Adresse|Ledning|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
