@@ -7,7 +7,7 @@
       from: "on"
       variables:
         action_id: switch.toggle
-        target_ent: switch.ihc1_output_00
+        target_ent: switch.ihc1_output_34
     - trigger: state
       entity_id:
         - binary_sensor.ihc1_input_00
@@ -19,7 +19,91 @@
         seconds: 1
       variables:
         action_id: switch.turn_off
-        target_ent: switch.ihc1_output_00
+        target_ent: switch.lille_bad_lys
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_01
+      to: "off"
+      id: Input_01K
+      from: "on"
+      variables:
+        action_id: switch.toggle
+        target_ent: switch.ihc1_output_05
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_01
+      to: "on"
+      id: Input_01L
+      for:
+        hours: 0
+        minutes: 0
+        seconds: 1
+      variables:
+        action_id: switch.turn_off
+        target_ent: switch.lille_bad_lys
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_02
+      to: "off"
+      id: Input_02K
+      from: "on"
+      variables:
+        action_id: switch.toggle
+        target_ent: switch.ihc1_output_32
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_02
+      to: "on"
+      id: Input_02L
+      for:
+        hours: 0
+        minutes: 0
+        seconds: 1
+      variables:
+        action_id: switch.turn_off
+        target_ent: switch.bryggers_lys
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_03
+      to: "off"
+      id: Input_03K
+      from: "on"
+      variables:
+        action_id: switch.toggle
+        target_ent: switch.ihc1_output_06
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_03
+      to: "on"
+      id: Input_03L
+      for:
+        hours: 0
+        minutes: 0
+        seconds: 1
+      variables:
+        action_id: switch.turn_off
+        target_ent: switch.bryggers_lys
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_04
+      to: "off"
+      id: Input_04K
+      from: "on"
+      variables:
+        action_id: switch.toggle
+        target_ent: switch.ihc1_output_26
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_04
+      to: "on"
+      id: Input_04L
+      for:
+        hours: 0
+        minutes: 0
+        seconds: 1
+      variables:
+        action_id: switch.turn_off
+        target_ent: switch.ihc1_output_26
     - trigger: state
       entity_id:
         - binary_sensor.ihc1_input_08
@@ -28,7 +112,7 @@
       from: "on"
       variables:
         action_id: switch.turn_on
-        target_ent: switch.ihc1_output_08
+        target_ent: switch.ihc1_output_27
     - trigger: state
       entity_id:
         - binary_sensor.ihc1_input_08
@@ -40,49 +124,115 @@
         seconds: 1
       variables:
         action_id: switch.turn_off
-        target_ent: switch.ihc1_output_08
+        target_ent: switch.ihc1_output_27
     - trigger: state
       entity_id:
-        - binary_sensor.ihc1_input_16
-      to: "off"
-      id: Input_16K
-      from: "on"
-      variables:
-        action_id: switch.turn_on
-        target_ent: switch.highnrswitch
-    - trigger: state
-      entity_id:
-        - binary_sensor.ihc1_input_16
+        - binary_sensor.ihc1_input_12
       to: "on"
-      id: Input_16L
+      id: Input_12L
       for:
         hours: 0
         minutes: 0
         seconds: 1
       variables:
         action_id: switch.turn_off
-        target_ent: switch.highnrswitch
+        target_ent: switch.sovevaerelse_sluk_lys
     - trigger: state
       entity_id:
-        - binary_sensor.ihc1_input_24
+        - binary_sensor.ihc1_input_13
       to: "off"
-      id: Input_24K
+      id: Input_13K
       from: "on"
       variables:
         action_id: switch.toggle
-        target_ent: switch.ihc1_output_24
+        target_ent: switch.ihc1_output_12
     - trigger: state
       entity_id:
-        - binary_sensor.ihc1_input_24
+        - binary_sensor.ihc1_input_13
       to: "on"
-      id: Input_24L
+      id: Input_13L
       for:
         hours: 0
         minutes: 0
         seconds: 1
       variables:
         action_id: switch.turn_off
-        target_ent: switch.ihc1_output_24
+        target_ent: switch.sovevaerelse_sluk_lys
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_14
+      to: "off"
+      id: Input_14K
+      from: "on"
+      variables:
+        action_id: switch.toggle
+        target_ent: switch.ihc1_output_17
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_14
+      to: "on"
+      id: Input_14L
+      for:
+        hours: 0
+        minutes: 0
+        seconds: 1
+      variables:
+        action_id: switch.turn_off
+        target_ent: switch.sovevaerelse_sluk_lys
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_76
+      to: "on"
+      id: Input_76L
+      for:
+        hours: 0
+        minutes: 0
+        seconds: 1
+      variables:
+        action_id: switch.turn_off
+        target_ent: switch.sovevaerelse_sluk_lys
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_77
+      to: "off"
+      id: Input_77K
+      from: "on"
+      variables:
+        action_id: switch.toggle
+        target_ent: switch.ihc1_output_12
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_77
+      to: "on"
+      id: Input_77L
+      for:
+        hours: 0
+        minutes: 0
+        seconds: 1
+      variables:
+        action_id: switch.turn_off
+        target_ent: switch.sovevaerelse_sluk_lys
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_78
+      to: "off"
+      id: Input_78K
+      from: "on"
+      variables:
+        action_id: switch.toggle
+        target_ent: switch.ihc1_output_17
+    - trigger: state
+      entity_id:
+        - binary_sensor.ihc1_input_78
+      to: "on"
+      id: Input_78L
+      for:
+        hours: 0
+        minutes: 0
+        seconds: 1
+      variables:
+        action_id: switch.turn_off
+        target_ent: switch.sovevaerelse_sluk_lys
   condition:
     - condition: or
       conditions:
