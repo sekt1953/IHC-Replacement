@@ -14,10 +14,6 @@
   * [ESP32-POE-ISO latest schematic in PDF format](https://github.com/OLIMEX/ESP32-POE-ISO/blob/master/HARDWARE/ESP32-PoE-ISO-Rev.L/ESP32-PoE-ISO_Rev_L.pdf)
   * [ESP32-POE-ISO GPIO map](https://www.olimex.com/Products/IoT/ESP32/ESP32-POE-ISO/resources/ESP32-POE-ISO-GPIO.png)
 
-## IHC (gammel installation)
-
-* [IHC (gammel installation)](./IHC_gammel%20installation.md)
-
 ## Zigbee
 
 * [SilverCrest Zigbee Gateway](https://zigbee.blakadder.com/Lidl_TYGWZ-01.html)
@@ -37,3 +33,7 @@
       * [Manage permissions using ACLs](https://tailscale.com/kb/1018/acls)
     * [Exit Nodes](https://youtu.be/Ad7D2pkFNdA?list=PLbKN2w7aG8ELRhEl3b-skkHxz6jcKLuFT)
     * [App Connectors - Split DNS for any website on your tailnet ](https://youtu.be/z1vBMMQzCEk?list=PLbKN2w7aG8ELRhEl3b-skkHxz6jcKLuFT)
+
+## IHC (gammel installation)
+
+* [IHC (gammel installation)](./IHC_gammel%20installation.md)
