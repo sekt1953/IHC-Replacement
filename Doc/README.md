@@ -22,6 +22,7 @@
 
 * Videoer
   * [Tailscale](https://www.youtube.com/@Tailscale)
+    * [How to get started with Tailscale in under 10 minutes](https://youtu.be/sPdvyR7bLqI)
     * [Remotely access Home Assistant via Tailscale for free!](https://youtu.be/vDxmtRByXDY)
     * [Remotely access and share your self-hosted services](https://youtu.be/Vt4PDUXB_fg "Tailscale")
   * [Tailscale Explained](https://www.youtube.com/playlist?list=PLbKN2w7aG8ELRhEl3b-skkHxz6jcKLuFT)
