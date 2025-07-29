@@ -2,7 +2,7 @@
 
 ## Input
 
-|Kabel|Lokalitet|Placering____*******|Komponent|Terminal|Farve|I/O Interface|I2C-Addr|Kort_Tryk|Langt_Tryk||
+|Kabel|Lokalitet|Placering____|Komponent|Terminal|Farve|I/O Interface|I2C-Addr|Kort_Tryk|Langt_Tryk||
 |:---:|:---|:---|:---|:---:|:---|:---|:---|:---|:---|:---|
 |1|Lille Bad|Ved dør|Tryk 4 tast|GND|Blå|GND|||
 |1|Lille Bad|Ved dør|Tryk 4 tast|Tryk ØV|Sort|Input_00|0x23.0|Output_34|Output_34||
@@ -29,21 +29,21 @@
 |9|Soveværelse|Ved seng V|Tryk 4 tast|Tryk NH|Brun|Input_15|0x23.15||||
 ||||||||||
 ||||||||||
-|4|Garage|Ved bryggers dør|Tryk 6 tast|GND|Blå|GND|||||
-|4|Garage|Ved bryggers dør|Tryk 6 tast|Tryk ØV|Sort|Input_16|0x24.0||||
-|4|Garage|Ved bryggers dør|Tryk 6 tast|Tryk ØH|Grøn|Input_17|0x24.1||||
-|4|Garage|Ved bryggers dør|Tryk 6 tast|Tryk MV|Violet|Input_18|0x24.2||||
-|4|Garage|Ved bryggers dør|Tryk 6 tast|Tryk MH|Brun|Input_19|0x24.3||
-|4|Garage|Ved bryggers dør|Tryk 6 tast|Tryk NV|Rød|Input_20|0x24.4||
-|4|Garage|Ved bryggers dør|Tryk 6 tast|Tryk NH|Grå|Input_21|0x24.5||
+|4|Garage|Bryggers dør|Tryk 6 tast|GND|Blå|GND|||||
+|4|Garage|Bryggers dør|Tryk 6 tast|Tryk ØV|Sort|Input_16|0x24.0||||
+|4|Garage|Bryggers dør|Tryk 6 tast|Tryk ØH|Grøn|Input_17|0x24.1||||
+|4|Garage|Bryggers dør|Tryk 6 tast|Tryk MV|Violet|Input_18|0x24.2||||
+|4|Garage|Bryggers dør|Tryk 6 tast|Tryk MH|Brun|Input_19|0x24.3||
+|4|Garage|Bryggers dør|Tryk 6 tast|Tryk NV|Rød|Input_20|0x24.4||
+|4|Garage|Bryggers dør|Tryk 6 tast|Tryk NH|Grå|Input_21|0x24.5||
 ||||||||||
-|5|Køkken|Ved bryggers dør|Tryk 6 tast|GND|Blå|GND|||
-|5|Køkken|Ved bryggers dør|Tryk 6 tast|Tryk ØV|Sort|Input_22|0x24.6||
-|5|Køkken|Ved bryggers dør|Tryk 6 tast|Tryk ØH|Grøn|Input_23|0x24.7||
-|5|Køkken|Ved bryggers dør|Tryk 6 tast|Tryk MV|Violet|Input_24|0x24.8||
-|5|Køkken|Ved bryggers dør|Tryk 6 tast|Tryk MH|Brun|Input_25|0x24.9||
-|5|Køkken|Ved bryggers dør|Tryk 6 tast|Tryk NV|Rød|Input_26|0x24.10||
-|5|Køkken|Ved bryggers dør|Tryk 6 tast|Tryk NH|Grå|Input_27|0x24.11||
+|5|Køkken|Bryggers dør|Tryk 6 tast|GND|Blå|GND|||
+|5|Køkken|Bryggers dør|Tryk 6 tast|Tryk ØV|Sort|Input_22|0x24.6||
+|5|Køkken|Bryggers dør|Tryk 6 tast|Tryk ØH|Grøn|Input_23|0x24.7||
+|5|Køkken|Bryggers dør|Tryk 6 tast|Tryk MV|Violet|Input_24|0x24.8||
+|5|Køkken|Bryggers dør|Tryk 6 tast|Tryk MH|Brun|Input_25|0x24.9||
+|5|Køkken|Bryggers dør|Tryk 6 tast|Tryk NV|Rød|Input_26|0x24.10||
+|5|Køkken|Bryggers dør|Tryk 6 tast|Tryk NH|Grå|Input_27|0x24.11||
 ||||||||||
 ||||||||||
 |6|Stue|På væg|Tryk 6 tast|GND|Blå|GND|||
@@ -54,36 +54,36 @@
 |6|Stue|På væg|Tryk 6 tast|Tryk NV|Rød|Input_36|0x25.4||
 |6|Stue|På væg|Tryk 6 tast|Tryk NH|Grå|Input_37|0x25.5||
 ||||||||||
-|7|Entré|Ved dør til køkken|Tryk 6 tast|GND|Blå|GND|||
-|7|Entré|Ved dør til køkken|Tryk 6 tast|Tryk ØV|Sort|Input_38|0x25.6||
-|7|Entré|Ved dør til køkken|Tryk 6 tast|Tryk ØH|Grøn|Input_39|0x25.7||
-|7|Entré|Ved dør til køkken|Tryk 6 tast|Tryk MV|Violet|Input_40|0x25.8||
-|7|Entré|Ved dør til køkken|Tryk 6 tast|Tryk MH|Brun|Input_41|0x25.9||
-|7|Entré|Ved dør til køkken|Tryk 6 tast|Tryk NV|Rød|Input_42|0x25.10||
-|7|Entré|Ved dør til køkken|Tryk 6 tast|Tryk NH||Input_43|0x25.11||
+|7|Entré|Køkken dør|Tryk 6 tast|GND|Blå|GND|||
+|7|Entré|Køkken dør|Tryk 6 tast|Tryk ØV|Sort|Input_38|0x25.6||
+|7|Entré|Køkken dør|Tryk 6 tast|Tryk ØH|Grøn|Input_39|0x25.7||
+|7|Entré|Køkken dør|Tryk 6 tast|Tryk MV|Violet|Input_40|0x25.8||
+|7|Entré|Køkken dør|Tryk 6 tast|Tryk MH|Brun|Input_41|0x25.9||
+|7|Entré|Køkken dør|Tryk 6 tast|Tryk NV|Rød|Input_42|0x25.10||
+|7|Entré|Køkken dør|Tryk 6 tast|Tryk NH||Input_43|0x25.11||
 ||||||||||
-|10|Entré|Ved yderdør|Tryk 4 tast|GND|Blå|GND|||
-|10|Entré|Ved yderdør|Tryk 4 tast|Tryk ØV|Sort|Input_44|0x25.12||
-|10|Entré|Ved yderdør|Tryk 4 tast|Tryk ØH|Grøn|Input_45|0x25.13||
-|10|Entré|Ved yderdør|Tryk 4 tast|Tryk NV|Violet|Input_46|0x25.14||
-|10|Entré|Ved yderdør|Tryk 4 tast|Tryk NH||Input_47|0x25.15||
+|10|Entré|Yderdør|Tryk 4 tast|GND|Blå|GND|||
+|10|Entré|Yderdør|Tryk 4 tast|Tryk ØV|Sort|Input_44|0x25.12||
+|10|Entré|Yderdør|Tryk 4 tast|Tryk ØH|Grøn|Input_45|0x25.13||
+|10|Entré|Yderdør|Tryk 4 tast|Tryk NV|Violet|Input_46|0x25.14||
+|10|Entré|Yderdør|Tryk 4 tast|Tryk NH||Input_47|0x25.15||
 ||||||||||
 ||||||||||
-|8|Soveværelse|Ved dør til st. bad|Tryk 6 tast|GND|Blå|GND|||
-|8|Soveværelse|Ved dør til st. bad|Tryk 6 tast|Tryk ØV|Sort|Input_48|0x26.0||
-|8|Soveværelse|Ved dør til st. bad|Tryk 6 tast|Tryk ØH|Grøn|Input_49|0x26.1||
-|8|Soveværelse|Ved dør til st. bad|Tryk 6 tast|Tryk MV|Violet|Input_50|0x26.2||
-|8|Soveværelse|Ved dør til st. bad|Tryk 6 tast|Tryk MH|Brun|Input_51|0x26.3||
-|8|Soveværelse|Ved dør til st. bad|Tryk 6 tast|Tryk NV|Rød|Input_52|0x26.4||
-|8|Soveværelse|Ved dør til st. bad|Tryk 6 tast|Tryk NH|Grå|Input_53|0x26.5||
+|8|Soveværelse|St. bad|Tryk 6 tast|GND|Blå|GND|||
+|8|Soveværelse|St. bad|Tryk 6 tast|Tryk ØV|Sort|Input_48|0x26.0||
+|8|Soveværelse|St. bad|Tryk 6 tast|Tryk ØH|Grøn|Input_49|0x26.1||
+|8|Soveværelse|St. bad|Tryk 6 tast|Tryk MV|Violet|Input_50|0x26.2||
+|8|Soveværelse|St. bad|Tryk 6 tast|Tryk MH|Brun|Input_51|0x26.3||
+|8|Soveværelse|St. bad|Tryk 6 tast|Tryk NV|Rød|Input_52|0x26.4||
+|8|Soveværelse|St. bad|Tryk 6 tast|Tryk NH|Grå|Input_53|0x26.5||
 ||||||||||
-|11|Køkken|Ved dør til viktualrum|Tryk 6 tast|GND|Blå|GND|||
-|11|Køkken|Ved dør til viktualrum|Tryk 6 tast|Tryk ØV|Sort|Input_54|0x26.6||
-|11|Køkken|Ved dør til viktualrum|Tryk 6 tast|Tryk ØH|Grøn|Input_55|0x26.7||
-|11|Køkken|Ved dør til viktualrum|Tryk 6 tast|Tryk MV|Violet|Input_56|0x26.8||
-|11|Køkken|Ved dør til viktualrum|Tryk 6 tast|Tryk MH|Brun|Input_57|0x26.9||
-|11|Køkken|Ved dør til viktualrum|Tryk 6 tast|Tryk NV|Rød|Input_58|0x26.10||
-|11|Køkken|Ved dør til viktualrum|Tryk 6 tast|Tryk NH|Grå|Input_59|0x26.11||
+|11|Køkken|Viktualrum|Tryk 6 tast|GND|Blå|GND|||
+|11|Køkken|Viktualrum|Tryk 6 tast|Tryk ØV|Sort|Input_54|0x26.6||
+|11|Køkken|Viktualrum|Tryk 6 tast|Tryk ØH|Grøn|Input_55|0x26.7||
+|11|Køkken|Viktualrum|Tryk 6 tast|Tryk MV|Violet|Input_56|0x26.8||
+|11|Køkken|Viktualrum|Tryk 6 tast|Tryk MH|Brun|Input_57|0x26.9||
+|11|Køkken|Viktualrum|Tryk 6 tast|Tryk NV|Rød|Input_58|0x26.10||
+|11|Køkken|Viktualrum|Tryk 6 tast|Tryk NH|Grå|Input_59|0x26.11||
 ||||||||||
 |33|Stue|På væg|Pir|Alarm|Sort|Input_60|0x26.12||
 ||Soveværelse|Ved dør til toilet|Pir|Alarm|Hvid|Input_61|0x26.13||
@@ -91,13 +91,13 @@
 |30|Garage|På væg|Pir|Alarm|Sort|Input_63|0x26.15||
 ||||||||||
 ||||||||||
-|12|Garage|Ved yderdør|Tryk 6 tast|GND|Blå|GND|||
-|12|Garage|Ved yderdør|Tryk 6 tast|Tryk ØV|Sort|Input_64|0x27.0||
-|12|Garage|Ved yderdør|Tryk 6 tast|Tryk ØH|Grøn|Input_65|0x27.1||
-|12|Garage|Ved yderdør|Tryk 6 tast|Tryk MV|Violet|Input_66|0x27.2||
-|12|Garage|Ved yderdør|Tryk 6 tast|Tryk MH|Brun|Input_67|0x27.3||
-|12|Garage|Ved yderdør|Tryk 6 tast|Tryk NV|Rød|Input_68|0x27.4||
-|12|Garage|Ved yderdør|Tryk 6 tast|Tryk NH|Grå|Input_69|0x27.5||
+|12|Garage|Yderdør|Tryk 6 tast|GND|Blå|GND|||
+|12|Garage|Yderdør|Tryk 6 tast|Tryk ØV|Sort|Input_64|0x27.0||
+|12|Garage|Yderdør|Tryk 6 tast|Tryk ØH|Grøn|Input_65|0x27.1||
+|12|Garage|Yderdør|Tryk 6 tast|Tryk MV|Violet|Input_66|0x27.2||
+|12|Garage|Yderdør|Tryk 6 tast|Tryk MH|Brun|Input_67|0x27.3||
+|12|Garage|Yderdør|Tryk 6 tast|Tryk NV|Rød|Input_68|0x27.4||
+|12|Garage|Yderdør|Tryk 6 tast|Tryk NH|Grå|Input_69|0x27.5||
 ||||||||||
 ||Stue||Røgsensor||Orange|Input_70|0x27.6|
 ||Soveværelse||Røgsensor||Hvid|Input_71|0x27.7||
@@ -234,8 +234,8 @@
 |45|Sluk Alt|Spot køk+stue|Lampeudtag|--|--|--|Udgang 6|02|Grøn|
 |46|Magnetventil|--|Magnetventil NO|--|--|--|Udgang 8|07|Brun|
 |||||||||||
-|47|Køkken|Ved dør til viktualrum|Lydgiver intern 80 dB|--|38|IHC LINK-10 NOPOVIC (5x2x0 6mm)|Udgang 6|05| Sort|
-|48|Køkken|Ved dør til viktualrum|Lydgiver intern 102 dB|--|38|IHC LINK-10 NOPOVIC (5x2x0 6mm)|Udgang 6|06|Grøn|
+|47|Køkken|Viktualrum|Lydgiver intern 80 dB|--|38|IHC LINK-10 NOPOVIC (5x2x0 6mm)|Udgang 6|05| Sort|
+|48|Køkken|Viktualrum|Lydgiver intern 102 dB|--|38|IHC LINK-10 NOPOVIC (5x2x0 6mm)|Udgang 6|06|Grøn|
 |49|Soveværelse|Diode|Lampeudtag|Gul|8|IHC LINK-10 NOPOVIC (5x2x0 6mm)|Udgang 7|04|Gul|
 |50|Garage|Diode|Dørlås|--|--|IHC LINK-10 NOPOVIC (5x2x0 6mm)|Udgang 7|01|Orange|
 |51|Udendørs|På væg udv|Lydgiver ekstern|Sort|39|IHC LINK-10 NOPOVIC (5x2x0 6mm)|Udgang 6|04|Sort|
