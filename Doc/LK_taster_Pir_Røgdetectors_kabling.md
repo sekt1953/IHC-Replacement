@@ -12,15 +12,15 @@
 ||||||||||
 |2|Kontor|Ved dør|Tryk 4 tast|GND|Blå|GND|||
 |2|Kontor|Ved dør|Tryk 4 tast|Tryk ØV|Sort|Input_04|0x23.4|Output_26|Output_26||
-|2|Kontor|Ved dør|Tryk 4 tast|Tryk ØH|Grøn|Input_05|0x23.5||
-|2|Kontor|Ved dør|Tryk 4 tast|Tryk NV|Violet|Input_06|0x23.6||
-|2|Kontor|Ved dør|Tryk 4 tast|Tryk NH|Brun|Input_07|0x23.7||
+|2|Kontor|Ved dør|Tryk 4 tast|Tryk ØH|Grøn|Input_05|0x23.5||||
+|2|Kontor|Ved dør|Tryk 4 tast|Tryk NV|Violet|Input_06|0x23.6||||
+|2|Kontor|Ved dør|Tryk 4 tast|Tryk NH|Brun|Input_07|0x23.7||||
 ||||||||||
-|3|Gæsteværelse|Ved dør|Tryk 4 tast|GND|Blå|GND|||
-|3|Gæsteværelse|Ved dør|Tryk 4 tast|Tryk ØV|Sort|Input_08|0x23.8|Output_27|Output_27||
-|3|Gæsteværelse|Ved dør|Tryk 4 tast|Tryk ØH|Grøn|Input_09|0x23.9||
-|3|Gæsteværelse|Ved dør|Tryk 4 tast|Tryk NV|Violet|Input_10|0x23.10||
-|3|Gæsteværelse|Ved dør|Tryk 4 tast|Tryk NH|Brun|Input_11|0x23.11||
+|3|Værelse|Ved dør|Tryk 4 tast|GND|Blå|GND|||
+|3|Værelse|Ved dør|Tryk 4 tast|Tryk ØV|Sort|Input_08|0x23.8|Output_27|Output_27||
+|3|Værelse|Ved dør|Tryk 4 tast|Tryk ØH|Grøn|Input_09|0x23.9||
+|3|Værelse|Ved dør|Tryk 4 tast|Tryk NV|Violet|Input_10|0x23.10||
+|3|Værelse|Ved dør|Tryk 4 tast|Tryk NH|Brun|Input_11|0x23.11||
 ||||||||||
 |9|Soveværelse|Ved seng V|Tryk 4 tast|GND|Blå|GND|||
 |9|Soveværelse|Ved seng V|Tryk 4 tast|Tryk ØV|Sort|Input_12|0x23.12||||
@@ -168,6 +168,22 @@
 |46|||||||IHC1|Output_46|0x22.14|
 |47|||||||IHC1|Output_47|0x22.15|
 
+## Helpers
+
+|Nr.|Type|Name|Entity_ID|
+|---:|:---:|:---:|:---:|
+|1|Switch||
+|2|Switch||
+|3|Switch||
+|4|Switch||
+|5|Switch||
+|6|Switch||
+|7|Switch||
+|8|Switch||
+|9|Switch||
+|10|Switch||
+
+<HR>
 ### Gammel installation
 
 ||Lokalitet|Placering|Komponent|Farve|Kabel|Kabeltype|IHC Modul|Adresse|Ledning|
